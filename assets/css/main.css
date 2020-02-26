@@ -26,72 +26,80 @@
     .footer{
         height: 300px;
     }
-
     /* Background color */
-    .imobanco-color-01{
+    .bg-imobanco{
+        background-color: #003e69 !important;
+    }
+    .bg-primary{
         background-color: #212121 !important;
     }
-    .imobanco-color-02{
-        background-color: #001335 !important;
+    .bg-secondary{
+        background-color: #0e153a !important;
     }
-    .imobanco-color-03{
-        background-color: #04107c !important;
+    .bg-success{
+        background-color: #21e6c1 !important;
     }
-    .imobanco-color-04{
-        background-color: #06cece !important;
+    .bg-danger{
+        background-color: #ff304f !important;
     }
-    .imobanco-color-05{
-        background-color: #e8e8e8 !important;
+    .bg-warning{
+        background-color: #ffd615 !important;
     }
-    .imobanco-color-06{
-        background-color: #ffffff !important;
+    .bg-info{
+        background-color: #304ffe !important;
     }
-    .imobanco-color-07{
+
+    .bg-dark{
+        background-color: #0d47a1 !important;
+    }
+    .bg-light{
+        background-color: #1565c0 !important;
+    }
+    .bg-medium{
+        background-color: #3d5af1 !important;
+    }
+    .bg-new{
+        background-color: #22d1ee !important;
+    }
+    .bg-cinza{
+        background-color: ;
+    }
+
+    /* Background color */
+    .text-primary{
+        background-color: #212121 !important;
+    }
+    .text-imobanco{
+        background-color: #003e69 !important;
+    }
+    .text-secondary{
+        background-color: #0e153a !important;
+    }
+    .text-success{
+        background-color: #21e6c1 !important;
+    }
+    .text-danger{
+        background-color: #ff304f !important;
+    }
+    .text-warning{
+        background-color: #ffd615 !important;
+    }
+    .text-info{
         background-color: #304ffe;
     }
 
-    .imobanco-color-08{
-        background-color: #bdbdbd;
+    .text-dark{
+        background-color: #0d47a1;
     }
-    .imobanco-color-09{
-        background-color: #2947db;
+    .text-light{
+        background-color: #1565c0;
     }
-    .imobanco-color-09{
-        background-color: #0061bb;
+    .text-medium{
+        background-color: #3d5af1;
     }
-
-
-
-    /* Color Text */
-
-    .imo-text-01{
-        color: #212121 !important;
+    .text-new{
+        background-color: #22d1ee;
     }
-    .imo-text-02{
-        color: #001335 !important;
-    }
-    .imo-text-03{
-        color: #04107c !important;
-    }
-    .imo-text-04{
-        color: #06cece !important;
-    }
-    .imo-text-05{
-        color: #e8e8e8 !important;
-    }
-    .imo-text-06{
-        color: #ffffff !important;
-    }
-    .imo-text-07{
-        color: #353535 !important;
-    }
-    .imo-text-08{
-        color: #0088e3 !important;
-    }
-    .imo-text-09{
-       color: #304ffe !important;
-    }
-    
     .button-radius{
         border-radius: 30px !important;
         border: 1px #06cece solid !important;
