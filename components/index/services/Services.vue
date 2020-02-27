@@ -2,35 +2,43 @@
 
 <section class="imobanco-color-05 pt-3 pb-3">
 		<div class="container">
-			<div class="row justify-content-center pt-2 pb-2 mt-2 mb-2">
-			<div class="col-lg-12 text-center mb-2">
+			<div class="row justify-content-center pt-2 pb-2">
+			<div class="col-lg-12 text-center mb-0 pb-0">
          
-				<h2 class="mt-5 imo-text-08 text-titulo">SERVIÇOS</h2>
-				<p class="imo-text-07 text-subtitulo">Oferecemos uma gama completa de serviços para
-gestão financeira do seu negócio</p>
+				<h2 class="mt-5 text- text-titulo">SERVIÇOS</h2>
 			</div>
+      <div class="col-lg-2 p-0 m-0">
+        <hr class="linetitulo">
+        	<p class="imo-text-07 text-subtitulo"></p>
+      </div>
       </div>
             <div class="row justify-content-center">
-          
-                <div class="col-xs-12 col-sm-4 col-lg-4 p-2 text-center">
-                          <img src="~assets/image/boletoicon.png" alt="" class="img-fluid" style="width: 100px; height: 100px;">
+                <div class="col-xs-12 col-sm-4 col-lg-3 p-2 text-center">
+                            <content-servicos
+                                  title="BOLETOS"
+                                  content="Oferecemos uma gama completa de serviços para
+gestão financeira do seu negócio" />
+                 
+                </div>
+                <div class="col-xs-12 col-sm-4 col-lg-3 p-2 text-center">
+                          <img src="~assets/image/boletoicon.png" alt="" class="img-fluid" style="width: 60px; height: 60px;">
                           <content-servicos
                                           title="BOLETOS"
                                           content="Emita, Registre e gerencie seus boletos. Tudo de forma simplificada e sem burocracia. Com o Imobanco você tem tudo isso ao seu alcance na palma da sua mão." />
                  
                 </div>
-                <div class="col-xs-12 col-sm-4 col-lg-4 p-2 text-center">
+                <div class="col-xs-12 col-sm-4 col-lg-3 p-2 text-center">
                    
-                        <img src="~assets/image/ecommerceicon.png" alt="" class="img-fluid" style="width: 100px; height: 100px;">
+                        <img src="~assets/image/ecommerceicon.png" alt="" class="img-fluid" style="width: 60px; height: 60px;">
                           <content-servicos
                                        
                                           title="E-COMMERCE"
-                                          content="Sua loja 100% integrada a gestão inteligente de recebimentos e cobrança Imobanco. Sem tarifas de manutenção e com você no controle de tudo." />
+                                          content="Sua loja 60% integrada a gestão inteligente de recebimentos e cobrança Imobanco. Sem tarifas de manutenção e com você no controle de tudo." />
                                    
                   </div>
 
-                  <div class="col-xs-12 col-sm-4 col-lg-4 p-2 text-center">
-                        <img src="~assets/image/cobrancasicon.png" alt="" class="img-fluid" style="width: 100px; height: 100px;">
+                  <div class="col-xs-12 col-sm-4 col-lg-3 p-2 text-center">
+                        <img src="~assets/image/cobrancasicon.png" alt="" class="img-fluid" style="width: 60px; height: 60px;">
                         <content-servicos
                                          
                                           title="COBRANÇAS"

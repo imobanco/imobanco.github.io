@@ -1,20 +1,29 @@
 <template>
-    <section class="bg-secondary">
+    <section class="bg-info">
     <div class="container p-0">
       <div class="row">
         <div class="col-lg-12">
-          <b-navbar toggleable="lg" class="bg-secondary">
+          <b-navbar toggleable="lg" class="bg-info">
               <router-link to="/" class="navbar-brand"><img src="~assets/image/logoimobanco.png" alt=""></router-link>
               <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
               <b-collapse id="nav-collapse" is-nav>
               <b-navbar-nav class="ml-auto">
               <ul class="navbar-nav">
-                      <a href=""><router-link to="/"><span class="imo-text-06 text-content pl-2 pr-2">Home</span></router-link></a>
-                      <router-link to="/slip"><span class="imo-text-06 text-content pl-2 pr-2">Boleto</span></router-link>
-                      <router-link to="/ecommerce"><span class="imo-text-06 text-content pl-2 pr-2">E-Commerce</span></router-link>
-                      <router-link to="/charges"><span class="imo-text-06 text-content pl-2 pr-2 ">Cobranças</span></router-link>
-                      <a href="https://blog.imobanco.com.br/" target="_blank"><span class="imo-text-06 text-content pl-2 pr-2">Blog</span></a>
-                      <router-link to="/contact"><span class="imo-text-06 text-content pl-2 pr-2">Contato</span></router-link>
+                  <router-link to="/" class="text-white text-content text-decoration-none effect">Home</router-link>
+                  <hr class="linestyle">
+                  <router-link to="/slip" class="text-white text-content text-decoration-none effect">Institucional</router-link>
+                 <hr class="linestyle">
+                  <router-link to="/slip" class="text-white text-content text-decoration-none effect">Soluções</router-link>
+                  <hr class="linestyle">
+                  <router-link to="/slip" class="text-white text-content text-decoration-none effect">Boleto</router-link>
+                  <hr class="linestyle">
+                  <router-link to="/ecommerce" class="text-white text-content text-decoration-none effect">E-Commerce</router-link>
+                  <hr class="linestyle">
+                  <router-link to="/charges" class="text-white text-content text-decoration-none effect">Cobranças</router-link>
+                  <hr class="linestyle">
+                  <a href="https://blog.imobanco.com.br/" class="text-white text-content text-decoration-none effect" target="_blank">Blog</a>
+                  <hr class="linestyle">
+                  <router-link to="/contact" class="text-white text-content text-decoration-none effect">Contato</router-link>
               </ul> 
               </b-navbar-nav>
               </b-collapse>
@@ -24,8 +33,8 @@
     </div>
     </section>
   </template>
-<style>
 
+<style lang="css">
 .color-gradient-login{
     /* background: rgb(4,95,170); */
     background-color:#212529;

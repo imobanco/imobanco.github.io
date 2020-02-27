@@ -10,8 +10,18 @@
         margin: 0px !important;
         padding: 0px !important;
     }
-
-   
+    .btn-radius{
+        border-radius: 30px;
+    }
+    .linestyle{
+        margin: 0px;
+        border-bottom: 1px solid #06cece;
+    }
+    .linetitulo{
+        margin: 0px;
+        padding: 0px;
+        border-bottom: 3px solid #06cece;
+    }
     .newsletter{
         padding: 0px !important;
         margin: 0px !important;
@@ -67,38 +77,46 @@
 
     /* Background color */
     .text-primary{
-        background-color: #212121 !important;
+       color: #212121 !important;
     }
     .text-imobanco{
-        background-color: #003e69 !important;
+       color: #003e69 !important;
     }
     .text-secondary{
-        background-color: #0e153a !important;
+       color: #0e153a !important;
     }
     .text-success{
-        background-color: #21e6c1 !important;
+       color: #21e6c1 !important;
     }
     .text-danger{
-        background-color: #ff304f !important;
+       color: #ff304f !important;
     }
     .text-warning{
-        background-color: #ffd615 !important;
+       color: #ffd615 !important;
     }
     .text-info{
-        background-color: #304ffe;
+       color: #304ffe !important;
     }
 
     .text-dark{
-        background-color: #0d47a1;
+       color: #0d47a1 !important;
     }
     .text-light{
-        background-color: #1565c0;
+       color: #1565c0 !important;
     }
     .text-medium{
-        background-color: #3d5af1;
+       color: #3d5af1 !important;
     }
     .text-new{
-        background-color: #22d1ee;
+        color: #22d1ee !important;
+    }
+    .text-white{
+        color: #ffffff !important;
+    }
+    .effect{
+        display: inline;
+        border-radius: 5px;
+        padding: 5px;
     }
     .button-radius{
         border-radius: 30px !important;

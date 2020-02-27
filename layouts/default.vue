@@ -1,5 +1,6 @@
 <template>
   <div>
+    <nav-header />
     <navbar />
     <nuxt />
     <footer-index />
@@ -7,11 +8,13 @@
 </template>
  
 <script>
+  import NavHeader from '@/components/main/NavHeader.vue'
   import Navbar from '@/components/main/Navbar.vue'
-  import FooterIndex from '@/components/index/footer/FooterIndex.vue'
+  import FooterIndex from '@/components/main/FooterIndex.vue'
 
   export default {
   components: {
+    NavHeader,
     Navbar,
     FooterIndex
   }
