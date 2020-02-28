@@ -8,7 +8,8 @@
             	<p class="text-white text-content">Quaisquer esclarecimentos e dúvidas, entre em contato conosco e <span class="imo-text-04">#vemvocêtambém</span> ser Imobanco.</p>
             </div>
 			 <div class="col-lg-3 col-md-6">
-            	<h5 class="text-success text-subtitulo mt-2 mb-2">Serviços e Soluções</h5>
+            	<h5 class="text-white text-subtitulo mt-2 mb-2">Serviços e Soluções</h5>
+				<hr>
             	<p class="p-0 m-0"><a href="#" class="text-white text-content text-decoration-none">Institucional</a></p>
 				<p class="p-0 m-0"><a href="#" class="text-white text-content text-decoration-none">Boletos</a></p>
 				<p class="p-0 m-0"><a href="#" class="text-white text-content text-decoration-none">Cobranças</a></p>
@@ -20,7 +21,8 @@
 
             </div>
             <div class="col-lg-3 col-md-6">
-				<h5 class="imo-text-06 text-subtitulo mt-2 mb-2">Atendimento e Suporte</h5>
+				<h5 class="text-white text-subtitulo mt-2 mb-2">Atendimento e Suporte</h5>
+				<hr>
             	<p class="imo-text-05 text-content m-0"><a href="https://t.me/imobancobot" target="_blank"><i class="fab fa-telegram imo-text-05"></i></a> Chat Imobanco: <span class="text-content">24h online</span></p>
             	<p class="imo-text-05 text-content m-0"><i class="fas fa-phone-square-alt"></i> Atendimento Nacional: <span class="text-content">4007-2957</span></p>
             	<p class="imo-text-05 text-content m-0"><i class="fab fa-whatsapp"></i> Whatsapp: <span class="text-content">11.94659.2701 </span></p>

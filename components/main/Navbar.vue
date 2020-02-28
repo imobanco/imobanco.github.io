@@ -21,6 +21,8 @@
                   <hr class="linestyle">
                   <router-link to="/charges" class="text-white text-content text-decoration-none effect">Cobranças</router-link>
                   <hr class="linestyle">
+                  <router-link to="/charges" class="text-white text-content text-decoration-none effect">Webinar</router-link>
+                  <hr class="linestyle">
                   <a href="https://blog.imobanco.com.br/" class="text-white text-content text-decoration-none effect" target="_blank">Blog</a>
                   <hr class="linestyle">
                   <router-link to="/contact" class="text-white text-content text-decoration-none effect">Contato</router-link>
