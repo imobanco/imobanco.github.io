@@ -3,8 +3,8 @@
     <header-slide />
     <services />
     <solucao />
-    <newsletter />
     <blog />
+    <newsletter />
     </div> 
 </template>
 

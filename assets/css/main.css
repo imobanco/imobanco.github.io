@@ -11,7 +11,7 @@
         padding: 0px !important;
     }
     .btn-radius{
-        border-radius: 30px;
+        border-radius: 30px !important;
     }
     .linestyle{
         margin: 0px;
@@ -20,8 +20,15 @@
     .linetitulo{
         margin: 0px;
         padding: 0px;
-        border-bottom: 3px solid #06cece;
+        border-bottom: 3px solid #304ffe;
     }
+    .navbar-light .navbar-toggler {
+    color: #ffffff;
+    border-color: #22d1ee;
+    }
+    /* .navbar-light .navbar-toggler-icon {
+        background-image: url("");
+    } */
     .newsletter{
         padding: 0px !important;
         margin: 0px !important;
@@ -72,7 +79,13 @@
         background-color: #22d1ee !important;
     }
     .bg-cinza{
-        background-color: ;
+        background-color: #eceff1 !important;
+    }
+    .bg-cinza-1{
+        background-color: #cfd8dc !important;
+    }
+    .bg-cinza-2{
+        background-color: #b0bec5 !important;
     }
 
     /* Background color */
@@ -112,6 +125,9 @@
     }
     .text-white{
         color: #ffffff !important;
+    }
+    .text-cinza{
+        color: #37474f !important;
     }
     .effect{
         display: inline;

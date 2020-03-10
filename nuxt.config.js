@@ -46,7 +46,7 @@ export default {
   modules: [
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
-    '@nuxtjs/svg'
+    '@nuxtjs/svg',
   ],
   /*
   ** Build configuration
