@@ -17,6 +17,10 @@
         margin: 0px;
         border-bottom: 1px solid #06cece;
     }
+    .linestyle-sidebar{
+        margin: 0px;
+        border-bottom: 1px solid #b0bec5;
+    }
     .linetitulo{
         margin: 0px;
         padding: 0px;
@@ -148,12 +152,14 @@
     }
     .text-titulo{
         font-family: 'Poppins', sans-serif;
-    ;
         font-weight: 700;
     }
-    .text-subtitulo{
+    .text-titulo-sidebar{
         font-family: 'Poppins', sans-serif;
-    
+        font-weight: 500;
+    }
+    .text-subtitulo{
+        font-family: 'Poppins', sans-serif; 
         font-weight: 400;
     }
     .text-content{

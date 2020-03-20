@@ -3,6 +3,7 @@
     <header-slide />
     <services />
     <solucao />
+    <plans />
     <blog />
     <newsletter />
     </div> 
@@ -10,9 +11,10 @@
 
 <script>
 
-import HeaderSlide from '~/components/HeaderSlide.vue';
+import HeaderSlide from '~/components/main/HeaderSlide.vue';
 import Services from '@/components/index/services/Services.vue'
 import Solucao from '@/components/index/solucoes/Solucao.vue'
+import Plans from '@/components/index/pricing/Plans.vue'
 import Newsletter from '@/components/index/newsletter/Newsletter.vue'
 import Blog from '@/components/index/blog/Blog.vue'
 // import Media from '@/components/index/media/Media.vue'
@@ -23,6 +25,7 @@ export default {
     HeaderSlide,
     Services,
     Solucao,
+    Plans,
     Newsletter,
     Blog,
     // Media
