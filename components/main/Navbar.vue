@@ -1,16 +1,25 @@
 <template>
     <section class="color-mute">
-    <div class="container p-0">
-      <div class="row">
-        <div class="col-lg-12">
-           <b-navbar toggleable="lg" type="dark">
+    <div class="container p-0">       
+          <nav>
+            <label><router-link to="/" class="navbar-brand"><img src="~assets/image/imobanco-azul.png" alt=""></router-link></label>
+            <ul>
+              <li><router-link to="/" class="active  text-titulo-sidebar">Credor</router-link></li>
+              <li><router-link to="/" class="text-titulo-sidebar">Pagador</router-link></li>
+              <li><router-link to="/" class="text-titulo-sidebar">Franqueado</router-link></li>
+              <li><router-link to="/slip" class="text-titulo-sidebar">Login</router-link></li>
+              <li> <router-link to="/slip" class="text-titulo-sidebar">Registro</router-link></li>
+            </ul>
+          </nav>
+          
+           <!-- <b-navbar toggleable="lg" type="dark">
               <router-link to="/" class="navbar-brand"><img src="~assets/image/imobanco-azul.png" alt=""></router-link>
               <b-navbar-toggle target="nav-collapse" class="bg-imobanco"></b-navbar-toggle>
 
               <b-collapse id="nav-collapse" is-nav>
                
                 <!-- Right aligned nav items -->
-                <b-navbar-nav class="ml-auto">
+                <!-- <b-navbar-nav class="ml-auto">
                   <router-link to="/" class="text-secondary text-titulo-sidebar navbar-imobanco text-decoration-none effect">Credor</router-link>
                   
                   <router-link to="/slip" class="text-secondary text-titulo-sidebar navbar-imobanco text-decoration-none effect">Devedor</router-link>
@@ -23,9 +32,7 @@
 
                 </b-navbar-nav>
               </b-collapse>
-            </b-navbar>
-      </div>
-      </div>
+            </b-navbar> -->
     </div>
     </section>
 </template>
