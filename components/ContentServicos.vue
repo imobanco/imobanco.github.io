@@ -2,9 +2,9 @@
 
     <div>
                 
-        <h5 class="text-imobanco text-titulo">
+        <h5 class="text-secondary text-titulo">
         {{ title }}</h5>
-        <p class="text-cinza text-content text-justify">{{ content }}</p>
+        <p class="text-cinza text-titulo text-justify">{{ content }}</p>
     </div>
 			
 

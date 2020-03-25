@@ -3,10 +3,6 @@
     <header-slide />
     <services />
     <solucao />
-<<<<<<< HEAD
-    <plans />
-=======
->>>>>>> 2481024e6a433db961e0d03bcb69c8eadf3f365f
     <blog />
     <newsletter />
     </div> 

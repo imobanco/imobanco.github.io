@@ -1,22 +1,29 @@
 <template>
 
-<section class="">
-		<div class="container pb-5">
-			<div class="row pt-3 pb-2">
+<section>
+		<div class="container-fluid pb-5">
+			<!-- <div class="row pt-3 pb-2">
 			<div class="col-lg-12 mb-2">
         
-				<h3 class="mt-5 text-imobanco text-titulo">Soluções</h3>
-				<p class="text-content text-imobanco">Soluções definitiva para o controle de seus recebimentos</p>
+				
         
-        <hr class="">
       </div>
-			</div>
+			</div> -->
+
+
 			<div class="row">
-            <div class="col-lg-6 p-2">
-				<div role="tablist">
+        <div class="col-lg-6 bg-info bg-solucoes p-5 ">
+          <h3 class="mt-5 text-white text-titulo">Soluções</h3>
+			    <h3 class="text-content text-success">Soluções definitiva para o <br>controle de seus recebimentos</h3>
+      </div>
+
+      <div class="col-lg-6 p-5 bg-cinza-1">
+			
+      
+      <div role="tablist">
     <b-card no-body class="mb-1 button-solucoes">
       <b-card-header header-tag="header" class="p-1 button-solucoes" role="tab">
-        <b-button block href="#" v-b-toggle.accordion-1 variant="info" class="contact-collapse text-imobanco text-left button-solucoes"><span class="imo-text-06 mr-4"><i class="fas fa-chevron-circle-down"></i></span> Sabe aquele pagamento que você precisa cobrar? Nós fazemos isso para você!</b-button>
+        <b-button block href="#" v-b-toggle.accordion-1 variant="info" class="contact-collapse text-secondary text-left button-solucoes"><span class="imo-text-06 mr-4"><i class="fas fa-chevron-circle-down"></i></span> Sabe aquele pagamento que você precisa cobrar? Nós fazemos isso para você!</b-button>
       </b-card-header>
       <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
         <b-card-body class="text-cinza text-justify">
@@ -28,7 +35,7 @@
     <hr class="m-0 p-0">
     <b-card no-body class="mb-1 button-solucoes">
       <b-card-header header-tag="header" class="p-1 button-solucoes" role="tab">
-        <b-button block href="#" v-b-toggle.accordion-2 variant="info" class="contact-collapse text-imobanco text-left button-solucoes"><span class="imo-text-06 mr-4"><i class="fas fa-chevron-circle-down"></i></span> Quanto tempo você perde verificando pagamento? Ou cobrando os atrasados...</b-button>
+        <b-button block href="#" v-b-toggle.accordion-2 variant="info" class="contact-collapse text-secondary text-left button-solucoes"><span class="imo-text-06 mr-4"><i class="fas fa-chevron-circle-down"></i></span> Quanto tempo você perde verificando pagamento? Ou cobrando os atrasados...</b-button>
       </b-card-header>
       <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
         <b-card-body class="text-cinza text-justify">
@@ -39,7 +46,7 @@
     <hr class="m-0 p-0">
     <b-card no-body class="mb-1 button-solucoes">
       <b-card-header header-tag="header" class="p-1 button-solucoes" role="tab">
-        <b-button block href="#" v-b-toggle.accordion-3 variant="info" class="contact-collapse text-imobanco text-left button-solucoes"><span class="imo-text-06 mr-4"><i class="fas fa-chevron-circle-down"></i></span> Personalizado e pessoal! Pessoas atendendo pessoas</b-button>
+        <b-button block href="#" v-b-toggle.accordion-3 variant="info" class="contact-collapse text-secondary text-left button-solucoes"><span class="imo-text-06 mr-4"><i class="fas fa-chevron-circle-down"></i></span> Personalizado e pessoal! Pessoas atendendo pessoas</b-button>
       </b-card-header>
       <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
         <b-card-body class="text-cinza text-justify">
@@ -50,7 +57,7 @@
     <hr class="m-0 p-0">
     <b-card no-body class="mb-1 button-solucoes">
       <b-card-header header-tag="header" class="p-1 button-solucoes" role="tab">
-        <b-button block href="#" v-b-toggle.accordion-4 variant="info" class="contact-collapse text-imobanco text-left button-solucoes"><span class="imo-text-06 mr-4"><i class="fas fa-chevron-circle-down"></i></span> E se o cliente não pagar? Nós cuidamos disso para você!</b-button>
+        <b-button block href="#" v-b-toggle.accordion-4 variant="info" class="contact-collapse text-secondary text-left button-solucoes"><span class="imo-text-06 mr-4"><i class="fas fa-chevron-circle-down"></i></span> E se o cliente não pagar? Nós cuidamos disso para você!</b-button>
       </b-card-header>
       <b-collapse id="accordion-4" accordion="my-accordion" role="tabpanel">
         <b-card-body class="text-cinza text-justify">
@@ -61,7 +68,7 @@
     <hr class="m-0 p-0">
     <b-card no-body class="mb-1 button-solucoes">
       <b-card-header header-tag="header" class="p-1 button-solucoes" role="tab">
-        <b-button block href="#" v-b-toggle.accordion-5 variant="info" class="contact-collapse text-imobanco text-left button-solucoes"><span class="imo-text-06 mr-4"><i class="fas fa-chevron-circle-down"></i></span> Profissionalismo, tecnologia e resultados! tudo isso adequado ao tamanho do seu negócio.</b-button>
+        <b-button block href="#" v-b-toggle.accordion-5 variant="info" class="contact-collapse text-secondary text-left button-solucoes"><span class="imo-text-06 mr-4"><i class="fas fa-chevron-circle-down"></i></span> Profissionalismo, tecnologia e resultados! tudo isso adequado ao tamanho do seu negócio.</b-button>
       </b-card-header>
       <b-collapse id="accordion-5" accordion="my-accordion" role="tabpanel">
         <b-card-body class="text-cinza text-justify">
@@ -72,7 +79,7 @@
     <hr class="m-0 p-0">
     <b-card no-body class="mb-1 button-solucoes">
       <b-card-header header-tag="header" class="p-1 button-solucoes" role="tab">
-        <b-button block href="#" v-b-toggle.accordion-6 variant="info" class="contact-collapse text-imobanco text-left button-solucoes"><span class="imo-text-06 mr-4"><i class="fas fa-chevron-circle-down"></i></span> Completo, não complexo! Você acompanha tudo de modo transparente, o trabalho é com a gente!</b-button>
+        <b-button block href="#" v-b-toggle.accordion-6 variant="info" class="contact-collapse text-secondary text-left button-solucoes"><span class="imo-text-06 mr-4"><i class="fas fa-chevron-circle-down"></i></span> Completo, não complexo! Você acompanha tudo de modo transparente, o trabalho é com a gente!</b-button>
       </b-card-header>
       <b-collapse id="accordion-6" accordion="my-accordion" role="tabpanel">
         <b-card-body class="text-cinza text-justify">
@@ -80,13 +87,10 @@
         </b-card-body>
       </b-collapse>
     </b-card>
-
     </div>
-                       
+    <router-link to="/slip" class="text-white text-content text-decoration-none effect btn btn-info btn-radius pl-3 pr-3">Veja mais <i class="fas fa-angle-right"></i></router-link>              
 			</div>
-      <div class="col-lg-12">
-         <router-link to="/slip" class="text-white text-content text-decoration-none effect btn btn-info btn-radius pl-3 pr-3">Veja mais <i class="fas fa-angle-right"></i></router-link>
-      </div>
+
 			</div>
 		</div>
 	</section>
@@ -131,19 +135,20 @@ export default {
 	background-color: rgba(10,23,55,0.3) !important;
 	border: none !important;
 
-	}
+  }
+  .bg-solucoes{
+        background-image: url("~assets/image/bgmidia.jpg")!important ; 
+        background-size: 100% auto cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+    }
 	.solucoes2{
 		background-image: url("~assets/image/bgsolucoes2.png") !important;
         background-size: 100% auto cover;
         background-position: center top;
         background-repeat: no-repeat;
     }
-	.solucoes{
-        background-image: url("~assets/image/bgsolucoes.jpg")!important ; 
-        background-size: 100% auto cover;
-        background-position: center top;
-        background-repeat: no-repeat;
-    }
+	
     .solucoes-text{
     	font-size: 14px !important;
     }

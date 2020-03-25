@@ -2,7 +2,11 @@
     <section class="color-mute">
     <div class="container p-0">       
           <nav>
-            <label><router-link to="/" class="navbar-brand"><img src="~assets/image/imobanco-azul.png" alt=""></router-link></label>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+            </label>
+            <label><router-link to="/" class="logo"><img src="~assets/image/imobanco-azul.png" alt=""></router-link></label>
             <ul>
               <li><router-link to="/" class="active  text-titulo-sidebar">Credor</router-link></li>
               <li><router-link to="/" class="text-titulo-sidebar">Pagador</router-link></li>

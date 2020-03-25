@@ -2,9 +2,8 @@
 <section class="slidemobile">
   <div class="container">
     <div class="row justify-content-left">
-      <div class="col-lg-"></div>
-      <div class="col-lg-8">
-              <div class="col-lg-3 col-xl-2  col-md-3 col-sm-3 col-5 pt-2 bg-cinza">
+      <div class="col-lg-8 ml-0 pl-0">
+            <div class="col-lg-6 col-xl-2  col-md-3 col-sm-3 col-5 pt-2  bg-cinza">
             <ul class="nav flex-column">
               <router-link to="/" class="text-primary text-titulo-sidebar text-decoration-none effect"><img src="~assets/image/home-icon.png" alt="" class="icon-style"> Home</router-link>
               <hr class="linestyle-sidebar">

@@ -92,7 +92,7 @@
         background-color: #eceff1 !important;
     }
     .bg-cinza-1{
-        background-color: #cfd8dc !important;
+        background-color: #f0f0f0 !important;
     }
     .bg-cinza-2{
         background-color: #b0bec5 !important;
@@ -146,6 +146,17 @@
         height: 80px;
         width: 100%;
     }
+    .logo{
+        line-height: 80px;
+        background-color:  none;
+    }
+    .logo a.active, .logo a:hover{
+        background: #ffffff !important;
+        color: #ffffff;
+        transition: .5s;
+        text-decoration: none;
+    }
+       
     nav ul{
         float: right;
     }
@@ -162,12 +173,63 @@
         text-decoration: uppercase;
     }
     nav a.active,nav a:hover{
-        background: #003e69;
+        background: #0e153a;
         color: #ffffff;
         transition: .5s;
         text-decoration: none;
     }
-
+    .checkbtn{
+        font-size: 30px;
+        color: #304ffe;
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+      }
+      #check{
+        display: none;
+      }
+      @media (max-width: 952px){
+        label.logo{
+          font-size: 30px;
+          padding-left: 50px;
+        }
+        nav ul li a{
+          font-size: 16px;
+        }
+      }
+      @media (max-width: 858px){
+        .checkbtn{
+          display: block;
+        }
+        ul{
+          position: fixed;
+          width: 100%;
+          height: 100vh;
+          background: #304ffe;
+          top: 80px;
+          left: -100%;
+          text-align: center;
+          transition: all .5s;
+        }
+        nav ul li{
+          display: block;
+          margin: 50px 0;
+          line-height: 30px;
+        }
+        nav ul li a{
+          font-size: 20px;
+        }
+        a:hover,a.active{
+          background: none;
+          color: #0082e6;
+        }
+        #check:checked ~ ul{
+          left: 0;
+        }
+      }
+      
     .effect{
         display: inline;
         border-radius: 5px;
@@ -186,7 +248,7 @@
         background-color: rgba(6,0,101,0.1) !important;
     }
     .text-titulo{
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Nunito', sans-serif;
         font-weight: 700;
     }
     .text-titulo-sidebar{
@@ -194,11 +256,11 @@
         font-weight: 500;
     }
     .text-subtitulo{
-        font-family: 'Poppins', sans-serif; 
+        font-family: 'Roboto', sans-serif;
         font-weight: 400;
     }
     .text-content{
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Nunito', sans-serif;
         font-weight: 300;
     }
     .bg-nav{
