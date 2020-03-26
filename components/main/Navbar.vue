@@ -9,8 +9,8 @@
             <label><router-link to="/" class="logo"><img src="~assets/image/imobanco-azul.png" alt=""></router-link></label>
             <ul>
               <li><router-link to="/" class="active  text-titulo-sidebar">Credor</router-link></li>
-              <li><router-link to="/" class="text-titulo-sidebar">Pagador</router-link></li>
-              <li><router-link to="/" class="text-titulo-sidebar">Franqueado</router-link></li>
+              <li><router-link to="/pagador" class="text-titulo-sidebar">Pagador</router-link></li>
+              <!-- <li><router-link to="/" class="text-titulo-sidebar">Franqueado</router-link></li> -->
               <li><router-link to="/slip" class="text-titulo-sidebar">Login</router-link></li>
               <li> <router-link to="/slip" class="text-titulo-sidebar">Registro</router-link></li>
             </ul>

@@ -15,7 +15,7 @@
         <div class="col-xs-12 col-sm-4 col-lg-6 mt-0 p-5">
           <div class="row">
             <div class="col-lg-3">
-              <img src="~assets/image/boletoicon.png" alt="" class="img-fluid" style="width: 120px; height: 120px;">
+              <img src="~assets/image/icon-boletos.png" alt="" class="img-fluid" style="width: 120px; height: 120px;">
             </div>
             <div class="col-lg-9 pt-4">
               <content-servicos
@@ -26,18 +26,18 @@
 
           <div class="row">
             <div class="col-lg-3">
-              <img src="~assets/image/ecommerceicon.png" alt="" class="img-fluid" style="width: 120px; height: 120px;">
+              <img src="~assets/image/icon-ecommerce.png" alt="" class="img-fluid" style="width: 120px; height: 120px;">
             </div>
             <div class="col-lg-9 pt-4">
               <content-servicos
-                 title="E-Commerce"
-                  content="Sua loja 60% integrada a gestão inteligente de recebimentos e cobrança Imobanco." />
+                title="E-Commerce"
+                content="Sua loja 60% integrada a gestão inteligente de recebimentos e cobrança Imobanco." />
             </div>
           </div>
 
           <div class="row">
             <div class="col-lg-3">
-              <img src="~assets/image/cobrancasicon.png" alt="" class="img-fluid" style="width: 120px; height: 120px;">
+              <img src="~assets/image/icon-cobrancas.png" alt="" class="img-fluid" style="width: 120px; height: 120px;">
             </div>
             <div class="col-lg-9 pt-4">
               <content-servicos
