@@ -1,21 +1,24 @@
 <template>
     <div>
-    <payer-slide />
-    <payer-billet />
-    <payer-content />
+    <pagador-slide />
+    <pagador-bar />
+    <pagador-boleto />
+    <pagador-content />
     </div> 
 </template>
 
 <script>
-import PayerSlide from '~/components/payer/PayerSlide.vue';
-import PayerContent from '~/components/payer/PayerContent.vue';
-import PayerBillet from '~/components/payer/PayerBillet.vue';
+import PagadorSlide from '~/components/pagador/PagadorSlide.vue';
+import PagadorBar from '~/components/pagador/PagadorBar.vue';
+import PagadorContent from '~/components/pagador/PagadorContent.vue';
+import PagadorBoleto from '~/components/pagador/PagadorBoleto.vue';
 
 export default {
   components: {
-    PayerSlide,
-    PayerBillet,
-    PayerContent
+    PagadorBar,
+    PagadorSlide,
+    PagadorBoleto,
+    PagadorContent
 
   }
 }

@@ -6,27 +6,27 @@
                    <div class="row">
                        <div class="col-lg-6">
                            <div class="card text-left">
-                             <img class="card-img-top" src="holder.js/100px180/" alt="">
-                             <div class="card-body">
-                               <h4 class="card-title">2ª Via Boleto</h4>
-                               <p class="card-text">Body</p>
+                               <div class="card-body text-center">
+                               <h1><i class="fas fa-barcode"></i></h1>
+                               <h5 class="card-title text-titulo text-secondary">2ª Via Boleto</h5>
+                               <p class="card-text">Solicitar</p>
                              </div>
                            </div>
                        </div>
                        <div class="col-lg-6">
                            <div class="card text-left">
-                             <img class="card-img-top" src="holder.js/100px180/" alt="">
-                             <div class="card-body">
-                               <h4 class="card-title">Quitação</h4>
+                               <div class="card-body text-center">
+                               <h1><i class="fas fa-map-pin"></i></h1>
+                               <h5 class="card-title text-titulo text-secondary">Quitação</h5>
                                <p class="card-text">Body</p>
                              </div>
                            </div>
                        </div>
                        <div class="col-lg-12">
                            <div class="card text-left">
-                             <img class="card-img-top" src="holder.js/100px180/" alt="">
-                             <div class="card-body">
-                               <h4 class="card-title">Negocie via whatsapp</h4>
+                               <div class="card-body text-center">
+                               <h1><i class="fab fa-whatsapp"></i></h1>
+                               <h5 class="card-title text-titulo text-secondary">Negocie via whatsapp</h5>
                                <p class="card-text">Body</p>
                              </div>
                            </div>
