@@ -7,6 +7,7 @@ const _836fe6f6 = () => interopDefault(import('../pages/charges/index.vue' /* we
 const _3382e4dc = () => interopDefault(import('../pages/cobrancas/index.vue' /* webpackChunkName: "pages/cobrancas/index" */))
 const _2b945726 = () => interopDefault(import('../pages/contact/index.vue' /* webpackChunkName: "pages/contact/index" */))
 const _258f7286 = () => interopDefault(import('../pages/ecommerce/index.vue' /* webpackChunkName: "pages/ecommerce/index" */))
+const _17713028 = () => interopDefault(import('../pages/pagamento/index.vue' /* webpackChunkName: "pages/pagamento/index" */))
 const _0fa0cc50 = () => interopDefault(import('../pages/slip/index.vue' /* webpackChunkName: "pages/slip/index" */))
 const _5a843155 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -42,6 +43,10 @@ export const routerOptions = {
     path: "/ecommerce",
     component: _258f7286,
     name: "ecommerce"
+  }, {
+    path: "/pagamento",
+    component: _17713028,
+    name: "pagamento"
   }, {
     path: "/slip",
     component: _0fa0cc50,

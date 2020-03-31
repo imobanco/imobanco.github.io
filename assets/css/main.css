@@ -10,7 +10,22 @@
         margin: 0px !important;
         padding: 0px !important;
     }
-
+    .btn-radius{
+        border-radius: 30px !important;
+    }
+    .linestyle{
+        margin: 0px;
+        border-bottom: 1px solid #06cece;
+    }
+    .linestyle-sidebar{
+        margin: 0px;
+        border-bottom: 1px solid #b0bec5;
+    }
+    .linetitulo{
+        margin: 0px;
+        padding: 0px;
+        border-bottom: 3px solid #304ffe;
+    }
    
     .newsletter{
         padding: 0px !important;
@@ -27,70 +42,92 @@
         height: 300px;
     }
 
-    /* Background color */
-    .imobanco-color-01{
-        background-color: #212121 !important;
-    }
-    .imobanco-color-02{
-        background-color: #001335 !important;
-    }
-    .imobanco-color-03{
-        background-color: #04107c !important;
-    }
-    .imobanco-color-04{
-        background-color: #06cece !important;
-    }
-    .imobanco-color-05{
-        background-color: #e8e8e8 !important;
-    }
-    .imobanco-color-06{
-        background-color: #ffffff !important;
-    }
-    .imobanco-color-07{
-        background-color: #304ffe;
-    }
+   /* Background color */
+   .bg-imobanco{
+    background-color: #003e69 !important;
+}
+.bg-primary{
+    background-color: #212121 !important;
+}
+.bg-secondary{
+    background-color: #0e153a !important;
+}
+.bg-success{
+    background-color: #21e6c1 !important;
+}
+.bg-danger{
+    background-color: #ff304f !important;
+}
+.bg-warning{
+    background-color: #ffd615 !important;
+}
+.bg-info{
+    background-color: #304ffe !important;
+}
 
-    .imobanco-color-08{
-        background-color: #bdbdbd;
-    }
-    .imobanco-color-09{
-        background-color: #2947db;
-    }
-    .imobanco-color-09{
-        background-color: #0061bb;
-    }
+.bg-dark{
+    background-color: #0d47a1 !important;
+}
+.bg-light{
+    background-color: #1565c0 !important;
+}
+.bg-medium{
+    background-color: #3d5af1 !important;
+}
+.bg-new{
+    background-color: #22d1ee !important;
+}
+.bg-cinza{
+    background-color: #eceff1 !important;
+}
+.bg-cinza-1{
+    background-color: #f0f0f0 !important;
+}
+.bg-cinza-2{
+    background-color: #b0bec5 !important;
+}
 
+/* Background color */
+.text-primary{
+   color: #212121 !important;
+}
+.text-imobanco{
+   color: #003e69 !important;
+}
+.text-secondary{
+   color: #0e153a !important;
+}
+.text-success{
+   color: #21e6c1 !important;
+}
+.text-danger{
+   color: #ff304f !important;
+}
+.text-warning{
+   color: #ffd615 !important;
+}
+.text-info{
+   color: #304ffe !important;
+}
 
-
-    /* Color Text */
-
-    .imo-text-01{
-        color: #212121 !important;
-    }
-    .imo-text-02{
-        color: #001335 !important;
-    }
-    .imo-text-03{
-        color: #04107c !important;
-    }
-    .imo-text-04{
-        color: #06cece !important;
-    }
-    .imo-text-05{
-        color: #e8e8e8 !important;
-    }
-    .imo-text-06{
-        color: #ffffff !important;
-    }
-    .imo-text-07{
-        color: #353535 !important;
-    }
-    .imo-text-08{
-        color: #0088e3 !important;
-    }
-    .imo-text-09{
-       color: #304ffe !important;
-    }
+.text-dark{
+   color: #0d47a1 !important;
+}
+.text-light{
+   color: #1565c0 !important;
+}
+.text-medium{
+   color: #3d5af1 !important;
+}
+.text-new{
+    color: #22d1ee !important;
+}
+.text-white{
+    color: #ffffff !important;
+}
+.text-cinza{
+    color: #37474f !important;
+}
     
     .button-radius{
         border-radius: 30px !important;
@@ -105,17 +142,19 @@
         background-color: rgba(6,0,101,0.1) !important;
     }
     .text-titulo{
-        font-family: 'Poppins', sans-serif;
-    ;
+        font-family: 'Nunito', sans-serif;
         font-weight: 700;
     }
-    .text-subtitulo{
+    .text-titulo-sidebar{
         font-family: 'Poppins', sans-serif;
-    
+        font-weight: 500;
+    }
+    .text-subtitulo{
+        font-family: 'Roboto', sans-serif;
         font-weight: 400;
     }
     .text-content{
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Nunito', sans-serif;
         font-weight: 300;
     }
     .bg-nav{
@@ -125,6 +164,6 @@
     .icon-text{
         font-size: 25px;
     }
-    
-
-
+    .pagamentoicons{
+        background-color: #0f6ac4;
+    }

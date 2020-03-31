@@ -14,6 +14,8 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Poppins:300,400,500,500i,700,800,900i&display=swap' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,900&display=swap' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,700i,900&display=swap' },
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css' }
     ]
   },
@@ -31,6 +33,13 @@ export default {
   /*
   ** Plugins to load before mounting the App
   */
+ script: [
+  {
+    src: "https://code.jquery.com/jquery-3.3.1.slim.min.js",
+    type: "text/javascript"
+  }
+],
+
   plugins: [
 
   ],
