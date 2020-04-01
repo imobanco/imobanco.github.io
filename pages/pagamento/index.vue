@@ -4,7 +4,6 @@
       <pagador-bar />
       <pagador-boleto />
       <pagador-content />
-      
     </div>
      
 </template>

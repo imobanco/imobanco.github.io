@@ -27,6 +27,5 @@
 .gradienteslide{
     background: rgb(0,131,215);
     background: linear-gradient(37deg, rgba(0,131,215,1) 0%, rgba(0,221,161,1) 100%); 
-
 }
 </style>
