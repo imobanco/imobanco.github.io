@@ -3,7 +3,7 @@
        <div class="container">
            <div class="row">
            <div class="col-lg-6 pt-5">
-               <h1 class="text-titulo text-white mt-5">Negocie seu boleto pelo whatsapp</h1>
+               <h1 class="text-titulo text-white mt-5 animated bounceInLeft delay-1s">Negocie seu boleto pelo whatsapp</h1>
            </div>
            <div class="col-lg-6"><img src="~assets/image/bannerpagador.png" alt=""></div>
         </div>

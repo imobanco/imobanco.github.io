@@ -16,7 +16,9 @@ import '../node_modules/bootstrap-vue/dist/bootstrap-vue.css'
 
 import '../assets/css/main.css'
 
-import '../assets/css/animate.css'
+import '../assets/css/custom.scss'
+
+import '../node_modules/animate.css/animate.min.css'
 
 import '../node_modules/vuetify/dist/vuetify.css'
 

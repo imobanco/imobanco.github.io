@@ -28,7 +28,8 @@ export default {
   */
   css: [
   '@/assets/css/main.css',
-  '@/assets/css/animate.css'
+  '@/assets/css/custom.scss',
+  // '@/assets/css/animate.css'
   ],
 
    /*
@@ -44,7 +45,8 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    {src: '~/plugins/js/main.js'}
+    {src: '~/plugins/js/main.js'},
+    {src: '~/plugins/vue-notification.js', ssr: false}
   ],
   /*
   ** Nuxt.js dev-modules
@@ -59,6 +61,7 @@ export default {
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
     '@nuxtjs/svg',
+    '@neneos/nuxt-animate.css'
   ],
   /*
   ** Build configuration
