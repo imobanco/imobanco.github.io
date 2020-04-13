@@ -3,30 +3,25 @@
   <div class="container">
     <div class="row justify-content-left">
       <div class="col-lg-8 ml-0 pl-0">
-            <div class="col-lg-6 col-xl-2  col-md-3 col-sm-3 col-5 pt-2  bg-cinza">
-            <ul class="nav flex-column">
-              <router-link to="/" class="text-primary text-titulo-sidebar text-decoration-none effect"><img src="~assets/image/home-icon.png" alt="" class="icon-style"> Home</router-link>
+            <div class="col-lg-3 col-xl-2  col-md-3 col-sm-3 pt-2 pl-0 pb-0 pl-0  bg-cinza">
+            <ul class="pl-2">
+              <router-link to="/" class="text-primary text-titulo-sidebar p-2 text-decoration-none effect"> Home</router-link>
               <hr class="linestyle-sidebar">
-              <router-link to="/slip" class="text-primary text-titulo-sidebar text-decoration-none effect"><img src="~assets/image/slip-icon.png" alt="" class="icon-style"> Boleto</router-link>
+              <router-link to="/slip" class="text-primary text-titulo-sidebar p-2 text-decoration-none effect"> Boleto</router-link>
                 <hr class="linestyle-sidebar">
-              <router-link to="/ecommerce" class="text-primary text-titulo-sidebar text-decoration-none effect"><img src="~assets/image/ecommerce-icon.png" alt="" class="icon-style"> E-Commerce</router-link>
+              <router-link to="/ecommerce" class="text-primary text-titulo-sidebar p-2 text-decoration-none effect">E-Commerce</router-link>
               <hr class="linestyle-sidebar"> 
-              <router-link to="/charges" class="text-primary text-titulo-sidebar text-decoration-none effect"><img src="~assets/image/ecommerce-icon.png" alt="" class="icon-style"> Cobranças</router-link>
+              <router-link to="/charges" class="text-primary text-titulo-sidebar p-2 text-decoration-none effect">Cobranças</router-link>
               <hr class="linestyle-sidebar">
-              <a href="https://blog.imobanco.com.br/" class="text-primary text-titulo-sidebar text-decoration-none effect" target="_blank"><img src="~assets/image/ecommerce-icon.png" alt="" class="icon-style"> Blog</a>
-              <router-link to="/contact" class="text-primary text-titulo-sidebar bg-medium text-decoration-none text-white effect"><img src="~assets/image/ecommerce-icon.png" alt="" class="icon-style"> Contato</router-link>
+              <a href="https://blog.imobanco.com.br/" class="text-primary text-titulo-sidebar p-2 text-decoration-none effect" target="_blank">Blog</a>
+              <hr class="linestyle-sidebar">
+              <router-link to="/contact" class="text-primary text-titulo-sidebar p-2 text-decoration-none effect">Contato</router-link>
             </ul>
+             <div class="bg-medium pt-2 pb-2"><a href="https://blog.imobanco.com.br/" class="text-primary p-2 text-titulo-sidebar  text-white text-decoration-none effect" target="_blank"><i class="far fa-arrow-alt-circle-right"></i> Seja Cliente</a>
+            </div>
             </div>
       </div>
-<<<<<<< HEAD
-     
-
       
-      
-=======
-
->>>>>>> dev
-      <!-- <div class="col-lg-5">AQUI</div> -->
     </div>
   </div>
 
@@ -45,16 +40,9 @@
   height: 20px;
 } */
 .slidemobile{
-<<<<<<< HEAD
         height: 700px;
-        background-color: #304ffe;
         /* background-image: url("~assets/image/banner4.jpg") !important; */
-        
-=======
-        height: 600px;
-        background-image: url("~assets/image/banner4.jpg") !important;
         background-color: #9c9c9c;
->>>>>>> dev
         background-size: 100% auto cover;
         background-position: center;
         background-repeat: no-repeat;

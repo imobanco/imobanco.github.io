@@ -23,16 +23,16 @@
             <div class="col-lg-3 col-md-6">
 				<h5 class="text-white text-subtitulo mt-2 mb-2">Atendimento e Suporte</h5>
 				<hr>
-            	<p class="imo-text-05 text-content m-0"><a href="https://t.me/imobancobot" target="_blank"><i class="fab fa-telegram imo-text-05"></i></a> Chat Imobanco: <span class="text-content">24h online</span></p>
-            	<p class="imo-text-05 text-content m-0"><i class="fas fa-phone-square-alt"></i> Atendimento Nacional: <span class="text-content">4007-2957</span></p>
-            	<p class="imo-text-05 text-content m-0"><i class="fab fa-whatsapp"></i> Whatsapp: <span class="text-content">11.94659.2701 </span></p>
-            	<p class="imo-text-05 text-content m-0"><i class="fas fa-envelope"></i> Email: <span class="text-content">sac@imobanco.com.br</span></p>
+            	<p class="text-white text-content m-0"><a href="https://t.me/imobancobot" target="_blank"><i class="fab fa-telegram text-white"></i></a> Chat Imobanco: <span class="text-content">24h online</span></p>
+            	<p class="text-white text-content m-0"><i class="fas fa-phone-square-alt"></i> Atendimento Nacional: <span class="text-content">4007-2957</span></p>
+            	<p class="text-white text-content m-0"><i class="fab fa-whatsapp"></i> Whatsapp: <span class="text-content">11.94659.2701 </span></p>
+            	<p class="text-white text-content m-0"><i class="fas fa-envelope"></i> Email: <span class="text-content">sac@imobanco.com.br</span></p>
             </div>
            <div class="col-lg-3 col-md-6">
-			   	<p class="imo-text-05 text-content mt-2">Redes Sociais: <span class="text-content">
+			   	<p class="text-white text-content mt-2">Redes Sociais: <span class="text-content">
             		<a href="https://www.facebook.com/imobanco/" target="_blank"><img src="~/assets/image/facebook.png" alt="" class="ml-1 mr-1"></a><a href="https://www.instagram.com/imobanco/" target="_blank"><img src="~/assets/image/instagram.png" alt="" class="ml-1 mr-1"></a><a href="https://twitter.com/imobanco" target="_blank"><img src="~/assets/image/twitter.png" alt="" class="ml-1 mr-1"></a>
             	</span></p>
-				<p class="imo-text-05 text-content mt-3">Imobanco 2020 ©  -  Todos os direitos reservados.</p>
+				<p class="text-white text-content mt-3">Imobanco 2020 ©  -  Todos os direitos reservados.</p>
 		   </div>
 
         </div>
