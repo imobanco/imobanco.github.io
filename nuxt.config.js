@@ -44,6 +44,13 @@ export default {
   /*
   ** Plugins to load before mounting the App
   */
+ script: [
+  {
+    src: "https://code.jquery.com/jquery-3.3.1.slim.min.js",
+    type: "text/javascript"
+  }
+],
+
   plugins: [
     {src: '~/plugins/js/main.js'},
     {src: '~/plugins/vue-notification.js', ssr: false}

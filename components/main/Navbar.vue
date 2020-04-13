@@ -1,5 +1,6 @@
 <template>
     <section class="color-mute">
+<<<<<<< HEAD
     <div class="container p-0">       
           <nav>
             <input type="checkbox" id="check">
@@ -17,11 +18,16 @@
           </nav>
           
            <!-- <b-navbar toggleable="lg" type="dark">
+=======
+    <div class="container p-0">        
+           <b-navbar toggleable="lg" type="dark">
+>>>>>>> dev
               <router-link to="/" class="navbar-brand"><img src="~assets/image/imobanco-azul.png" alt=""></router-link>
               <b-navbar-toggle target="nav-collapse" class="bg-imobanco"></b-navbar-toggle>
 
               <b-collapse id="nav-collapse" is-nav>
               <b-navbar-nav class="ml-auto">
+<<<<<<< HEAD
               <ul class="navbar-nav">
                   <router-link to="/" class="text-white text-content text-decoration-none effect">Home</router-link>
                   <hr class="linestyle">
@@ -44,6 +50,15 @@
               </b-navbar-nav>
               </b-collapse>
             </b-navbar> -->
+=======
+                <router-link to="/" class=" text-titulo-sidebar navbarbox">Credor</router-link>
+                <router-link to="/pagamento" class="text-titulo-sidebar navbarbox">Pagador</router-link>
+                <router-link to="/slip" class="text-titulo-sidebar navbarbox">Login</router-link>
+                <router-link to="/slip" class="text-titulo-sidebar navbarbox">Registro</router-link>
+              </b-navbar-nav>
+              </b-collapse>
+            </b-navbar>
+>>>>>>> dev
     </div>
     </section>
 </template>
@@ -77,4 +92,11 @@
     background-color: #f5f5f5;
     border-bottom: 2px solid rgb(4,95,170);
     }
+<<<<<<< HEAD
+=======
+.navbarbox{
+  text-decoration: none;
+  padding: 5px 15px 5px 15px;
+}
+>>>>>>> dev
 </style>

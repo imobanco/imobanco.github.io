@@ -18,10 +18,14 @@
             </ul>
             </div>
       </div>
+<<<<<<< HEAD
      
 
       
       
+=======
+
+>>>>>>> dev
       <!-- <div class="col-lg-5">AQUI</div> -->
     </div>
   </div>
@@ -41,10 +45,16 @@
   height: 20px;
 } */
 .slidemobile{
+<<<<<<< HEAD
         height: 700px;
         background-color: #304ffe;
         /* background-image: url("~assets/image/banner4.jpg") !important; */
         
+=======
+        height: 600px;
+        background-image: url("~assets/image/banner4.jpg") !important;
+        background-color: #9c9c9c;
+>>>>>>> dev
         background-size: 100% auto cover;
         background-position: center;
         background-repeat: no-repeat;

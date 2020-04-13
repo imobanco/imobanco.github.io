@@ -7,7 +7,11 @@ const _836fe6f6 = () => interopDefault(import('../pages/charges/index.vue' /* we
 const _3382e4dc = () => interopDefault(import('../pages/cobrancas/index.vue' /* webpackChunkName: "pages/cobrancas/index" */))
 const _2b945726 = () => interopDefault(import('../pages/contact/index.vue' /* webpackChunkName: "pages/contact/index" */))
 const _258f7286 = () => interopDefault(import('../pages/ecommerce/index.vue' /* webpackChunkName: "pages/ecommerce/index" */))
+<<<<<<< HEAD
 const _984fea3c = () => interopDefault(import('../pages/pagador/index.vue' /* webpackChunkName: "pages/pagador/index" */))
+=======
+const _17713028 = () => interopDefault(import('../pages/pagamento/index.vue' /* webpackChunkName: "pages/pagamento/index" */))
+>>>>>>> dev
 const _0fa0cc50 = () => interopDefault(import('../pages/slip/index.vue' /* webpackChunkName: "pages/slip/index" */))
 const _5a843155 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -44,9 +48,15 @@ export const routerOptions = {
     component: _258f7286,
     name: "ecommerce"
   }, {
+<<<<<<< HEAD
     path: "/pagador",
     component: _984fea3c,
     name: "pagador"
+=======
+    path: "/pagamento",
+    component: _17713028,
+    name: "pagamento"
+>>>>>>> dev
   }, {
     path: "/slip",
     component: _0fa0cc50,
