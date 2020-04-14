@@ -12,7 +12,8 @@
   </div>
 		<div class="container-fluid pt-5 pb-5">
       <div class="row">
-        <div class="col-xs-12 col-sm-4 col-lg-6 mt-0 p-5">
+
+        <div class="col-xs-12 col-sm-4 col-lg-12 mt-0 p-5">
           <div class="row">
             <div class="col-lg-3">
               <img src="~assets/image/icon-boletos.png" alt="" class="img-fluid" style="width: 120px; height: 120px;">
