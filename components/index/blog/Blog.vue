@@ -3,7 +3,9 @@
     <div class="container">
 		<div class="row pt-4 pb-4">
             <div class="col-lg-6">
-                <h3 class="mt-5 text-white text-titulo">Notícias - blog</h3>
+                <h3 class="mt-5 text-white text-titulo">
+                  <!-- <img src="~/assets/image/line-white.png" alt="" class="line-white"> -->
+                  Notícias - blog</h3>
                 <p class="text-white text-subtitulo mt-1 mb-1">Notícias sobre - Boleto, Cobranças, E-Commerce</p>
             </div>
             <div class="col-lg-6 text-right">

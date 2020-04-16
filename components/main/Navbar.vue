@@ -1,5 +1,5 @@
 <template>
-    <section class="color-mute">
+    <section class="none">
     <div class="container p-0">        
            <b-navbar toggleable="lg" type="dark">
               <router-link to="/" class="navbar-brand"><img src="~assets/image/imobanco-azul.png" alt=""></router-link>
@@ -7,10 +7,10 @@
 
               <b-collapse id="nav-collapse" is-nav>
               <b-navbar-nav class="ml-auto">
-                <router-link to="/" class=" text-titulo-sidebar navbarbox">Credor</router-link>
-                <router-link to="/pagador" class="text-titulo-sidebar navbarbox">Pagador</router-link>
-                <router-link to="/slip" class="text-titulo-sidebar navbarbox">Login</router-link>
-                <router-link to="/slip" class="text-titulo-sidebar navbarbox">Registro</router-link>
+                <router-link to="/" class=" text-titulo-sidebar text-decoration-none text-white navbarbox">Credor</router-link>
+                <router-link to="/pagador" class="text-titulo-sidebar text-decoration-none text-white navbarbox">Pagador</router-link>
+                <router-link to="/slip" class="text-titulo-sidebar text-decoration-none text-white navbarbox">Login</router-link>
+                <router-link to="/slip" class="text-titulo-sidebar text-decoration-none text-white navbarbox">Registro</router-link>
               </b-navbar-nav>
               </b-collapse>
             </b-navbar>
@@ -21,7 +21,7 @@
 <style>
 .navbar-imobanco{
   display: block;
-  background-color: #f5f5f5;
+  background-color: none;
   padding: 10px;
   margin-left: 5px;
   margin-right: 5px;
