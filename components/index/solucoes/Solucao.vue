@@ -8,15 +8,13 @@
       </div>
 			</div> -->
       
-			<div class="row">
-        <div class="col-lg-6 bg-info bg-solucoes p-5 ">
+			<div class="row bg-cinza-1">
+        <div class="col-lg-6  bg-solucoes p-5 ">
           <h3 class="mt-5 text-white text-titulo">Soluções</h3>
 			    <h3 class="text-content text-success">Soluções definitiva para o <br>controle de seus recebimentos</h3>
-      </div>
-
+        </div>
       <div class="col-lg-6 p-5 bg-cinza-1">
-			
-      
+
       <div role="tablist">
     <b-card no-body class="mb-1 button-solucoes">
       <b-card-header header-tag="header" class="p-1 button-solucoes" role="tab">
@@ -85,13 +83,12 @@
       </b-collapse>
     </b-card>
     </div>
-    <router-link to="/slip" class="text-white text-content text-decoration-none effect btn btn-info btn-radius pl-3 pr-3">Veja mais <i class="fas fa-angle-right"></i></router-link>              
+    <router-link to="/slip" class="text-white text-content text-decoration-none effect btn btn-primary bg-primary btn-radius pl-3 pr-3">Veja mais <i class="fas fa-angle-right"></i></router-link>              
 			</div>
 
 			</div>
 		</div>
 	</section>
-
 </template>
 <script>
 export default {
@@ -131,35 +128,28 @@ export default {
 	.card-imo{
 	background-color: rgba(10,23,55,0.3) !important;
 	border: none !important;
-
   }
   .bg-solucoes{
-        background-image: url("~assets/image/bgmidia.jpg")!important ; 
+        background-image: url("~assets/image/bgmidia.jpg")!important ;
+        background-color: #f0f0f0 !important; 
         background-size: 100% auto cover;
         background-position: center top;
         background-repeat: no-repeat;
+        border-radius: 0px 70px 70px 0px;
     }
 	.solucoes2{
 		background-image: url("~assets/image/bgsolucoes2.png") !important;
         background-size: 100% auto cover;
         background-position: center top;
         background-repeat: no-repeat;
-    }
-	
+    }	
     .solucoes-text{
     	font-size: 14px !important;
     }
-	
   	.round1{
     	-webkit-animation:r1 15s linear infinite;
     	animation:r1 15s linear infinite;
     	position: relative;
-	}
-	@keyframes r1
-	{
-		0%{transform: rotate(360deg)};
-		10%{transform: rotate(0deg)};
+	  }
 
-	}
- 	
 </style>

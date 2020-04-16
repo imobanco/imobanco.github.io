@@ -172,3 +172,16 @@
     .icon-text{
         font-size: 25px;
     }
+    .radius-circle{
+        border-radius: 50px;
+    }
+.boxcatindex{
+    background-color: #212121;
+    color: #f0f0f0;
+    padding: 5px;
+}
+    .imgcover{
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+    }

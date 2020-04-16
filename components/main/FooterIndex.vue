@@ -1,5 +1,5 @@
 <template>
-	<section class="bg-info pt-4 pb-4">
+	<section class="bg-primary pt-4 pb-4">
 		<div class="container">
 		<div class="row pt-4 pb-4">
             <div class="col-lg-3 col-md-6">

@@ -4,7 +4,7 @@
                 
         <h5 class="text-secondary text-titulo">
         {{ title }}</h5>
-        <p class="text-cinza text-titulo text-justify">{{ content }}</p>
+        <p class="text-cinza text-subtitulo text-justify">{{ content }}</p>
     </div>
 			
 
