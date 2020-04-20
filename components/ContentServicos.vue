@@ -1,7 +1,6 @@
 <template>
 
-    <div>
-                
+    <div>        
         <h5 class="text-secondary text-titulo">
         {{ title }}</h5>
         <p class="text-cinza text-subtitulo text-justify">{{ content }}</p>
