@@ -1,8 +1,8 @@
 <template>
-	<section class="slipstrategy imobanco-color-09" :style="cssMedia" >
+	<section class="bg-medium">
 		<div class="container">
 			<div class="row pt-5 pb-5">
-				<div class="col-lg-12 mt-5 mb-5 text-center">
+				<div class="col-lg-12 text-center">
 					<h3 class="mt-2 imo-text-06 text-subtitulo">Reduza a complexidade da sua <span class="font-weight-bold">gestão de recebimentos.</span></h3>
 					<h5 class="imo-text-06 text-content">Emita e organize seus boletos de forma estratégica através de dados e gráficos em tempo real.</h5>
 				</div>

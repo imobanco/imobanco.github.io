@@ -1,6 +1,5 @@
 <template>
-<section class="slidemobile">
-  <navbar />
+<section class="slidemobile mt-0">
   <div class="container">
     <div class="row justify-content-left">
       <div class="col-lg-2 col-md-3 col-sm-3 pt-2 pl-0 pb-0 pr-0 bg-white rounded">
@@ -28,12 +27,12 @@
 </template>
 
 <script>
-  import Navbar from '@/components/main/Navbar.vue'
+  
   
 
   export default {
   components: {
-    Navbar,
+   
 
   }
 }
@@ -43,10 +42,10 @@
 
 .slidemobile{
         height: 750px;
-        background-image: url("~assets/image/slide-corporate.jpg") !important;
+        background-image: url("~assets/image/banner-modelo.jpg") !important;
         background-color: #9c9c9c;
         background-size: 100% auto cover;
-        background-position: center top;
+        background-position: center center;
         background-repeat: no-repeat;
 }
   

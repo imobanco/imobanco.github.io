@@ -8,6 +8,8 @@
         class="bg-medium"/>
         <cobranca-servicos 
         class="bg-gray-50"/>
+        <conta-servicos 
+        class="bg-dark"/>
     </div>
 </template>
 
@@ -16,12 +18,14 @@ import BoletosServicos from '~/components/index/servicos/BoletosServicos.vue'
 import AssinaturaServicos from '~/components/index/servicos/AssinaturaServicos.vue'
 import EcommerceServicos from '~/components/index/servicos/EcommerceServicos.vue'
 import CobrancaServicos from '~/components/index/servicos/CobrancaServicos.vue'
+import ContaServicos from '~/components/index/servicos/ContaServicos.vue'
     export default {
         components: {
         BoletosServicos,
         AssinaturaServicos,
         EcommerceServicos,
         CobrancaServicos,
+        ContaServicos,
   }
     }
 </script>

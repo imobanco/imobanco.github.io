@@ -1,5 +1,5 @@
 <template>
-		<section class="bg-dark bg-newsletter">
+		<section class="bg-primary bg-newsletter">
 		<div class="container">
 		<div class="row justify-content-center">
       
@@ -39,8 +39,8 @@ export default {
 
 <style>
 	.bg-newsletter{
-		background-image: url("~assets/image/bgpn3.png") !important;
-    background-repeat:repeat;
+		/* background-image: url("~assets/image/bgpn3.png") !important;
+    background-repeat:repeat; */
 		padding-top: 20px;
 		padding-bottom: 20px;
 		/*background: rgb(4,95,170);

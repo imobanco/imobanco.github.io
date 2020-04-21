@@ -3,13 +3,14 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _0fefe9e0 = () => interopDefault(import('../pages/charges/index.vue' /* webpackChunkName: "pages/charges/index" */))
-const _6d64802d = () => interopDefault(import('../pages/cobrancas/index.vue' /* webpackChunkName: "pages/cobrancas/index" */))
-const _7d3c3481 = () => interopDefault(import('../pages/contact/index.vue' /* webpackChunkName: "pages/contact/index" */))
-const _a69535be = () => interopDefault(import('../pages/ecommerce/index.vue' /* webpackChunkName: "pages/ecommerce/index" */))
-const _057fe83d = () => interopDefault(import('../pages/pagador/index.vue' /* webpackChunkName: "pages/pagador/index" */))
-const _c7a33656 = () => interopDefault(import('../pages/slip/index.vue' /* webpackChunkName: "pages/slip/index" */))
-const _26c099b0 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _665d5d98 = () => interopDefault(import('../pages/boletos/index.vue' /* webpackChunkName: "pages/boletos/index" */))
+const _836fe6f6 = () => interopDefault(import('../pages/charges/index.vue' /* webpackChunkName: "pages/charges/index" */))
+const _3382e4dc = () => interopDefault(import('../pages/cobrancas/index.vue' /* webpackChunkName: "pages/cobrancas/index" */))
+const _2b945726 = () => interopDefault(import('../pages/contact/index.vue' /* webpackChunkName: "pages/contact/index" */))
+const _258f7286 = () => interopDefault(import('../pages/ecommerce/index.vue' /* webpackChunkName: "pages/ecommerce/index" */))
+const _984fea3c = () => interopDefault(import('../pages/pagador/index.vue' /* webpackChunkName: "pages/pagador/index" */))
+const _0fa0cc50 = () => interopDefault(import('../pages/slip/index.vue' /* webpackChunkName: "pages/slip/index" */))
+const _5a843155 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -28,32 +29,36 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/boletos",
+    component: _665d5d98,
+    name: "boletos"
+  }, {
     path: "/charges",
-    component: _0fefe9e0,
+    component: _836fe6f6,
     name: "charges"
   }, {
     path: "/cobrancas",
-    component: _6d64802d,
+    component: _3382e4dc,
     name: "cobrancas"
   }, {
     path: "/contact",
-    component: _7d3c3481,
+    component: _2b945726,
     name: "contact"
   }, {
     path: "/ecommerce",
-    component: _a69535be,
+    component: _258f7286,
     name: "ecommerce"
   }, {
     path: "/pagador",
-    component: _057fe83d,
+    component: _984fea3c,
     name: "pagador"
   }, {
     path: "/slip",
-    component: _c7a33656,
+    component: _0fa0cc50,
     name: "slip"
   }, {
     path: "/",
-    component: _26c099b0,
+    component: _5a843155,
     name: "index"
   }],
 

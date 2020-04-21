@@ -12,16 +12,16 @@
 
                     <div class="row">
                         <div class="col-lg-6">
-                            <p class="text-white"><span class="text-success"><i class="material-icons">description</i></span> conteudo inicial do começo ao fim só besteira escrevendo</p>
+                            <p class="text-white text-justify"><span class="text-success"><i class="material-icons" style="font-size: 13px !important;">lens</i></span> Emita boletos e envie por e-mail gratuitamente. Nosso sistema enviará automaticamente os lembretes de vencimento para seus clientes.</p>
                         </div>
                         <div class="col-lg-6">
-                            <p class="text-white"><span class="text-success"><i class="material-icons">description</i></span> conteudo inicial do começo ao fim só besteira escrevendo</p>
+                            <p class="text-white text-justify"><span class="text-success"><i class="material-icons" style="font-size: 13px !important;">lens</i></span> Acompanhe o seu cliente - Visualize quando o seu cliente abre os e-mails e faturas enviadas por você.</p>
                         </div>
                         <div class="col-lg-6">
-                            <p class="text-white"><span class="text-success"><i class="material-icons">description</i></span> conteudo inicial do começo ao fim só besteira escrevendo</p>
+                            <p class="text-white text-justify"><span class="text-success"><i class="material-icons" style="font-size: 13px !important;">lens</i></span> Seja cobrado apenas pelas cobranças que forem pagas</p>
                         </div>
                         <div class="col-lg-6">
-                            <p class="text-white"><span class="text-success"><i class="material-icons">description</i></span> conteudo inicial do começo ao fim só besteira escrevendo</p>
+                            <p class="text-white text-justify"><span class="text-success"><i class="material-icons" style="font-size: 16px !important;">new_releases</i></span> <strong>Recurso exclusivo Imobanco: </strong> Cadastre seu boleto individual ou contrato de parcelas a receber, juntamente com o plano de divisão de valor, se for necessário. Com a liquidação do boleto, nosso sistema já transfere os valores planejados imediatamente.</p>
                         </div>
                     </div>
                 </div>
@@ -43,7 +43,10 @@
 </script>
 
 <style lang="scss" scoped>
-
+.icon-index{
+    width: 10px;
+    height: 10px;
+}
 .servicoestiloleft{
     // border-left: 7px #21e6c1 solid;
     // border-radius: 0px 0px 0px 30px;

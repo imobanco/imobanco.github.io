@@ -2,8 +2,8 @@
     <div>
     <header-slide />
     <servicos />
-    <services />
-    <solucao />
+    <!-- <services /> -->
+    <!-- <solucao /> -->
     <newsletter />
     <blog />
     </div> 
@@ -13,8 +13,8 @@
 
 import HeaderSlide from '~/components/main/HeaderSlide.vue';
 import Servicos from '@/components/index/servicos/Servicos.vue'
-import Services from '@/components/index/services/Services.vue'
-import Solucao from '@/components/index/solucoes/Solucao.vue'
+// import Services from '@/components/index/services/Services.vue'
+// import Solucao from '@/components/index/solucoes/Solucao.vue'
 // import Plans from '@/components/index/pricing/Plans.vue'
 import Newsletter from '@/components/index/newsletter/Newsletter.vue'
 import Blog from '@/components/index/blog/Blog.vue'
@@ -23,10 +23,11 @@ import Blog from '@/components/index/blog/Blog.vue'
 
 export default {
   components: {
+   
     HeaderSlide,
     Servicos,
-    Services,
-    Solucao,
+    // Services,
+    // Solucao,
     // Plans,
     Newsletter,
     Blog,

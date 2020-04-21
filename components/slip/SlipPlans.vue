@@ -1,9 +1,9 @@
 <template>
-	<section class="imobanco-color-09 sliplans">
+	<section class="bg-medium">
 		<div class="container">
 			<div class="row justify-content-center pt-5 pb-5">
 				<div class="col-lg-8 text-center">
-					<h4 class="text-content imo-text-06">Escolha um dos planos exclusivos adequados ao tamanho e necessidade dos seus negócios.</h4>
+					<h1 class="text-content imo-text-06">Escolha um dos planos exclusivos adequados ao tamanho e necessidade dos seus negócios.</h1>
 				</div>
 
 				<div class="col-lg-12">
