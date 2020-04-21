@@ -1,5 +1,5 @@
 <template>
-	<section class="chargesimobanco imobanco-color-07" :style="cssMedia"  >
+	<section class="chargesimobanco imobanco-color-07" >
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">

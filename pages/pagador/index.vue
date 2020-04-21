@@ -1,9 +1,10 @@
 <template>
     <div>
     <pagador-slide />
+    <pagador-content />
     <pagador-bar />
     <pagador-boleto />
-    <pagador-content />
+    
     </div> 
 </template>
 

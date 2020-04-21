@@ -1,3 +1,4 @@
+
 /* main css Imobanco Theme */   
     .page-enter-active, .page-leave-active {
     transition: linear .5s
@@ -12,7 +13,8 @@
  list-style: none;
  box-sizing: border-box;   
 }
-    .container-fluid{
+
+  .container-fluid{
         margin: 0px !important;
         padding: 0px !important;
     }
@@ -24,21 +26,15 @@
         border-bottom: 1px solid #06cece;
     }
     .linestyle-sidebar{
-        margin: 0px;
-        border-bottom: 1px solid #b0bec5;
+        margin: 1px;
+        border-bottom: 0,5px solid #b0bec5;
     }
     .linetitulo{
         margin: 0px;
         padding: 0px;
         border-bottom: 3px solid #304ffe;
     }
-    /* .navbar-light .navbar-toggler {
-    color: #ffffff;
-    border-color: #22d1ee;
-    } */
-    /* .navbar-light .navbar-toggler-icon {
-        background-image: url("");
-    } */
+   
     .newsletter{
         padding: 0px !important;
         margin: 0px !important;
@@ -52,198 +48,7 @@
     }
     .footer{
         height: 300px;
-    }
-    /* Background color */
-    .bg-imobanco{
-        background-color: #003e69 !important;
-    }
-    .bg-primary{
-        background-color: #212121 !important;
-    }
-    .bg-secondary{
-        background-color: #0e153a !important;
-    }
-    .bg-success{
-        background-color: #21e6c1 !important;
-    }
-    .bg-danger{
-        background-color: #ff304f !important;
-    }
-    .bg-warning{
-        background-color: #ffd615 !important;
-    }
-    .bg-info{
-        background-color: #304ffe !important;
-    }
-
-    .bg-dark{
-        background-color: #0d47a1 !important;
-    }
-    .bg-light{
-        background-color: #1565c0 !important;
-    }
-    .bg-medium{
-        background-color: #3d5af1 !important;
-    }
-    .bg-new{
-        background-color: #22d1ee !important;
-    }
-    .bg-cinza{
-        background-color: #eceff1 !important;
-    }
-    .bg-cinza-1{
-        background-color: #f0f0f0 !important;
-    }
-    .bg-cinza-2{
-        background-color: #b0bec5 !important;
-    }
-
-    /* Background color */
-    .text-primary{
-       color: #212121 !important;
-    }
-    .text-imobanco{
-       color: #003e69 !important;
-    }
-    .text-secondary{
-       color: #0e153a !important;
-    }
-    .text-success{
-       color: #21e6c1 !important;
-    }
-    .text-danger{
-       color: #ff304f !important;
-    }
-    .text-warning{
-       color: #ffd615 !important;
-    }
-    .text-info{
-       color: #304ffe !important;
-    }
-
-    .text-dark{
-       color: #0d47a1 !important;
-    }
-    .text-light{
-       color: #1565c0 !important;
-    }
-    .text-medium{
-       color: #3d5af1 !important;
-    }
-    .text-new{
-        color: #22d1ee !important;
-    }
-    .text-white{
-        color: #ffffff !important;
-    }
-    .text-cinza{
-        color: #37474f !important;
-    }
-
-    /* NAVBAR CSS */
-    nav{
-        background: #f5f5f5;
-        height: 60px;
-        width: 100%;
-    }
-    .logo{
-        line-height: 60px;
-        background-color:  none;
-    }
-    .logo a.active, .logo a:hover{
-        background: #ffffff !important;
-        color: #ffffff;
-        transition: .5s;
-        text-decoration: none;
-    }
-       
-    nav ul{
-        float: right;
-    }
-    nav ul li{
-        display: inline-block;
-        line-height: 60px;
-        margin: 0 5px;
-    }
-    nav ul li a{
-        color: #0e153a;
-        font-size: 17px;
-        padding: 7px 13px;
-        border-radius: 3px;
-        text-decoration: uppercase;
-    }
-    nav a.active,nav a:hover{
-        background: #0e153a;
-        color: #ffffff;
-        transition: .5s;
-        text-decoration: none;
-    }
-    .checkbtn{
-        font-size: 30px;
-        color: #304ffe;
-        float: right;
-        line-height: 60px;
-        margin-right: 40px;
-        cursor: pointer;
-        display: none;
-      }
-      #check{
-        display: none;
-      }
-      @media (max-width: 952px){
-        label.logo{
-          font-size: 30px;
-          padding-left: 50px;
-        }
-        nav ul li a{
-          font-size: 16px;
-        }
-      }
-      @media (max-width: 858px){
-        .checkbtn{
-            font-size: 30px;
-            color: #304ffe;
-            float: right;
-            line-height: 60px;
-            margin-right: 40px;
-            cursor: pointer;
-            display: none;
-          }
-        .checkbtn{
-          display: block;
-        }
-        ul{
-          position: fixed;
-          width: 100%;
-          height: 100vh;
-          background: #304ffe;
-          top: 60px;
-          left: -100%;
-          text-align: center;
-          transition: all .5s;
-        }
-        nav ul li{
-          display: block;
-          margin: 50px 0;
-          line-height: 30px;
-        }
-        nav ul li a{
-          font-size: 20px;
-        }
-        a:hover,a.active{
-          background: none;
-          color: #0082e6;
-        }
-        #check:checked ~ ul{
-          left: 0;
-        }
-      }
-      
-    .effect{
-        display: inline;
-        border-radius: 5px;
-        padding: 5px;
-    }
+    }    
     .button-radius{
         border-radius: 30px !important;
         border: 1px #06cece solid !important;
@@ -251,27 +56,11 @@
     .form-control{
         border-radius: 30px !important;
         border: 1px #06cece solid !important;
-        background-color: 
     }
     .control-form{
         background-color: rgba(6,0,101,0.1) !important;
     }
-    .text-titulo{
-        font-family: 'Nunito', sans-serif;
-        font-weight: 700;
-    }
-    .text-titulo-sidebar{
-        font-family: 'Poppins', sans-serif;
-        font-weight: 500;
-    }
-    .text-subtitulo{
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-    }
-    .text-content{
-        font-family: 'Nunito', sans-serif;
-        font-weight: 300;
-    }
+    
     .bg-nav{
     background-color: rgba(10,23,55,0.0) !important;    
     }
@@ -279,6 +68,26 @@
     .icon-text{
         font-size: 25px;
     }
-    
+    .radius-circle{
+        border-radius: 50px;
+    }
+.boxcatindex{
+    background-color: #212121;
+    color: #f0f0f0;
+    padding: 5px;
+}
+    .imgcover{
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+    }
 
-
+    .line-white{
+        width: 50px;
+        height: 25px;
+    }
+    .box-right{
+        border: 2px solid #3489cc;
+        border-radius: 30px 30px 30px 30px;
+        padding: 10px;
+    }

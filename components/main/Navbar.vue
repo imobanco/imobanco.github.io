@@ -1,57 +1,78 @@
 <template>
-    <section class="color-mute">
-    <div class="container p-0">       
-          <nav>
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-              <i class="fas fa-bars"></i>
-            </label>
-            <label><router-link to="/" class="logo"><img src="~assets/image/imobanco-azul.png" alt=""></router-link></label>
-            <ul>
-              <li><router-link to="/" class=" text-titulo-sidebar">Credor</router-link></li>
-              <li><router-link to="/pagador" class="text-titulo-sidebar">Pagador</router-link></li>
-              <!-- <li><router-link to="/" class="text-titulo-sidebar">Franqueado</router-link></li> -->
-              <li><router-link to="/slip" class="text-titulo-sidebar">Login</router-link></li>
-              <li> <router-link to="/slip" class="text-titulo-sidebar">Registro</router-link></li>
-            </ul>
-          </nav>
-          
-           <!-- <b-navbar toggleable="lg" type="dark">
+    <section class="none">
+      <div class="container p-0">        
+           <b-navbar toggleable="lg" type="dark" class="fixed-top">
               <router-link to="/" class="navbar-brand"><img src="~assets/image/imobanco-azul.png" alt=""></router-link>
               <b-navbar-toggle target="nav-collapse" class="bg-imobanco"></b-navbar-toggle>
 
               <b-collapse id="nav-collapse" is-nav>
               <b-navbar-nav class="ml-auto">
-              <ul class="navbar-nav">
-                  <router-link to="/" class="text-white text-content text-decoration-none effect">Home</router-link>
-                  <hr class="linestyle">
-                  <router-link to="/slip" class="text-white text-content text-decoration-none effect">Institucional</router-link>
-                 <hr class="linestyle">
-                  <router-link to="/slip" class="text-white text-content text-decoration-none effect">Soluções</router-link>
-                  <hr class="linestyle">
-                  <router-link to="/slip" class="text-white text-content text-decoration-none effect">Boleto</router-link>
-                  <hr class="linestyle">
-                  <router-link to="/ecommerce" class="text-white text-content text-decoration-none effect">E-Commerce</router-link>
-                  <hr class="linestyle">
-                  <router-link to="/charges" class="text-white text-content text-decoration-none effect">Cobranças</router-link>
-                  <hr class="linestyle">
-                  <router-link to="/charges" class="text-white text-content text-decoration-none effect">Webinar</router-link>
-                  <hr class="linestyle">
-                  <a href="https://blog.imobanco.com.br/" class="text-white text-content text-decoration-none effect" target="_blank">Blog</a>
-                  <hr class="linestyle">
-                  <router-link to="/contact" class="text-white text-content text-decoration-none effect">Contato</router-link>
-              </ul> 
+                <router-link to="/" class=" text-titulo-sidebar text-decoration-none text-white navbarbox">Credor</router-link>
+                <router-link to="/pagador" class="text-titulo-sidebar text-decoration-none text-white navbarbox">Pagador</router-link>
+                <router-link to="/slip" class="text-titulo-sidebar text-decoration-none text-white navbarbox">Login</router-link>
+                <router-link to="/slip" class="text-titulo-sidebar text-decoration-none text-white navbarbox">Registro</router-link>
               </b-navbar-nav>
               </b-collapse>
-            </b-navbar> -->
+            </b-navbar>
     </div>
+    <!-- <div class="container p-0">        
+           <b-navbar toggleable="lg" type="dark">
+              <router-link to="/" class="navbar-brand"><img src="~assets/image/imobanco-azul.png" alt=""></router-link>
+              <b-navbar-toggle target="nav-collapse" class="bg-imobanco"></b-navbar-toggle>
+
+              <b-collapse id="nav-collapse" is-nav>
+              <b-navbar-nav class="ml-auto">
+                <router-link to="/" class=" text-titulo-sidebar text-decoration-none text-white navbarbox">Credor</router-link>
+                <router-link to="/pagador" class="text-titulo-sidebar text-decoration-none text-white navbarbox">Pagador</router-link>
+                <router-link to="/slip" class="text-titulo-sidebar text-decoration-none text-white navbarbox">Login</router-link>
+                <router-link to="/slip" class="text-titulo-sidebar text-decoration-none text-white navbarbox">Registro</router-link>
+              </b-navbar-nav>
+              </b-collapse>
+            </b-navbar>
+    </div> -->
     </section>
 </template>
-
+<script>
+export default {
+  mounted() {
+      this.$nextTick(function(){
+        window.addEventListener("scroll", function(){
+          var navbar = document.getElementById("b-navbar")
+          var nav_classes = navbar.classList
+          if(document.documentElement.scrollTop >= 150) {
+            if (nav_classes.contains("shrink") === false) {
+              nav_classes.toggle("shrink");
+            }
+          }
+          else {
+            if (nav_classes.contains("shrink") === true) {
+              nav_classes.toggle("shrink");
+            }
+          }
+        })
+      })
+    },
+}
+</script>
 <style>
+
+nav {
+    padding: 1rem;
+    transition: all 0.5s;
+    background:transparent;
+    border-bottom: #ddd 1px solid;
+  }
+  nav.shrink {
+    padding: 0.3rem;
+    background: #212121;
+  }
+  nav a {
+    margin-right: 1rem;
+  }
+
 .navbar-imobanco{
   display: block;
-  background-color: #f5f5f5;
+  background-color: none;
   padding: 10px;
   margin-left: 5px;
   margin-right: 5px;
@@ -77,4 +98,8 @@
     background-color: #f5f5f5;
     border-bottom: 2px solid rgb(4,95,170);
     }
+.navbarbox{
+  text-decoration: none;
+  padding: 5px 15px 5px 15px;
+}
 </style>

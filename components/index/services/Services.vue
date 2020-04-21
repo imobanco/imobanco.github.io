@@ -1,57 +1,59 @@
 <template>
 
 <section class="bg-white">
-  <div class="container-fluid bg-dark">
+  <div class="container-fluid bg-cinza-1">
     <div class="row justify-content-center pt-5 pb-5">
           <div class="col-lg-8 text-center mb-0 p-0 ml-0">
-            <h3 class="mt-4 mb-0 pl-0 text-titulo text-white">Serviços</h3>
-            <h4 class="text-content text-success mt-0 p-0">Oferecemos uma gama completa de serviços para
+            <h2 class="mt-4 mb-0 pl-0 text-titulo text-primary">Serviços</h2>
+            <h4 class="text-content text-cinza mt-0 p-0">Oferecemos uma gama completa de serviços para
             <strong class="text-titulo"> gestão financeira</strong> do seu negócio</h4>
           </div>
       </div>
   </div>
-		<div class="container-fluid pt-5 pb-5">
+		<div class="container pt-5 pb-5">
       <div class="row">
-        <div class="col-xs-12 col-sm-4 col-lg-6 mt-0 p-5">
+        <div class="col-xs-12 col-sm-4 col-lg-12">
           <div class="row">
-            <div class="col-lg-3">
-              <img src="~assets/image/icon-boletos.png" alt="" class="img-fluid" style="width: 120px; height: 120px;">
-            </div>
-            <div class="col-lg-9 pt-4">
-              <content-servicos
+            <div class="col-lg-4">
+              <div class="row">
+                <div class="col-lg-3">
+                  <img src="~assets/image/icon-boletos.png" alt="" class="img-fluid bg-cinza-1 p-2 radius-circle" style="width: 75px; height: 75px;">
+                </div>
+                <div class="col-lg-9">
+                  <content-servicos
                   title="Boletos"
                   content="Emita, Registre e gerencie seus boletos." />
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="row">
+                <div class="col-lg-3">
+                  <img src="~assets/image/icon-ecommerce.png" alt="" class="img-fluid bg-cinza-1 p-2 radius-circle" style="width: 75px; height: 75px;">
+                </div>
+                <div class="col-lg-9">
+                  <content-servicos
+                  title="E-Commerce"
+                  content="Sua loja 60% integrada a gestão inteligente de recebimentos e cobrança Imobanco." />
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="row">
+                <div class="col-lg-3">
+                  <img src="~assets/image/icon-cobrancas.png" alt="" class="img-fluid bg-cinza-1 p-2 radius-circle" style="width: 75px; height: 75px;">
+                </div>
+                <div class="col-lg-9">
+                  <content-servicos
+                  title="Cobranças"
+                  content="Feita de forma estratégica, baseada em dados de comportamento dos seus devedores." />
+                </div>
+              </div>
             </div>
           </div>
-
-          <div class="row">
-            <div class="col-lg-3">
-              <img src="~assets/image/icon-ecommerce.png" alt="" class="img-fluid" style="width: 120px; height: 120px;">
-            </div>
-            <div class="col-lg-9 pt-4">
-              <content-servicos
-                title="E-Commerce"
-                content="Sua loja 60% integrada a gestão inteligente de recebimentos e cobrança Imobanco." />
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-3">
-              <img src="~assets/image/icon-cobrancas.png" alt="" class="img-fluid" style="width: 120px; height: 120px;">
-            </div>
-            <div class="col-lg-9 pt-4">
-              <content-servicos
-                title="Cobranças"
-                content="Feita de forma estratégica, baseada em dados de comportamento dos seus devedores." />
-            </div>
-          </div>
-
         </div>
-
-        <div class="col-xs-12 col-sm-4 col-lg-6 mt-0 p-5 bg-servicos bg-imobanco">
-              
-        </div>
-
       </div>
     </div>
 	</section>
@@ -85,6 +87,5 @@ export default {
 .row-radius{
   border-radius: 30px 2px 30px 2px;
 }    
-    
-   
+      
 </style>
