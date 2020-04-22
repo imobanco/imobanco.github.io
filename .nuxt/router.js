@@ -9,7 +9,6 @@ const _3382e4dc = () => interopDefault(import('../pages/cobrancas/index.vue' /* 
 const _2b945726 = () => interopDefault(import('../pages/contact/index.vue' /* webpackChunkName: "pages/contact/index" */))
 const _258f7286 = () => interopDefault(import('../pages/ecommerce/index.vue' /* webpackChunkName: "pages/ecommerce/index" */))
 const _984fea3c = () => interopDefault(import('../pages/pagador/index.vue' /* webpackChunkName: "pages/pagador/index" */))
-const _0fa0cc50 = () => interopDefault(import('../pages/slip/index.vue' /* webpackChunkName: "pages/slip/index" */))
 const _5a843155 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
@@ -52,10 +51,6 @@ export const routerOptions = {
     path: "/pagador",
     component: _984fea3c,
     name: "pagador"
-  }, {
-    path: "/slip",
-    component: _0fa0cc50,
-    name: "slip"
   }, {
     path: "/",
     component: _5a843155,

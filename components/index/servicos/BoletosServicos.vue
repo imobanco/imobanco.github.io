@@ -21,7 +21,8 @@
                             <p class="text-white text-justify"><span class="text-success"><i class="material-icons" style="font-size: 13px !important;">lens</i></span> Seja cobrado apenas pelas cobranças que forem pagas</p>
                         </div>
                         <div class="col-lg-6">
-                            <p class="text-white text-justify"><span class="text-success"><i class="material-icons" style="font-size: 16px !important;">new_releases</i></span> <strong>Recurso exclusivo Imobanco: </strong> Cadastre seu boleto individual ou contrato de parcelas a receber, juntamente com o plano de divisão de valor, se for necessário. Com a liquidação do boleto, nosso sistema já transfere os valores planejados imediatamente.</p>
+                            <h5 class="text-titulo"><span class="text-warning"><i class="material-icons" style="font-size: 20px !important;">local_offer</i></span> <strong class="text-warning">Recurso exclusivo Imobanco: </strong></h5>
+                            <p class="text-white text-justify"> Cadastre seu boleto individual ou contrato de parcelas a receber, juntamente com o plano de divisão de valor, se for necessário. Com a liquidação do boleto, nosso sistema já transfere os valores planejados imediatamente.</p>
                         </div>
                     </div>
                 </div>
