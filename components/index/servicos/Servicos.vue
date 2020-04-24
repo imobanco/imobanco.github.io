@@ -1,5 +1,7 @@
 <template>
     <div>
+       <conta-servicos 
+        class="bg-dark"/>
         <boletos-servicos 
         class="bg-medium"/>
         <assinatura-servicos 
@@ -8,8 +10,7 @@
         class="bg-medium"/>
         <cobranca-servicos 
         class="bg-gray-50"/>
-        <conta-servicos 
-        class="bg-dark"/>
+       
     </div>
 </template>
 
