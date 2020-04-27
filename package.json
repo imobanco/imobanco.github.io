@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@neneos/nuxt-animate.css": "0.0.1",
+    "@nuxtjs/axios": "^5.10.1",
     "@nuxtjs/svg": "^0.1.6",
     "@nuxtjs/vuetify": "^1.10.3",
     "bootstrap": "^4.1.3",

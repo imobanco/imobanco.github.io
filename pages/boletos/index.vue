@@ -3,9 +3,12 @@
     <div>
    <!--  <slide-page /> -->
     <slip-slide/>
-    <slip-strategy/>
+    
+    <frase-boleto 
+    class="pt-5 pb-5 bg-medium"/>
+    <!-- <slip-strategy/>
     <slip-management/>
-    <slip-plans/>
+    <slip-plans/> -->
     
     </div>
   </div>
@@ -14,17 +17,19 @@
 <script>
 // import SlidePage from '@/components/pages/Slidepage.vue'
 import SlipSlide from '@/components/slip/SlipSlide.vue'
-import SlipStrategy from '@/components/slip/SlipStrategy.vue'
-import SlipManagement from '@/components/slip/SlipManagement.vue'
-import SlipPlans from '@/components/slip/SlipPlans.vue'
+import FraseBoleto from '@/components/boletos/FraseBoleto.vue'
+// import SlipStrategy from '@/components/slip/SlipStrategy.vue'
+// import SlipManagement from '@/components/slip/SlipManagement.vue'
+// import SlipPlans from '@/components/slip/SlipPlans.vue'
 
 export default {
   components: {
    
    SlipSlide,
-   SlipStrategy,
-   SlipManagement,
-   SlipPlans
+   FraseBoleto
+  //  SlipStrategy,
+  //  SlipManagement,
+  //  SlipPlans
 
   
     

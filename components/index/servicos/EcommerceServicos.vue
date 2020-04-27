@@ -13,17 +13,51 @@
 
                     <div class="row">
                         <div class="col-lg-6">
-                            <p class="text-white"><span class="text-success"><i class="material-icons">description</i></span> conteudo inicial do começo ao fim só besteira escrevendo</p>
+                        <texto-detalhe
+                        class="text-white"
+                        icon="lens"
+                        texto="Cadastre-se, crie sua loja virtual e comece a vender pela internet." />
+                        </div>
+
+                        <div class="col-lg-6">
+                        <texto-detalhe
+                        class="text-white"
+                        icon="lens"
+                        texto="Adptada para o seu negócio" />
+                        </div>
+                        
+                        <div class="col-lg-6">
+                        <texto-detalhe
+                        class="text-white"
+                        icon="lens"
+                        texto="Fácil de usar" />
+                        </div>
+
+                        <div class="col-lg-6">
+                        <texto-detalhe
+                        class="text-white"
+                        icon="lens"
+                        texto="Suporte 24x7" />
+                        </div>
+                        
+                        <div class="col-lg-6">
+                        <texto-detalhe
+                        class="text-white"
+                        icon="lens"
+                        texto="Centralize no Imobanco todas as necessidades para extrair mais resultados do seu negócio." />
+                        </div>
+
+                        <div class="col-lg-6">
+                        <texto-detalhe
+                        class="text-white"
+                        icon="lens"
+                        texto="Responsivo e adequada para mecanismos de busca" />
                         </div>
                         <div class="col-lg-6">
-                            <p class="text-white"><span class="text-success"><i class="material-icons">description</i></span> conteudo inicial do começo ao fim só besteira escrevendo</p>
+                            <a href="https://blog.imobanco.com.br/" target="_blank" class="mt-2 btn btn-outline-light btn-radius" role="button">Acesse <i class="fas fa-angle-right"></i></a>
                         </div>
-                        <div class="col-lg-6">
-                            <p class="text-white"><span class="text-success"><i class="material-icons">description</i></span> conteudo inicial do começo ao fim só besteira escrevendo</p>
-                        </div>
-                        <div class="col-lg-6">
-                            <p class="text-white"><span class="text-success"><i class="material-icons">description</i></span> conteudo inicial do começo ao fim só besteira escrevendo</p>
-                        </div>
+                        
+
                     </div>
                 </div>
                <div class="col-lg-6">
@@ -36,9 +70,12 @@
 
 <script>
    import TituloServicos from '~/components/index/servicos/TituloServicos.vue'
+   import TextoDetalhe from '~/components/index/servicos/TextoDetalhe.vue'
+
     export default {
         components: {
-        TituloServicos
+        TituloServicos,
+        TextoDetalhe
   }
     }
 </script>

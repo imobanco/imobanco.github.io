@@ -6,7 +6,7 @@
             <ul class="">
               <router-link to="/" class="text-cinza text-content p-3 text-decoration-none effect"> Home</router-link>
               <hr class="linestyle-sidebar mt-1 mb-1">
-              <router-link to="/slip" class="text-cinza text-content p-3 text-decoration-none effect"> Boleto</router-link>
+              <router-link to="/boletos" class="text-cinza text-content p-3 text-decoration-none effect"> Boleto</router-link>
                 <hr class="linestyle-sidebar mt-1 mb-1">
               <router-link to="/ecommerce" class="text-cinza text-content p-3 text-decoration-none effect">E-Commerce</router-link>
               <hr class="linestyle-sidebar mt-1 mb-1"> 

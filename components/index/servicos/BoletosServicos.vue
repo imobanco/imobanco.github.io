@@ -12,33 +12,40 @@
                     <div class="row">
                         <div class="col-lg-6">
                         <texto-detalhe
+                        class="text-white"
                         icon="lens"
                         texto="Emita boletos recorrentes e envie por e-mail gratuitamente." />
                         </div>
 
                         <div class="col-lg-6">
                         <texto-detalhe
+                        class="text-white"
                         icon="lens"
                         texto="Acompanhe seu cliente - Visualize quando os e-mails são abertos" />
                         </div>
 
                         <div class="col-lg-6">
                         <texto-detalhe
+                        class="text-white"
                         icon="lens"
                         texto="Nosso sistema enviará os lembretes de vencimento para seus clientes." />
                         </div>
                         
                         <div class="col-lg-6">
                         <texto-detalhe
+                        class="text-white"
                         icon="lens"
                         texto="Pague somente os titulos recuperados." />
                         </div>
 
+                        <div class="col-lg-6">
+                            <a href="https://blog.imobanco.com.br/" target="_blank" class="mt-2 btn btn-outline-light btn-radius" role="button">Acesse <i class="fas fa-angle-right"></i></a>
+                        </div>
                     </div>
                     </div>
 
                     <div class="col-lg-6">
-                        <img src="~/assets/image/muckup-01.png" alt="" class="img-fluid">
+                        <img src="~/assets/image/boletos.png" alt="" class="img-fluid">
                     </div>
                 </div>
 
@@ -49,13 +56,13 @@
 </template>
 
 <script>
-   import TituloServicos from '~/components/index/servicos/TituloServicos.vue'
-   import TextoDetalhe from '~/components/index/servicos/TextoDetalhe.vue'
+    import TituloServicos from '~/components/index/servicos/TituloServicos.vue'
+    import TextoDetalhe from '~/components/index/servicos/TextoDetalhe.vue'
     export default {
         components: {
         TituloServicos,
         TextoDetalhe
-  }
+            }
     }
 </script>
 

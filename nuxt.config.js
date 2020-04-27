@@ -49,6 +49,7 @@ export default {
  
   plugins: [
     {src: '~/plugins/js/main.js'},
+    {src: '~/plugins/js/axios.js'},
     {src: '~/plugins/vue-notification.js', ssr: false}
   ],
   /*
@@ -61,6 +62,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/axios',
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
     '@nuxtjs/svg',
