@@ -6,7 +6,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-10 pt-5 pb-5">
                     
                     <titulo-servicos
-                    class="text-white"
+                    class="text-primary"
                     icon="shopping_cart" 
                     titulo="E-commerce"
                     resumo="Sua loja 60% integrada a gestão inteligente de recebimentos e cobrança Imobanco."/>
@@ -14,42 +14,42 @@
                     <div class="row">
                         <div class="col-lg-6">
                         <texto-detalhe
-                        class="text-white"
+                        class="text-primary"
                         icon="lens"
                         texto="Cadastre-se, crie sua loja virtual e comece a vender pela internet." />
                         </div>
 
                         <div class="col-lg-6">
                         <texto-detalhe
-                        class="text-white"
+                        class="text-primary"
                         icon="lens"
                         texto="Adptada para o seu negócio" />
                         </div>
                         
                         <div class="col-lg-6">
                         <texto-detalhe
-                        class="text-white"
+                        class="text-primary"
                         icon="lens"
                         texto="Fácil de usar" />
                         </div>
 
                         <div class="col-lg-6">
                         <texto-detalhe
-                        class="text-white"
+                        class="text-primary"
                         icon="lens"
                         texto="Suporte 24x7" />
                         </div>
                         
                         <div class="col-lg-6">
                         <texto-detalhe
-                        class="text-white"
+                        class="text-primary"
                         icon="lens"
                         texto="Centralize no Imobanco todas as necessidades para extrair mais resultados do seu negócio." />
                         </div>
 
                         <div class="col-lg-6">
                         <texto-detalhe
-                        class="text-white"
+                        class="text-primary"
                         icon="lens"
                         texto="Responsivo e adequada para mecanismos de busca" />
                         </div>
@@ -83,9 +83,9 @@
 <style lang="scss" scoped>
 
 .servicoestiloleft{
-    background-image: url("~assets/image/arrowleft-cinza.png");
+    background-image: url("~assets/image/arrowright-blue.png");
     background-repeat: no-repeat;
-    background-position: top left;
+    background-position: top right;
     // border-left: 7px #21e6c1 solid;
     // border-radius: 0px 0px 0px 30px;
     // border-bottom: 7px #21e6c1 solid;

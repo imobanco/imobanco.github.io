@@ -6,10 +6,11 @@
         class="bg-medium"/>
         <assinatura-servicos 
         class="bg-gray-50"/>
-        <ecommerce-servicos 
+         <cobranca-servicos 
         class="bg-medium"/>
-        <cobranca-servicos 
+        <ecommerce-servicos 
         class="bg-gray-50"/>
+       
        
     </div>
 </template>

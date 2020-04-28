@@ -1,52 +1,103 @@
 <template>
 <section class="slidemobile mt-0">
-  <div class="container">
-    <div class="row justify-content-left">
-      <div class="col-lg-2 col-md-3 col-sm-3 pt-2 pl-0 pb-0 pr-0 bg-white rounded">
-            <ul class="">
-              <router-link to="/" class="text-cinza text-content p-3 text-decoration-none effect"> Home</router-link>
-              <hr class="linestyle-sidebar mt-1 mb-1">
-              <router-link to="/boletos" class="text-cinza text-content p-3 text-decoration-none effect"> Boleto</router-link>
-                <hr class="linestyle-sidebar mt-1 mb-1">
-              <router-link to="/ecommerce" class="text-cinza text-content p-3 text-decoration-none effect">E-Commerce</router-link>
-              <hr class="linestyle-sidebar mt-1 mb-1"> 
-              <router-link to="/charges" class="text-cinza text-content p-3 text-decoration-none effect">Cobranças</router-link>
-              <hr class="linestyle-sidebar mt-1 mb-1">
-              <a href="https://blog.imobanco.com.br/" class="text-cinza text-content p-3 text-decoration-none effect" target="_blank">Blog</a>
-              <hr class="linestyle-sidebar mt-1 mb-1">
-              <router-link to="/contact" class="text-cinza text-content p-3 text-decoration-none effect">Contato</router-link>
-            </ul>
-             <div class="bg-medium pt-2 pb-2 text-center"><a href="https://blog.imobanco.com.br/" class="text-primary pl-2 text-titulo-sidebar  text-white text-decoration-none effect" target="_blank"><i class="far fa-arrow-alt-circle-right"></i> Seja Cliente</a>
-            </div>
-      </div>
+  <b-carousel
+      id="carousel-1"
+      v-model="slide"
+      :interval="4000"
+      controls
+      background="#ababab"
+      img-width="1024"
+      img-height="480"
+      @sliding-start="onSlideStart"
+      @sliding-end="onSlideEnd"
+    >
       
-    </div>
-  </div>
+      <!-- indicators -->
+      <b-carousel-slide img-src="~assets/image/banner-01.jpg">
+        <caption-tag class="text-titulo animated bounceInUp delay-1s mt-0 pb-0 mb-0">Boletos</caption-tag>
+        <text-tag class="text-titulo carousel-text animated bounceInUp delay-1s pb-0 mb-0">Emita, Registre e gerencie seus boletos.</text-tag>
+
+        <!-- <router-link to="/boletos" class="m-0 btn btn-outline-light btn-radius animated bounceInDown" role="button">Acesse <i class="fas fa-angle-right"></i></router-link> -->
+      </b-carousel-slide>
+
+      <b-carousel-slide img-src="~assets/image/banner-02.jpg">
+        <p class="text-titulo animated bounceInUp delay-1s">Fluindo mais uma</p>
+        <router-link to="/boletos" class="m-0 btn btn-outline-light btn-radius animated bounceInDown" role="button">Acesse <i class="fas fa-angle-right"></i></router-link>
+      </b-carousel-slide>
+
+    </b-carousel>
+
+          <template>
+            <div class="d-lg-block d-sm-none d-none navbg navzindex">
+                <ul>
+                <router-link to="/" class="text-white text-content p-3 text-decoration-none effect"> Home</router-link>
+                <hr class="linestyle-sidebar mt-1 mb-1">
+                <router-link to="/boletos" class="text-white text-content p-3 text-decoration-none effect"> Boleto</router-link>
+                  <hr class="linestyle-sidebar mt-1 mb-1">
+                <router-link to="/ecommerce" class="text-white text-content p-3 text-decoration-none effect">E-Commerce</router-link>
+                <hr class="linestyle-sidebar mt-1 mb-1"> 
+                <router-link to="/charges" class="text-white text-content p-3 text-decoration-none effect">Cobranças</router-link>
+                <hr class="linestyle-sidebar mt-1 mb-1">
+                <a href="https://blog.imobanco.com.br/" class="text-white text-content p-3 text-decoration-none effect" target="_blank">Blog</a>
+                <hr class="linestyle-sidebar mt-1 mb-1">
+                <router-link to="/contact" class="text-white text-content p-3 text-decoration-none effect">Contato</router-link>
+              </ul>
+              <div class="bg-medium pt-2 pb-2 text-center"><a href="https://blog.imobanco.com.br/" class="text-white pl-2 text-titulo-sidebar  text-white text-decoration-none effect" target="_blank"><i class="far fa-arrow-alt-circle-right"></i> Seja Cliente</a>
+              </div>
+              </div>
+          </template>
+            
+  
 
 </section>
 </template>
 
 <script>
-  
-  
-
-  export default {
-  components: {
-   
-
+ export default {
+    data() {
+      return {
+        slide: 0,
+        sliding: null
+      }
+    },
+    methods: {
+      onSlideStart(slide) {
+        this.sliding = true
+      },
+      onSlideEnd(slide) {
+        this.sliding = false
+      }
+    }
   }
-}
 </script>
 
 <style>
 
+.carousel-caption{
+  font-size: 6vw;
+  top: 45%;
+}
+.carousel-text{
+  font-size: 16px;
+  display: block;
+  /* top: 10%; */
+}
 .slidemobile{
-        height: 750px;
-        background-image: url("~assets/image/banner-modelo.jpg") !important;
-        background-color: #9c9c9c;
+        background-image: url("~assets/image/banner-01.jpg") !important;
         background-size: 100% auto cover;
         background-position: center center;
         background-repeat: no-repeat;
 }
-  
+.navzindex{
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  z-index: 1;
+}
+
+.navbg{
+  width: 200px;
+  background-color: rgba(10,23,55,0.5);
+  border-radius: 20px 20px 20px 2px;
+}
 </style>
