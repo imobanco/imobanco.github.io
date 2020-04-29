@@ -5,10 +5,10 @@
                 <div class="col-lg-6 col-md-6 col-sm-10 pt-5 pb-5">
                     <titulo-servicos
                     class="text-white"
-                    icon="description" 
+                     
                     titulo="Boletos"
                     resumo="Emita, Registre e gerencie seus boletos."/>
-
+                    <!-- icon="description" -->
                     <div class="row">
                         <div class="col-lg-6">
                         <texto-detalhe
