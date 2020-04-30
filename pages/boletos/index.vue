@@ -2,6 +2,7 @@
   <div class="container-fluid">
     <div>
    <!--  <slide-page /> -->
+   <header-boleto />
     <slip-slide/>
     
     <frase-boleto 
@@ -16,7 +17,7 @@
 
 <script>
 // import SlidePage from '@/components/pages/Slidepage.vue'
-import SlipSlide from '@/components/slip/SlipSlide.vue'
+import HeaderBoleto from '@/components/boletos/HeaderBoleto.vue'
 import FraseBoleto from '@/components/boletos/FraseBoleto.vue'
 // import SlipStrategy from '@/components/slip/SlipStrategy.vue'
 // import SlipManagement from '@/components/slip/SlipManagement.vue'
@@ -25,7 +26,7 @@ import FraseBoleto from '@/components/boletos/FraseBoleto.vue'
 export default {
   components: {
    
-   SlipSlide,
+   HeaderBoleto,
    FraseBoleto
   //  SlipStrategy,
   //  SlipManagement,
