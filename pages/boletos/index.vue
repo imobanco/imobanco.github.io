@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <div>
    <!--  <slide-page /> -->
-   <header-boleto />
+    <header-boleto />
     <slip-slide/>
     
     <frase-boleto 
