@@ -9,7 +9,8 @@
                     class="text-primary"
                     icon="shopping_cart" 
                     titulo="E-commerce"
-                    resumo="Sua loja 60% integrada a gestão inteligente de recebimentos e cobrança Imobanco."/>
+                    resumo="Economize tempo e dinheiro com a plataforma projetada para se adaptar ao seu
+negócio."/>
 
                     <div class="row">
                         <div class="col-lg-6">

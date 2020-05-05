@@ -2,32 +2,24 @@
   <div class="container-fluid">
     <div>
    <!--  <slide-page /> -->
-    <ecommerce-top />
-    <ecommerce-text />
-    <ecommerce-content />
-    <ecommerce-grafic />
+    <ecommerce-slide />
+    <ecommerce-chamada />
+   
     </div>
   </div>
 </template>
 
 <script>
 // import SlidePage from '@/components/pages/Slidepage.vue'
-import EcommerceTop from '@/components/ecommerce/EcommerceTop.vue'
-import EcommerceText from '@/components/ecommerce/EcommerceText.vue'
-import EcommerceContent from '@/components/ecommerce/EcommerceContent.vue'
-import EcommerceGrafic from '@/components/ecommerce/EcommerceGrafic.vue'
+import EcommerceSlide from '@/components/ecommerce/EcommerceSlide.vue'
+import EcommerceChamada from '@/components/ecommerce/EcommerceChamada.vue'
 
 
 export default {
   components: {
-   
    // SlidePage,
-   EcommerceTop,
-   EcommerceText,
-   EcommerceContent,
-   EcommerceGrafic
-   
-    
+   EcommerceSlide, 
+   EcommerceChamada, 
   }
 }
 </script>
