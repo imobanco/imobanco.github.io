@@ -3,7 +3,6 @@
       <b-navbar toggleable="lg" type="light" class="fixed-top black container imobanco" id="nav" >
               <router-link to="/" class="navbar-brand"><img src="~assets/image/imobanco-azul.png" alt=""></router-link>
               <b-navbar-toggle target="nav-collapse" class="bg-gray-50"></b-navbar-toggle>
-
               <b-collapse id="nav-collapse" is-nav>
               <b-navbar-nav class="ml-auto text-center">
                 <router-link to="/" class=" text-titulo-sidebar text-decoration-none text-white navbarbox">Credor</router-link>
@@ -40,7 +39,7 @@ export default {
 </script>
 <style>
 
-nav {
+  nav {
     padding: 1rem;
     transition: all 0.5s;
     border-bottom: #ddd 1px solid;
@@ -60,9 +59,9 @@ nav {
  } */
 
 .color-mute{
-       background-color: #f5f5f5;
-     border-bottom: 2px solid rgb(4,95,170);
-     }
+    background-color: #f5f5f5;
+    border-bottom: 2px solid rgb(4,95,170);
+    }
  .navbarbox{
      text-decoration: none;
    padding: 5px 15px 5px 15px;
