@@ -5,6 +5,7 @@
     <ecommerce-slide />
     <ecommerce-chamada />
     <ecommerce-recursos />
+    <ecommerce-vendermais />
    
     </div>
   </div>
@@ -15,6 +16,7 @@
 import EcommerceSlide from '@/components/ecommerce/EcommerceSlide.vue'
 import EcommerceChamada from '@/components/ecommerce/EcommerceChamada.vue'
 import EcommerceRecursos from '@/components/ecommerce/EcommerceRecursos.vue'
+import EcommerceVendermais from '@/components/ecommerce/EcommerceVendermais.vue'
 
 
 export default {
@@ -23,6 +25,7 @@ export default {
    EcommerceSlide, 
    EcommerceChamada, 
    EcommerceRecursos, 
+   EcommerceVendermais, 
   }
 }
 </script>

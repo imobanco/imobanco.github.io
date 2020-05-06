@@ -3,7 +3,7 @@
        <div class="container">
            <div class="row">
                <div class="col-lg-12">
-                   <h1 class="text-titulo text-white text-center">Economize tempo e dinheiro com a plataforma projetada para se adaptar ao seu
+                   <h1 class="text-titulo text-white text-center inclinadatexto">Economize tempo e dinheiro com a plataforma projetada para se adaptar ao seu
 negócio.</h1>
                </div>
            </div>

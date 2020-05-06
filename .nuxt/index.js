@@ -11,9 +11,9 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_bootstrapvue_0201841d from 'nuxt_plugin_bootstrapvue_0201841d' // Source: ./bootstrap-vue.js (mode: 'all')
-import nuxt_plugin_plugin_35556e16 from 'nuxt_plugin_plugin_35556e16' // Source: ./vuetify/plugin.js (mode: 'all')
-import nuxt_plugin_axios_1e271824 from 'nuxt_plugin_axios_1e271824' // Source: ./axios.js (mode: 'all')
+import nuxt_plugin_bootstrapvue_6277f8d8 from 'nuxt_plugin_bootstrapvue_6277f8d8' // Source: ./bootstrap-vue.js (mode: 'all')
+import nuxt_plugin_plugin_38a4de8a from 'nuxt_plugin_plugin_38a4de8a' // Source: ./vuetify/plugin.js (mode: 'all')
+import nuxt_plugin_axios_6634d3a9 from 'nuxt_plugin_axios_6634d3a9' // Source: ./axios.js (mode: 'all')
 import nuxt_plugin_main_e13d4264 from 'nuxt_plugin_main_e13d4264' // Source: ../plugins/js/main.js (mode: 'all')
 import nuxt_plugin_axios_3f184691 from 'nuxt_plugin_axios_3f184691' // Source: ../plugins/js/axios.js (mode: 'all')
 import nuxt_plugin_vuenotification_435fd7af from 'nuxt_plugin_vuenotification_435fd7af' // Source: ../plugins/vue-notification.js (mode: 'client')
@@ -150,16 +150,16 @@ async function createApp (ssrContext) {
 
   // Plugin execution
 
-  if (typeof nuxt_plugin_bootstrapvue_0201841d === 'function') {
-    await nuxt_plugin_bootstrapvue_0201841d(app.context, inject)
+  if (typeof nuxt_plugin_bootstrapvue_6277f8d8 === 'function') {
+    await nuxt_plugin_bootstrapvue_6277f8d8(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_plugin_35556e16 === 'function') {
-    await nuxt_plugin_plugin_35556e16(app.context, inject)
+  if (typeof nuxt_plugin_plugin_38a4de8a === 'function') {
+    await nuxt_plugin_plugin_38a4de8a(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_1e271824 === 'function') {
-    await nuxt_plugin_axios_1e271824(app.context, inject)
+  if (typeof nuxt_plugin_axios_6634d3a9 === 'function') {
+    await nuxt_plugin_axios_6634d3a9(app.context, inject)
   }
 
   if (typeof nuxt_plugin_main_e13d4264 === 'function') {
