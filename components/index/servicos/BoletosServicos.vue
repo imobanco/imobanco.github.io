@@ -7,7 +7,7 @@
                     class="text-white"
                      
                     titulo="Boletos"
-                    resumo="Emita, Registre e gerencie seus boletos."/>
+                    resumo="A melhor solução do mercado brasileiro. Somos o seu novo MODAL FINANCEIRO."/>
                     <!-- icon="description" -->
                     <div class="row">
                         <div class="col-lg-6">

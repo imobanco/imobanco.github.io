@@ -7,7 +7,7 @@
                 </span>
             </div> -->
             <div class="col-lg-10 pt-4"><h1 class="text-titulo pt-2">  {{titulo}}</h1></div>
-            <div class="col-lg-12"><p class="text-content"> {{resumo}} </p></div>
+            <div class="col-lg-12"><h3 class="text-content"> {{resumo}} </h3></div>
        </div>
         
         
