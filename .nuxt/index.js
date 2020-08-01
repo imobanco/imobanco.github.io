@@ -11,9 +11,9 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_bootstrapvue_6277f8d8 from 'nuxt_plugin_bootstrapvue_6277f8d8' // Source: ./bootstrap-vue.js (mode: 'all')
-import nuxt_plugin_plugin_38a4de8a from 'nuxt_plugin_plugin_38a4de8a' // Source: ./vuetify/plugin.js (mode: 'all')
-import nuxt_plugin_axios_6634d3a9 from 'nuxt_plugin_axios_6634d3a9' // Source: ./axios.js (mode: 'all')
+import nuxt_plugin_bootstrapvue_cd378fdc from 'nuxt_plugin_bootstrapvue_cd378fdc' // Source: ./bootstrap-vue.js (mode: 'all')
+import nuxt_plugin_plugin_eb6d8e7e from 'nuxt_plugin_plugin_eb6d8e7e' // Source: ./vuetify/plugin.js (mode: 'all')
+import nuxt_plugin_axios_2ac8ece3 from 'nuxt_plugin_axios_2ac8ece3' // Source: ./axios.js (mode: 'all')
 import nuxt_plugin_main_e13d4264 from 'nuxt_plugin_main_e13d4264' // Source: ../plugins/js/main.js (mode: 'all')
 import nuxt_plugin_axios_3f184691 from 'nuxt_plugin_axios_3f184691' // Source: ../plugins/js/axios.js (mode: 'all')
 import nuxt_plugin_vuenotification_435fd7af from 'nuxt_plugin_vuenotification_435fd7af' // Source: ../plugins/vue-notification.js (mode: 'client')
@@ -47,7 +47,7 @@ Vue.use(Meta, {"keyName":"head","attribute":"data-n-head","ssrAttribute":"data-n
 
 const defaultTransition = {"name":"page","mode":"out-in","appear":false,"appearClass":"appear","appearActiveClass":"appear-active","appearToClass":"appear-to"}
 
-async function createApp (ssrContext) {
+async function createApp(ssrContext, config = {}) {
   const router = await createRouter(ssrContext)
 
   // Create Root instance
@@ -55,6 +55,8 @@ async function createApp (ssrContext) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
+    head: {"title":"IMOBANCO | Gestão inteligente de Recebimento","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Site Imobanco"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Poppins:300,400,500,500i,700,800,900i&display=swap"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:300,400,500,900&display=swap"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Baloo+Tamma+2:wght@400;500;600;700;800&display=swap"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Nunito:300,400,600,700,700i,900&display=swap"},{"rel":"stylesheet","href":"https:\u002F\u002Fcdnjs.cloudflare.com\u002Fajax\u002Flibs\u002Ffont-awesome\u002F5.11.2\u002Fcss\u002Fall.css"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Ficon?family=Material+Icons"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:100,300,400,500,700,900&display=swap"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002F@mdi\u002Ffont@latest\u002Fcss\u002Fmaterialdesignicons.min.css"}],"style":[],"script":[]},
+
     router,
     nuxt: {
       defaultTransition,
@@ -83,7 +85,10 @@ async function createApp (ssrContext) {
         err = err || null
         app.context._errored = Boolean(err)
         err = err ? normalizeError(err) : null
-        const nuxt = this.nuxt || this.$options.nuxt
+        let nuxt = app.nuxt // to work with @vue/composition-api, see https://github.com/nuxt/nuxt.js/issues/6517#issuecomment-573280207
+        if (this) {
+          nuxt = this.nuxt || this.$options.nuxt
+        }
         nuxt.dateErr = Date.now()
         nuxt.err = err
         // Used in src/server.js
@@ -118,17 +123,21 @@ async function createApp (ssrContext) {
     ssrContext
   })
 
-  const inject = function (key, value) {
+  function inject(key, value) {
     if (!key) {
       throw new Error('inject(key, value) has no key provided')
     }
     if (value === undefined) {
-      throw new Error('inject(key, value) has no value provided')
+      throw new Error(`inject('${key}', value) has no value provided`)
     }
 
     key = '$' + key
     // Add into app
     app[key] = value
+    // Add into context
+    if (!app.context[key]) {
+      app.context[key] = value
+    }
 
     // Check if plugin not already installed
     const installKey = '__nuxt_' + key + '_installed__'
@@ -138,7 +147,7 @@ async function createApp (ssrContext) {
     Vue[installKey] = true
     // Call Vue.use() to install the plugin into vm
     Vue.use(() => {
-      if (!Object.prototype.hasOwnProperty.call(Vue, key)) {
+      if (!Object.prototype.hasOwnProperty.call(Vue.prototype, key)) {
         Object.defineProperty(Vue.prototype, key, {
           get () {
             return this.$root.$options[key]
@@ -148,18 +157,28 @@ async function createApp (ssrContext) {
     })
   }
 
+  // Inject runtime config as $config
+  inject('config', config)
+
+  // Add enablePreview(previewData = {}) in context for plugins
+  if (process.static && process.client) {
+    app.context.enablePreview = function (previewData = {}) {
+      app.previewData = Object.assign({}, previewData)
+      inject('preview', previewData)
+    }
+  }
   // Plugin execution
 
-  if (typeof nuxt_plugin_bootstrapvue_6277f8d8 === 'function') {
-    await nuxt_plugin_bootstrapvue_6277f8d8(app.context, inject)
+  if (typeof nuxt_plugin_bootstrapvue_cd378fdc === 'function') {
+    await nuxt_plugin_bootstrapvue_cd378fdc(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_plugin_38a4de8a === 'function') {
-    await nuxt_plugin_plugin_38a4de8a(app.context, inject)
+  if (typeof nuxt_plugin_plugin_eb6d8e7e === 'function') {
+    await nuxt_plugin_plugin_eb6d8e7e(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_6634d3a9 === 'function') {
-    await nuxt_plugin_axios_6634d3a9(app.context, inject)
+  if (typeof nuxt_plugin_axios_2ac8ece3 === 'function') {
+    await nuxt_plugin_axios_2ac8ece3(app.context, inject)
   }
 
   if (typeof nuxt_plugin_main_e13d4264 === 'function') {
@@ -172,6 +191,13 @@ async function createApp (ssrContext) {
 
   if (process.client && typeof nuxt_plugin_vuenotification_435fd7af === 'function') {
     await nuxt_plugin_vuenotification_435fd7af(app.context, inject)
+  }
+
+  // Lock enablePreview in context
+  if (process.static && process.client) {
+    app.context.enablePreview = function () {
+      console.warn('You cannot call enablePreview() outside a plugin.')
+    }
   }
 
   // If server-side, wait for async component to be resolved first
