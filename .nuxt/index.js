@@ -12,7 +12,6 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 /* Plugins */
 
 import nuxt_plugin_bootstrapvue_cd378fdc from 'nuxt_plugin_bootstrapvue_cd378fdc' // Source: ./bootstrap-vue.js (mode: 'all')
-import nuxt_plugin_plugin_eb6d8e7e from 'nuxt_plugin_plugin_eb6d8e7e' // Source: ./vuetify/plugin.js (mode: 'all')
 import nuxt_plugin_axios_2ac8ece3 from 'nuxt_plugin_axios_2ac8ece3' // Source: ./axios.js (mode: 'all')
 import nuxt_plugin_main_e13d4264 from 'nuxt_plugin_main_e13d4264' // Source: ../plugins/js/main.js (mode: 'all')
 import nuxt_plugin_axios_3f184691 from 'nuxt_plugin_axios_3f184691' // Source: ../plugins/js/axios.js (mode: 'all')
@@ -55,7 +54,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"IMOBANCO | Gestão inteligente de Recebimento","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Site Imobanco"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Poppins:300,400,500,500i,700,800,900i&display=swap"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:300,400,500,900&display=swap"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Baloo+Tamma+2:wght@400;500;600;700;800&display=swap"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Nunito:300,400,600,700,700i,900&display=swap"},{"rel":"stylesheet","href":"https:\u002F\u002Fcdnjs.cloudflare.com\u002Fajax\u002Flibs\u002Ffont-awesome\u002F5.11.2\u002Fcss\u002Fall.css"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Ficon?family=Material+Icons"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:100,300,400,500,700,900&display=swap"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002F@mdi\u002Ffont@latest\u002Fcss\u002Fmaterialdesignicons.min.css"}],"style":[],"script":[]},
+    head: {"title":"IMOBANCO | Gestão inteligente de Recebimento","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Site Imobanco"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Fcdnjs.cloudflare.com\u002Fajax\u002Flibs\u002Ffont-awesome\u002F5.11.2\u002Fcss\u002Fall.css"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Ficon?family=Material+Icons"}],"style":[],"script":[]},
 
     router,
     nuxt: {
@@ -171,10 +170,6 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_bootstrapvue_cd378fdc === 'function') {
     await nuxt_plugin_bootstrapvue_cd378fdc(app.context, inject)
-  }
-
-  if (typeof nuxt_plugin_plugin_eb6d8e7e === 'function') {
-    await nuxt_plugin_plugin_eb6d8e7e(app.context, inject)
   }
 
   if (typeof nuxt_plugin_axios_2ac8ece3 === 'function') {
