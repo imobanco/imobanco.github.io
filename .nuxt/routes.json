@@ -2,29 +2,29 @@
   {
     "name": "boletos",
     "path": "/boletos",
-    "component": "/home/billios/Documentos/Site/imobanco.github.io/pages/boletos/index.vue",
+    "component": "/home/joao/Imobanco/imobanco.github.io/pages/boletos/index.vue",
     "chunkName": "pages/boletos/index",
-    "_name": "_0cf9059e"
+    "_name": "_f99bb200"
   },
   {
     "name": "contact",
     "path": "/contact",
-    "component": "/home/billios/Documentos/Site/imobanco.github.io/pages/contact/index.vue",
+    "component": "/home/joao/Imobanco/imobanco.github.io/pages/contact/index.vue",
     "chunkName": "pages/contact/index",
-    "_name": "_5ba001a8"
+    "_name": "_4869208e"
   },
   {
     "name": "ecommerce",
     "path": "/ecommerce",
-    "component": "/home/billios/Documentos/Site/imobanco.github.io/pages/ecommerce/index.vue",
+    "component": "/home/joao/Imobanco/imobanco.github.io/pages/ecommerce/index.vue",
     "chunkName": "pages/ecommerce/index",
-    "_name": "_d83d9de8"
+    "_name": "_605781ee"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/home/billios/Documentos/Site/imobanco.github.io/pages/index.vue",
+    "component": "/home/joao/Imobanco/imobanco.github.io/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_28733f5b"
+    "_name": "_9a663a86"
   }
 ]
