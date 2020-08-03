@@ -11,17 +11,18 @@
           <h5 class="imo-text-06 text-titulo mt-2 mb-2">Contate a gente</h5>
           <p class="imo-text-05 text-content">
             Quaisquer esclarecimentos e dúvidas, entre em contato conosco e
-            <span
-              class="imo-text-04"
-            >#vemvocêtambém</span> ser Imobanco.
+            <span class="imo-text-04">#vemvocêtambém</span> ser Imobanco.
           </p>
         </div>
         <div class="col-lg-4 col-md-6">
-          <h5 class="imo-text-06 text-titulo mt-2 mb-2">Atendimento e Suporte</h5>
+          <h5 class="imo-text-06 text-titulo mt-2 mb-2">
+            Atendimento e Suporte
+          </h5>
           <p class="imo-text-05 text-subtitulo m-0">
             <a href="https://t.me/imobancobot" target="_blank">
               <i class="fab fa-telegram imo-text-05"></i>
-            </a> Chat Imobanco:
+            </a>
+            Chat Imobanco:
             <span class="text-content">24h online</span>
           </p>
           <p class="imo-text-05 text-subtitulo m-0">
@@ -44,15 +45,16 @@
               </a>
             </span>
           </p>
-          <p class="imo-text-05 text-content mt-3">Imobanco 2020 © - Todos os direitos reservados.</p>
+          <p class="imo-text-05 text-content mt-3">
+            Imobanco 2020 © - Todos os direitos reservados.
+          </p>
         </div>
       </div>
     </div>
   </section>
 </template>
 
-<script>
-</script>
+<script></script>
 
 <style>
 .footer-bg {
