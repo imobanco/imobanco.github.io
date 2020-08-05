@@ -1,7 +1,7 @@
 <template>
   <section class="bg-graylight pt-5 pb-5">
     <persona-title />
-    <persona-slide class="bg-primary" />
+    <persona-slide />
     <persona-professional />
   </section>
 </template>

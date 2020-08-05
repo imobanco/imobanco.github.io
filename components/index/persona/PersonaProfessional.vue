@@ -9,7 +9,7 @@
         lg="4"
         class="text-left"
       >
-        <h5 class="text-primary">{{ topic.title}}</h5>
+        <h5 class="text-secondary">{{ topic.title}}</h5>
         <hr class="lineimobanco" />
         <p class>{{ topic.text }}</p>
       </b-col>
