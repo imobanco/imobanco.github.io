@@ -11,7 +11,7 @@
       >
         <h5 class="text-secondary">{{ topic.title}}</h5>
         <hr class="lineimobanco" />
-        <p class>{{ topic.text }}</p>
+        <p class="text-justify">{{ topic.text }}</p>
       </b-col>
     </b-row>
   </b-container>
