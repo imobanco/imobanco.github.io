@@ -24,7 +24,7 @@ export default {
       social_media: [
         {
           title: "Linkedin",
-          link: "https://www.facebook.com/imobanco/",
+          link: "https://br.linkedin.com/company/imobanco",
           icon: "image/social-linkedin.png",
         },
         {
