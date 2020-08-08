@@ -2,20 +2,20 @@
   <div>
     <header-slide />
     <persona-section />
-    <formas-item />
+    <facilidades-item />
   </div>
 </template>
 
 <script>
 import HeaderSlide from "~/components/main/HeaderSlide.vue";
 import PersonaSection from "~/components/index/persona/PersonaSection.vue";
-import FormasItem from "~/components/index/formasimobanco/FormasItem.vue";
+import FacilidadesItem from "~/components/index/facilidadesimobanco/FacilidadesItem.vue";
 
 export default {
   components: {
     HeaderSlide,
     PersonaSection,
-    FormasItem,
+    FacilidadesItem,
   },
 };
 </script>
