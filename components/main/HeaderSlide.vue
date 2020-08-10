@@ -60,7 +60,7 @@
           >
           <hr class="linestyle-sidebar mt-1 mb-1" />
           <router-link
-            to="/charges"
+            to="/cobrancas"
             class="text-white text-content p-3 text-decoration-none effect"
             >Cobranças</router-link
           >

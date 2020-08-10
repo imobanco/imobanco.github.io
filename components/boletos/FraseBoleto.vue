@@ -3,9 +3,6 @@
     <b-container>
       <b-row>
         <b-col cols="12" md="6" lg="6">
-          <img src="image/boletos/boleto-bancario.png" alt class="img-fluid" />
-        </b-col>
-        <b-col cols="12" md="6" lg="6">
           <h1 class="text-title">Emita seus boletos com Imobanco.</h1>
           <p class="text-content text-justify">
             A melhor solução do mercado brasileiro. Somos o seu novo MODAL
@@ -15,6 +12,9 @@
             apoiado em mais um sistema, e sim um mix de ferramentas voltadas
             para a sua empresa que paga taxas de acordo com sua arrecadação.
           </p>
+        </b-col>
+        <b-col cols="12" md="6" lg="6">
+          <img src="image/boletos/boleto-bancario.png" alt class="img-fluid" />
         </b-col>
       </b-row>
     </b-container>

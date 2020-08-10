@@ -1,6 +1,7 @@
 <template>
   <div class="container-fluid">
     <div>
+      <navbar-secondary />
       <header-boleto />
       <frase-boleto />
       <multibanco-boleto />
@@ -11,6 +12,7 @@
 </template>
 
 <script>
+import NavbarSecondary from "@/components/main/NavbarSecondary.vue";
 import HeaderBoleto from "@/components/boletos/HeaderBoleto.vue";
 import FraseBoleto from "@/components/boletos/FraseBoleto.vue";
 import MultibancoBoleto from "@/components/boletos/MultibancoBoleto.vue";
@@ -19,6 +21,7 @@ import MaisBoleto from "@/components/boletos/MaisBoleto.vue";
 
 export default {
   components: {
+    NavbarSecondary,
     HeaderBoleto,
     FraseBoleto,
     MultibancoBoleto,
