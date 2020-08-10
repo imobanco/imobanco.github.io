@@ -1,31 +1,39 @@
 <template>
-<div class="slideecommerce">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-xl-6 col-lg-6 col-md-8 col-sm-8 col-8 mt-5 pt-5 text-center">
-        <h1 class="mt-5 mb-0 text-titulo text-white">Ecommerce</h1>
-        <p class="text-content text-white">Emita, Registre e gerencie seus boletos.</p>
-      </div>
-    </div>
-  </div>
-
-</div>
+  <section class="slideecommerce pt-4 pb-4">
+    <b-container>
+      <b-row>
+        <b-col cols="12" md="7" lg="6" class="pt-5">
+          <h1
+            class="mt-5 mb-0 text-title text-warning"
+          >Crie sua loja na internet para vender ainda mais.</h1>
+          <p class="text-content text-white pb-0 mb-0">Preço: Setup e Treinamento custo</p>
+          <h1 class="mb-0 text-title text-white">R$ 00,00</h1>
+          <p class="text-content text-white">
+            1º vencimento de R$ 99,00 após 60 dias da ativação.
+            *consulte as taxas transacionais.
+          </p>
+          <a href="#" class="btn btn-warning form-radius-total">Contrate já!</a>
+        </b-col>
+        <b-col cols="12" md="5" lg="6" class="pt-5">
+          <img src="image/ecommerce-top.png" alt class="img-fluid" />
+        </b-col>
+      </b-row>
+    </b-container>
+  </section>
 </template>
 
 
 <script>
- 	
 </script>
 
 
 <style>
-
-.slideecommerce{
-        height: 400px;
-        background-image: url("~assets/image/banner-ecommerce.jpg") !important;
-        background-color: #9c9c9c;
-        background-size: 100% auto cover;
-        background-position: center;
-        background-repeat: no-repeat;
+.slideecommerce {
+  height: auto;
+  /* background-image: url("~assets/image/banner-ecommerce.jpg") !important; */
+  background-color: #4032ec;
+  background-size: 100% auto cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 </style>

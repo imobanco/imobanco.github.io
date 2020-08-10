@@ -1,41 +1,36 @@
 <template>
   <div class="container-fluid">
-    <div>
-   <!--  <slide-page /> -->
+    <navbar-secondary />
     <ecommerce-slide />
-    <ecommerce-chamada />
     <ecommerce-recursos />
     <ecommerce-vendermais />
     <ecommerce-loja />
-    <ecommerce-venda />
-   
-    </div>
+    <ecommerce-vantagens />
+    <ecommerce-chamada />
   </div>
 </template>
 
 <script>
-// import SlidePage from '@/components/pages/Slidepage.vue'
-import EcommerceSlide from '@/components/ecommerce/EcommerceSlide.vue'
-import EcommerceChamada from '@/components/ecommerce/EcommerceChamada.vue'
-import EcommerceRecursos from '@/components/ecommerce/EcommerceRecursos.vue'
-import EcommerceVendermais from '@/components/ecommerce/EcommerceVendermais.vue'
-import EcommerceLoja from '@/components/ecommerce/EcommerceLoja.vue'
-import EcommerceVenda from '@/components/ecommerce/EcommerceVenda.vue'
-
+import NavbarSecondary from "@/components/main/NavbarSecondary.vue";
+import EcommerceSlide from "@/components/ecommerce/EcommerceSlide.vue";
+import EcommerceRecursos from "@/components/ecommerce/EcommerceRecursos.vue";
+import EcommerceVendermais from "@/components/ecommerce/EcommerceVendermais.vue";
+import EcommerceLoja from "@/components/ecommerce/EcommerceLoja.vue";
+import EcommerceVantagens from "@/components/ecommerce/EcommerceVantagens.vue";
+import EcommerceChamada from "@/components/ecommerce/EcommerceChamada.vue";
 
 export default {
   components: {
-   // SlidePage,
-   EcommerceSlide, 
-   EcommerceChamada, 
-   EcommerceRecursos, 
-   EcommerceVendermais, 
-   EcommerceLoja, 
-   EcommerceVenda, 
-  }
-}
+    NavbarSecondary,
+    EcommerceSlide,
+    EcommerceRecursos,
+    EcommerceVendermais,
+    EcommerceLoja,
+    EcommerceVantagens,
+    EcommerceChamada,
+  },
+};
 </script>
 
 <style>
-
 </style>
