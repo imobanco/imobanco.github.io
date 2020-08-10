@@ -1,43 +1,31 @@
 <template>
   <div class="container-fluid">
     <div>
-   <!--  <slide-page /> -->
-    <header-boleto />
-    <slip-slide/>
-    
-    <frase-boleto 
-    class="pt-5 pb-5 bg-medium"/>
-    <!-- <slip-strategy/>
-    <slip-management/>
-    <slip-plans/> -->
-    
+      <header-boleto />
+      <frase-boleto />
+      <multibanco-boleto />
+      <vantagens-boleto />
+      <mais-boleto />
     </div>
   </div>
 </template>
 
 <script>
-// import SlidePage from '@/components/pages/Slidepage.vue'
-import HeaderBoleto from '@/components/boletos/HeaderBoleto.vue'
-import FraseBoleto from '@/components/boletos/FraseBoleto.vue'
-// import SlipStrategy from '@/components/slip/SlipStrategy.vue'
-// import SlipManagement from '@/components/slip/SlipManagement.vue'
-// import SlipPlans from '@/components/slip/SlipPlans.vue'
+import HeaderBoleto from "@/components/boletos/HeaderBoleto.vue";
+import FraseBoleto from "@/components/boletos/FraseBoleto.vue";
+import MultibancoBoleto from "@/components/boletos/MultibancoBoleto.vue";
+import VantagensBoleto from "@/components/boletos/VantagensBoleto.vue";
+import MaisBoleto from "@/components/boletos/MaisBoleto.vue";
 
 export default {
   components: {
-   
-   HeaderBoleto,
-   FraseBoleto
-  //  SlipStrategy,
-  //  SlipManagement,
-  //  SlipPlans
-
-  
-    
-  }
-}
+    HeaderBoleto,
+    FraseBoleto,
+    MultibancoBoleto,
+    VantagensBoleto,
+    MaisBoleto,
+  },
+};
 </script>
 
-<style>
-
-</style>
+<style></style>
