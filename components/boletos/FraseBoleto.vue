@@ -7,9 +7,13 @@
         </b-col>
         <b-col cols="12" md="6" lg="6">
           <h1 class="text-title">Emita seus boletos com Imobanco.</h1>
-          <p class="text-content">
-            A melhor solução do mercado brasileiro. Somos o seu novo MODAL FINANCEIRO.
-            Nosso modo diferenciado permite que nossas soluções tenham muito mais capacidade de recebimento e recuperação de creditos inadimplidos. Isso significa que o seu negócio não estará apoiado em mais um sistema, e sim um mix de ferramentas voltadas para a sua empresa que paga taxas de acordo com sua arrecadação.
+          <p class="text-content text-justify">
+            A melhor solução do mercado brasileiro. Somos o seu novo MODAL
+            FINANCEIRO. Nosso modo diferenciado permite que nossas soluções
+            tenham muito mais capacidade de recebimento e recuperação de
+            creditos inadimplidos. Isso significa que o seu negócio não estará
+            apoiado em mais um sistema, e sim um mix de ferramentas voltadas
+            para a sua empresa que paga taxas de acordo com sua arrecadação.
           </p>
         </b-col>
       </b-row>
@@ -23,5 +27,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>
