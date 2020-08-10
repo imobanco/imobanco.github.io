@@ -5,8 +5,7 @@ export default {
    */
   head: {
     title: "IMOBANCO | Gestão inteligente de Recebimento",
-    meta: [
-      {
+    meta: [{
         charset: "utf-8",
       },
       {
@@ -19,16 +18,14 @@ export default {
         content: process.env.npm_package_description || "",
       },
     ],
-    link: [
-      {
+    link: [{
         rel: "icon",
         type: "image/x-icon",
         href: "/favicon.ico",
       },
       {
         rel: "stylesheet",
-        href:
-          "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css",
+        href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css",
       },
       {
         rel: "stylesheet",
@@ -54,18 +51,17 @@ export default {
   /*
    ** Jquery CDN
    */
-  script: [
-    {
+  script: [{
       src: "https://code.jquery.com/jquery-3.3.1.slim.min.js",
       type: "text/javascript",
     },
+
   ],
   /*
    ** Plugins to load before mounting the App
    */
 
-  plugins: [
-    {
+  plugins: [{
       src: "~/plugins/js/main.js",
     },
     {
