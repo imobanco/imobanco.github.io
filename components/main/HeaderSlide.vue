@@ -35,59 +35,64 @@
         ></router-link>
       </b-carousel-slide>
     </b-carousel>
-
-    <template>
-      <div class="d-lg-block d-sm-none d-none navbg navzindex">
-        <ul>
-          <router-link
-            to="/"
-            class="text-white text-content p-3 text-decoration-none effect"
-          >
-            Home</router-link
-          >
-          <hr class="linestyle-sidebar mt-1 mb-1" />
-          <router-link
-            to="/boletos"
-            class="text-white text-content p-3 text-decoration-none effect"
-          >
-            Boleto</router-link
-          >
-          <hr class="linestyle-sidebar mt-1 mb-1" />
-          <router-link
-            to="/ecommerce"
-            class="text-white text-content p-3 text-decoration-none effect"
-            >E-Commerce</router-link
-          >
-          <hr class="linestyle-sidebar mt-1 mb-1" />
-          <router-link
-            to="/cobrancas"
-            class="text-white text-content p-3 text-decoration-none effect"
-            >Cobranças</router-link
-          >
-          <hr class="linestyle-sidebar mt-1 mb-1" />
-          <a
-            href="https://blog.imobanco.com.br/"
-            class="text-white text-content p-3 text-decoration-none effect"
-            target="_blank"
-            >Blog</a
-          >
-          <hr class="linestyle-sidebar mt-1 mb-1" />
-          <router-link
-            to="/contact"
-            class="text-white text-content p-3 text-decoration-none effect"
-            >Contato</router-link
-          >
-        </ul>
-        <div class="bg-medium pt-2 pb-2 text-center">
-          <a
-            href="https://blog.imobanco.com.br/"
-            class="text-white pl-2 text-titulo-sidebar  text-white text-decoration-none effect"
-            target="_blank"
-            ><i class="far fa-arrow-alt-circle-right"></i> Seja Cliente</a
-          >
-        </div>
-      </div>
-    </template>
+    <b-container class="navzindex">
+      <b-row>
+        <b-col>
+          <template>
+            <div class="d-lg-block d-sm-none d-none navbg  pt-2">
+              <ul>
+                <router-link
+                  to="/"
+                  class="text-white text-content p-3 text-decoration-none effect"
+                >
+                  Home</router-link
+                >
+                <hr class="linestyle-sidebar mt-1 mb-1" />
+                <router-link
+                  to="/boletos"
+                  class="text-white text-content p-3 text-decoration-none effect"
+                >
+                  Boleto</router-link
+                >
+                <hr class="linestyle-sidebar mt-1 mb-1" />
+                <router-link
+                  to="/ecommerce"
+                  class="text-white text-content p-3 text-decoration-none effect"
+                  >E-Commerce</router-link
+                >
+                <hr class="linestyle-sidebar mt-1 mb-1" />
+                <router-link
+                  to="/cobrancas"
+                  class="text-white text-content p-3 text-decoration-none effect"
+                  >Cobranças</router-link
+                >
+                <hr class="linestyle-sidebar mt-1 mb-1" />
+                <a
+                  href="https://blog.imobanco.com.br/"
+                  class="text-white text-content p-3 text-decoration-none effect"
+                  target="_blank"
+                  >Blog</a
+                >
+                <hr class="linestyle-sidebar mt-1 mb-1" />
+                <router-link
+                  to="/contact"
+                  class="text-white text-content p-3 text-decoration-none effect"
+                  >Contato</router-link
+                >
+              </ul>
+              <div class="bg-medium pt-2 pb-2 text-center">
+                <a
+                  href="https://blog.imobanco.com.br/"
+                  class="text-white pl-2 text-titulo-sidebar  text-white text-decoration-none effect"
+                  target="_blank"
+                  ><i class="far fa-arrow-alt-circle-right"></i> Seja Cliente</a
+                >
+              </div>
+            </div>
+          </template>
+        </b-col>
+      </b-row>
+    </b-container>
   </section>
 </template>
 
@@ -137,5 +142,6 @@ export default {
   width: 200px;
   background-color: rgba(10, 23, 55, 0.5);
   border-radius: 20px 20px 20px 2px;
+  margin-left: 65px;
 }
 </style>
