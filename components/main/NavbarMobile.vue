@@ -1,16 +1,16 @@
 <template>
-  <section class="bg-primary">
-    <b-container>
+  <section class="bg-imobanco">
+    <b-container class="">
       <b-row>
-        <b-col cols="12" md="12" lg="12">
+        <b-col cols="12" md="12" lg="12" class="d-lg-none d-xl-none">
           <b-navbar
             toggleable="lg"
             type="light"
             class="container-fluid text-center"
             id="nav"
           >
-            <div class="container">
-              <router-link to="/" class="navbar-brand bg-bluedark">
+            <div class="container ">
+              <router-link to="/" class="navbar-brand">
                 <img
                   src="~assets/image/logoimobanco.png"
                   alt
@@ -19,12 +19,12 @@
               </router-link>
               <b-navbar-toggle
                 target="nav-collapse"
-                class="bg-gray-50"
+                class="bg-white form-radius-total p-1"
               ></b-navbar-toggle>
               <b-collapse id="nav-collapse" is-nav>
                 <div class="row justify-content-center">
                   <b-col cols="12" md="6">
-                    <b-navbar-nav class="ml-auto">
+                    <b-navbar-nav class="ml-auto pb-4">
                       <router-link
                         to="/"
                         class="text-white text-decoration-none p-2"

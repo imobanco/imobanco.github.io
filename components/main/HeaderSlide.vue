@@ -35,12 +35,23 @@
         ></router-link>
       </b-carousel-slide>
     </b-carousel>
+    <nav-top />
     <b-container class="navzindex">
       <b-row>
         <b-col>
           <template>
             <div class="d-lg-block d-sm-none d-none navbg  pt-2">
               <ul>
+                <router-link
+                  to="/"
+                  class="navbar-brand text-center pl-2 pt-2 pb-3"
+                >
+                  <img
+                    src="~assets/image/logoimobanco.png"
+                    alt
+                    class="text-center"
+                  />
+                </router-link>
                 <router-link
                   to="/"
                   class="text-white text-content p-3 text-decoration-none effect"
@@ -97,7 +108,11 @@
 </template>
 
 <script>
+import NavTop from "@/components/main/NavTop.vue";
 export default {
+  components: {
+    NavTop,
+  },
   data() {
     return {
       slide: 0,
@@ -133,13 +148,13 @@ export default {
 }
 .navzindex {
   position: absolute;
-  top: 15%;
+  top: 5%;
   left: 10%;
   z-index: 1;
 }
 
 .navbg {
-  width: 200px;
+  width: 196px;
   background-color: rgba(10, 23, 55, 0.5);
   border-radius: 20px 20px 20px 2px;
   margin-left: 65px;

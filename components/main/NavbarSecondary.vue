@@ -1,28 +1,40 @@
 <template>
-  <b-navbar toggleable="lg" type="light" class="fixed-top container-fluid imobanco" id="nav">
+  <b-navbar
+    toggleable="lg"
+    type="light"
+    class="fixed-top container-fluid imobanco"
+    id="nav"
+  >
     <div class="container">
       <router-link to="/" class="navbar-brand">
         <img src="~assets/image/logoimobanco.png" alt />
       </router-link>
-      <b-navbar-toggle target="nav-collapse" class="bg-gray-50"></b-navbar-toggle>
+      <b-navbar-toggle
+        target="nav-collapse"
+        class="bg-white form-radius-total p-1"
+      ></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="ml-auto text-center">
           <router-link
             to="/"
             class="text-titulo-sidebar text-decoration-none text-white navbarbox"
-          >Home</router-link>
+            >Home</router-link
+          >
           <router-link
             to="/pagador"
             class="text-titulo-sidebar text-decoration-none text-white navbarbox"
-          >Pagador</router-link>
+            >Pagador</router-link
+          >
           <router-link
             to="/Boletos"
             class="text-titulo-sidebar text-decoration-none text-white navbarbox"
-          >Boletos</router-link>
+            >Boletos</router-link
+          >
           <router-link
             to="/Ecommerce"
             class="text-titulo-sidebar text-decoration-none text-white navbarbox"
-          >Ecommerce</router-link>
+            >Ecommerce</router-link
+          >
         </b-navbar-nav>
       </b-collapse>
     </div>
@@ -31,11 +43,11 @@
 <script>
 export default {
   mounted() {
-    this.$nextTick(function () {
-      window.addEventListener("scroll", function () {
+    this.$nextTick(function() {
+      window.addEventListener("scroll", function() {
         var navbar = document.getElementById("nav");
         var nav_classes = navbar.classList;
-        if (document.documentElement.scrollTop >= 80) {
+        if (document.documentElement.scrollTop >= 50) {
           if (nav_classes.contains("shrink") === false) {
             nav_classes.toggle("shrink");
           }
@@ -49,41 +61,4 @@ export default {
   },
 };
 </script>
-<style>
-nav {
-  padding: 1rem;
-  transition: all 0.5s;
-  border-bottom: #ddd 1px solid;
-}
-nav.shrink {
-  padding: 0.3rem;
-  background: #003e69;
-}
-nav a {
-  margin-right: 1rem;
-}
-
-@media (max-width: 786px) {
-  nav {
-    padding: 1rem;
-    transition: all 0.5s;
-    background-color: #003e69;
-    border-bottom: #ddd 1px solid;
-  }
-  nav.shrink {
-    padding: 0.3rem;
-    background: #003e69;
-  }
-  nav a {
-    margin-right: 1rem;
-  }
-}
-.color-mute {
-  background-color: #f5f5f5;
-  border-bottom: 2px solid rgb(4, 95, 170);
-}
-.navbarbox {
-  text-decoration: none;
-  padding: 5px 15px 5px 15px;
-}
-</style>
+<style></style>
