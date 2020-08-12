@@ -1,7 +1,7 @@
 <template>
   <div>
     <navbar-mobile />
-    <!-- <navbar /> -->
+    <!-- <nav-top /> -->
     <header-slide />
     <persona-section />
     <services-section />
@@ -10,7 +10,7 @@
 </template>
 
 <script>
-// import Navbar from "@/components/main/Navbar.vue";
+// import NavTop from "@/components/main/NavTop.vue";
 import NavbarMobile from "@/components/main/NavbarMobile.vue";
 import HeaderSlide from "~/components/main/HeaderSlide.vue";
 import PersonaSection from "~/components/index/persona/PersonaSection.vue";
@@ -19,7 +19,7 @@ import ServicesSection from "~/components/index/services/ServicesSection.vue";
 
 export default {
   components: {
-    // Navbar,
+    // NavTop,
     NavbarMobile,
     HeaderSlide,
     PersonaSection,

@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid">
-    <navbar-secondary />
+    <!-- <navbar-secondary /> -->
     <ecommerce-slide />
     <ecommerce-recursos />
     <ecommerce-vendermais />
@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import NavbarSecondary from "@/components/main/NavbarSecondary.vue";
+// import NavbarSecondary from "@/components/main/NavbarSecondary.vue";
 import EcommerceSlide from "@/components/ecommerce/EcommerceSlide.vue";
 import EcommerceRecursos from "@/components/ecommerce/EcommerceRecursos.vue";
 import EcommerceVendermais from "@/components/ecommerce/EcommerceVendermais.vue";
@@ -21,7 +21,7 @@ import EcommerceChamada from "@/components/ecommerce/EcommerceChamada.vue";
 
 export default {
   components: {
-    NavbarSecondary,
+    // NavbarSecondary,
     EcommerceSlide,
     EcommerceRecursos,
     EcommerceVendermais,
@@ -32,5 +32,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>
