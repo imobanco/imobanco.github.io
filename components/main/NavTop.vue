@@ -1,37 +1,32 @@
 <template>
   <b-container class="navtop">
     <b-row>
-      <b-col cols="12" md="12" lg="12" class="d-none d-sm-none d-md-none text-right d-lg-block d-xl-block">
+      <b-col
+        cols="12"
+        md="12"
+        lg="12"
+        class="d-none d-sm-none d-md-none text-right d-lg-block d-xl-block"
+      >
         <router-link
           to="/"
-          class=" text-titulo-sidebar text-decoration-none text-white navbarbox"
-          >Credor</router-link
-        >
-        <router-link
-          to="/pagador"
           class="text-titulo-sidebar text-decoration-none text-white navbarbox"
-          >Pagador</router-link
-        >
-        <a
-                        href="#"
-                        class="btn bg-bluepink text-white form-radius-total p-2"
-                        >Seja Imobanco</a
-                      >
+        >Credor</router-link>
+        <router-link
+          to="#"
+          class="text-titulo-sidebar text-decoration-none text-white navbarbox"
+        >Pagador</router-link>
+        <a href="#" class="btn bg-bluepink text-white form-radius-total p-2">Seja Imobanco</a>
       </b-col>
     </b-row>
   </b-container>
-  
 </template>
 <script>
-export default {
- 
-};
+export default {};
 </script> 
   <style>
-    
-    .navbarbox {
-      text-decoration: none;
-      padding: 5px 15px 5px 15px;
-    }
-  </style>
+.navbarbox {
+  text-decoration: none;
+  padding: 5px 15px 5px 15px;
+}
+</style>
 </template>
