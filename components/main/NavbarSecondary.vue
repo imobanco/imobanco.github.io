@@ -35,6 +35,11 @@
             class="text-titulo-sidebar text-decoration-none text-white navbarbox"
             >Ecommerce</router-link
           >
+          <router-link
+            to="/cobrancas"
+            class="text-titulo-sidebar text-decoration-none text-white navbarbox"
+            >Cobranças</router-link
+          >
         </b-navbar-nav>
       </b-collapse>
     </div>

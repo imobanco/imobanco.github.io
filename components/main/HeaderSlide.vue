@@ -41,7 +41,7 @@
       <b-row>
         <b-col>
           <template>
-            <div class="d-lg-block d-sm-none d-none navbg pt-2">
+            <div class="d-lg-block d-sm-none d-none navbg pt-2 pb-2">
               <ul>
                 <router-link
                   to="/"
@@ -77,12 +77,18 @@
                   >Cobranças</router-link
                 >
                 <hr class="linestyle-sidebar mt-1 mb-1" />
-                <a
-                  href="https://blog.imobanco.com.br/"
+                <router-link
+                  to="#"
                   class="text-white text-content p-3 text-decoration-none effect"
-                  target="_blank"
-                  >Blog</a
+                  >Planos</router-link
                 >
+                <hr class="linestyle-sidebar mt-1 mb-1" />
+                <router-link
+                  to="#"
+                  class="text-white text-content p-3 text-decoration-none effect"
+                  >Imprensa</router-link
+                >
+
                 <hr class="linestyle-sidebar mt-1 mb-1" />
                 <router-link
                   to="/contact"
@@ -90,15 +96,6 @@
                   >Contato</router-link
                 >
               </ul>
-              <div class="bg-medium pt-2 pb-2 text-center">
-                <a
-                  href="https://blog.imobanco.com.br/"
-                  class="text-white pl-2 text-titulo-sidebar text-white text-decoration-none effect"
-                  target="_blank"
-                >
-                  <i class="far fa-arrow-alt-circle-right"></i> Seja Cliente
-                </a>
-              </div>
             </div>
           </template>
         </b-col>
