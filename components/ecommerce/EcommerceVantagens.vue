@@ -17,7 +17,7 @@
         </b-col>
 
         <b-col cols="12" md="4" lg="3" class="pt-2">
-          <p class="text-subtitle text-primary">Débito: Pagamentos digitais</p>
+          <p class="text-subtitle text-primary">Débito: Pagamentos presenciais</p>
           <img src="~static/image/debitoecommerce.png" class="img-fluid" />
         </b-col>
 

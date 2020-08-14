@@ -6,9 +6,9 @@
           <h1 class="mt-5 mb-0 text-title text-white">Garante já a sua presença no mundo online</h1>
           <p class="text-content text-white pb-0 mb-0">tenha sucesso e venda para qualquer lugar!</p>
           <p class="text-content text-white pb-0 mb-0">Preço: Setup e Treinamento custo</p>
-          <h1 class="mb-0 text-title text-white">R$ 00,00</h1>
+          <h1 class="mb-0 text-title text-white">R$ 0,00</h1>
           <p class="text-content text-white">
-            1º vencimento de R$ 99,00 após 60 dias da ativação.
+            Gratuito até 15 de setembro.
             *consulte as taxas transacionais.
           </p>
           <a href="#" class="btn btn-warning form-radius-total">Contrate já!</a>

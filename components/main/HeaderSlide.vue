@@ -12,14 +12,11 @@
       @sliding-end="onSlideEnd"
     >
       <!-- indicators -->
-      <b-carousel-slide
-        img-src="~assets/image/banner-01.jpg"
-        class="image-mobile"
-      >
+      <b-carousel-slide img-src="~assets/image/banner-01.jpg" class="image-mobile">
         <!-- <caption-tag class="text-titulo animated bounceInUp delay-1s mt-0 pb-0 mb-0">Boletos</caption-tag>
         <text-tag
           class="text-titulo carousel-text animated bounceInUp delay-1s pb-0 mb-0"
-        >Emita, Registre e gerencie seus boletos.</text-tag> -->
+        >Emita, Registre e gerencie seus boletos.</text-tag>-->
 
         <!-- <router-link to="/boletos" class="m-0 btn btn-outline-light btn-radius animated bounceInDown" role="button">Acesse <i class="fas fa-angle-right"></i></router-link> -->
       </b-carousel-slide>
@@ -43,58 +40,45 @@
           <template>
             <div class="d-lg-block d-sm-none d-none navbg pt-2 pb-2">
               <ul>
-                <router-link
-                  to="/"
-                  class="navbar-brand text-center pl-2 pt-2 pb-3"
-                >
-                  <img
-                    src="~assets/image/logoimobanco.png"
-                    alt
-                    class="text-center"
-                  />
+                <router-link to="/" class="navbar-brand text-center pl-2 pt-2 pb-3">
+                  <img src="~assets/image/logoimobanco.png" alt class="text-center" />
                 </router-link>
                 <router-link
                   to="/"
                   class="text-white text-content p-3 text-decoration-none effect"
-                  >Home</router-link
-                >
+                >Home</router-link>
                 <hr class="linestyle-sidebar mt-1 mb-1" />
                 <router-link
                   to="/boletos"
                   class="text-white text-content p-3 text-decoration-none effect"
-                  >Boleto</router-link
-                >
+                >Boleto</router-link>
                 <hr class="linestyle-sidebar mt-1 mb-1" />
                 <router-link
                   to="/ecommerce"
                   class="text-white text-content p-3 text-decoration-none effect"
-                  >E-Commerce</router-link
-                >
+                >E-Commerce</router-link>
                 <hr class="linestyle-sidebar mt-1 mb-1" />
                 <router-link
                   to="/cobrancas"
                   class="text-white text-content p-3 text-decoration-none effect"
-                  >Cobranças</router-link
-                >
+                >Cobranças</router-link>
                 <hr class="linestyle-sidebar mt-1 mb-1" />
-                <router-link
+                <!-- <router-link
                   to="#"
                   class="text-white text-content p-3 text-decoration-none effect"
                   >Planos</router-link
-                >
+                >-->
                 <hr class="linestyle-sidebar mt-1 mb-1" />
                 <router-link
-                  to="#"
+                  to="/imprensa"
                   class="text-white text-content p-3 text-decoration-none effect"
-                  >Imprensa</router-link
-                >
+                >Imprensa</router-link>
 
                 <hr class="linestyle-sidebar mt-1 mb-1" />
                 <router-link
                   to="/contact"
                   class="text-white text-content p-3 text-decoration-none effect"
-                  >Contato</router-link
-                >
+                >Contato</router-link>
               </ul>
             </div>
           </template>

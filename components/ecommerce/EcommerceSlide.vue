@@ -3,15 +3,13 @@
     <b-container>
       <b-row>
         <b-col cols="12" md="7" lg="6" class="pt-5">
-          <h1 class="mt-5 mb-0 text-title text-warning">
-            Crie sua loja na internet para vender ainda mais.
-          </h1>
-          <p class="text-content text-white pb-0 mb-0">
-            Preço: Setup e Treinamento custo
-          </p>
-          <h1 class="mb-0 text-title text-white">R$ 00,00</h1>
+          <h1
+            class="mt-5 mb-0 text-title text-warning"
+          >Crie sua loja na internet para vender ainda mais.</h1>
+          <p class="text-content text-white pb-0 mb-0">Preço: Setup e Treinamento custo</p>
+          <h1 class="mb-0 text-title text-white">R$ 0,00</h1>
           <p class="text-content text-white">
-            1º vencimento de R$ 99,00 após 60 dias da ativação. *consulte as
+            Gratuito até 15 de setembro. *consulte as
             taxas transacionais.
           </p>
           <a href="#" class="btn btn-warning form-radius-total">Contrate já!</a>
