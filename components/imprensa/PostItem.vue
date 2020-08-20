@@ -1,6 +1,10 @@
 <template>
   <b-container>
-    <b-row>
+    <b-row class="justify-content-center pt-5 pb-5">
+      <b-col cols="12" md="12" lg="12" class="text-center">
+        <h1 class="text-imobanco text-title mt-3">RELEASE IMPRENSA</h1>
+        <hr />
+      </b-col>
       <post-card />
     </b-row>
   </b-container>
@@ -16,5 +20,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

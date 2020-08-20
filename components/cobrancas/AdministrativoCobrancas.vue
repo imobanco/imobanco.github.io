@@ -3,13 +3,13 @@
     <b-container>
       <b-row>
         <b-col cols="12" md="12" lg="12" class="pb-3">
-          <h1 class="text-title text-primary">
+          <H3 class="text-title text-primary text-center">
             Importante frisar que esses são os prazos que compõem as regras da
-            REGUA DE COBRANÇA IMOBANCO.
-          </h1>
-          <h5 class="text-title text-content text-secondary">
-            Cada usuário de nossos sistema, pode determinar com quantos dias
-            deseja cada etapa.
+            RÉGUA DE COBRANÇA IMOBANCO.
+          </H3>
+          <h5 class="text-title text-content text-center text-secondary">
+            Cada usuário de nossos sistema determinará a quantidade de dias em
+            cada etapa.
           </h5>
         </b-col>
       </b-row>
@@ -23,9 +23,9 @@
           </p>
           <h5 class="text-primary">Notificações de vencimento:</h5>
           <p class="text-content text-justify">
-            Cobranças e notificações via e-mail, WhatsApp e SMS. Sim... nós
-            também enviamos as notificações, da mesma forma como a grande
-            maioria de nossos concorrentes.
+            Cobranças e notificações via e-mail, WhatsApp e SMS. Sim! Nós também
+            enviamos as notificações da mesma forma como a grande maioria de
+            nossos concorrentes.
           </p>
 
           <h5 class="text-primary">Prazo de carência:</h5>
@@ -57,7 +57,7 @@
           <h5 class="text-primary">Notificação extra-judicial:</h5>
           <p class="text-content text-justify">
             Emissão de notificação extrajudicial de débito, em data configurada
-            no sistema, por e-mail, whatsapp, Telegram, SMS e correios.
+            no sistema, por e-mail, whatsapp, Telegram, SMS e Correios.
           </p>
 
           <h5 class="text-primary">Novação de dívida:</h5>

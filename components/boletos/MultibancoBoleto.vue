@@ -3,7 +3,7 @@
     <b-container>
       <b-row>
         <b-col cols="12" md="6" lg="6" class="text-center">
-          <h1 class="text-title text-white">O Imobanco é MULTBANCO</h1>
+          <h1 class="text-title text-white">O Imobanco é MULTIBANCO</h1>
         </b-col>
         <b-col cols="12" md="6" lg="6" class="text-left ">
           <p class="text-content text-white text-justify">

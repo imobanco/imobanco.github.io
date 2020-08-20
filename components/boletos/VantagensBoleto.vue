@@ -17,7 +17,7 @@
             Cadastre-se e já e emita seus boletos.
           </p>
           <p class="text-content text-white">
-            • Recurso exclusivo Imobanco: - MULTIPLAS EMPRESAS - Com seu
+            • Recurso exclusivo Imobanco: - MÚLTIPLAS EMPRESAS - Com seu
             contrato ativado, poderá incluir quantas empresas desejar dentro do
             sistema Imobanco.
           </p>
@@ -28,7 +28,7 @@
             Pontualidade (pagamentos em dia) e Efetividade (pagamentos feitos).
           </p>
           <p class="text-content text-white">
-            • Recurso exclusivo Imobanco: - SPIT AUTOMÁTICO - Cadastre seu
+            • Recurso exclusivo Imobanco: - SPLIT AUTOMÁTICO - Cadastre seu
             boleto individual ou contrato de parcelas a receber, juntamente com
             o plano de divisão de valor, se for necessário. Com a liquidação do
             boleto, nosso sistema já transfere os valores planejados
@@ -40,7 +40,7 @@
           </p>
           <p class="text-content text-white">
             • Recurso exclusivo Imobanco: - COBRANÇA INTEGRADA - Poupe tempo com
-            cobranças, se o boleto não foi pago, nós cobramos para você.
+            cobranças. Se o boleto não foi pago, nós cobramos por você.
           </p>
         </b-col>
         <b-col cols="12" md="6" lg="6" class="text-left mt-5">

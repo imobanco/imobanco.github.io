@@ -1,5 +1,5 @@
 <template>
-  <section class="slideecommerce pt-4 pb-4">
+  <section class="slideimprensa pt-4 pb-4">
     <b-container>
       <b-row>
         <b-col cols="12" md="7" lg="6" class="pt-5">
@@ -26,9 +26,9 @@
 <script></script>
 
 <style>
-.slideecommerce {
+.slideimprensa {
   height: auto;
-  background-image: url("~static/image/novo-ecommerce.jpg") !important;
+  background-image: url("~static/image/bg-imprensa.jpg") !important;
   background-color: #4032ec;
   background-size: 100% auto cover;
   background-position: center top;

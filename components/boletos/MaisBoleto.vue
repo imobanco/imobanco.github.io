@@ -8,7 +8,7 @@
         </b-col>
         <b-col cols="12" md="8" lg="8" class="text-left ">
           <p class="text-content text-primary text-justify">
-            • Emita seus boletos, com o Imobanco
+            • Emita seus boletos com o Imobanco.
           </p>
           <p class="text-content text-primary text-justify">
             • Nós os enviamos gratuitamente para você.
@@ -22,12 +22,12 @@
           <p class="text-content text-primary text-justify">
             • Pague apenas quando as cobranças que forem recebidas Seja mais um
             empreendedor de sucesso que tem com a estrutura de recebimento
-            IMOBANCO, capacidade de gerar economia, resultados objetivos e mais
+            Imobanco, capacidade de gerar economia, resultados objetivos e mais
             dinheiro na mão.
           </p>
           <p class="text-content text-primary text-justify">
             Seja mais um empreendedor de sucesso que tem com a estrutura de
-            recebimento IMOBANCO, capacidade de gerar economia, resultados
+            recebimento Imobanco, capacidade de gerar economia, resultados
             objetivos e mais dinheiro na mão.
           </p>
         </b-col>

@@ -57,10 +57,7 @@ export default {
           resumo:
             "A melhor solução do mercado brasileiro. Somos o seu novo MODAL FINANCEIRO.",
           contents: [
-            "* Emita boletos recorrentes e envie por e-mail gratuitamente.",
-            "* Nosso sistema enviará os lembretes de vencimento para seus clientes.",
-            "* Acompanhe seu cliente – Visualize quando os e-mails são abertos.",
-            "* Pague somente os títulos recuperados.",
+            "Emita boletos recorrentes e envie por e-mail gratuitamente. Nosso sistema enviará os lembretes de vencimento para seus clientes, por meio de SMS e e-mails. Enquanto isso, você acompanha o processo em nosso dashboard, visualizando quando os e-mails são abertos ou não. O melhor: Pague somente sobre os boletos gerados de títulos liquidados, ou seja, não cobramos de títulos emitidos e assumimos para você ou suas empresas, toda a estrutura tecnológica para promover o registro online dos boletos emitidos, sem qualquer custo para seus negócios.",
           ],
 
           link: "/boletos",
@@ -76,15 +73,9 @@ export default {
         {
           title: "E-Commerce",
           subtitle: "E-Commerce",
-          resumo:
-            "Economize tempo e dinheiro com a plataforma projetada para se adaptar ao seu negócio.",
+          resumo: "",
           contents: [
-            "* Cadastre-se, crie sua loja virtual e comece a vender pela internet.",
-            "* Adptada para o seu negócio ",
-            "* Fácil de usar.",
-            "* Suporte 24×7",
-            "* Centralize no Imobanco todas as necessidades para extrair mais resultados do seu negócio.",
-            "* Responsivo e adequada para mecanismos de busca",
+            "Você se cadastra, cria sua loja virtual e começa a vender pela internet. Com esse serviço Imobanco, você recebe uma loja totalmente adaptada para o seu negócio, fácil de usar e com suporte 24×7. Centralize no Imobanco todas as necessidades para extrair mais resultados do seu negócio. Tendo sua loja digital Imobanco você passa a ter possibilidades de fazer muito mais com menos.",
           ],
 
           link: "/ecommerce",

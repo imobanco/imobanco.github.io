@@ -1,18 +1,21 @@
 <template>
   <div class="container-fluid">
     <navbar-secondary />
-    <ecommerce-slide />Realease
+    <imprensa-slide />
+    <post-single />
   </div>
 </template>
 
 <script>
 import NavbarSecondary from "@/components/main/NavbarSecondary.vue";
-import EcommerceSlide from "@/components/ecommerce/EcommerceSlide.vue";
+import ImprensaSlide from "@/components/imprensa/ImprensaSlide.vue";
+import PostSingle from "@/components/imprensa/PostSingle.vue";
 
 export default {
   components: {
     NavbarSecondary,
-    EcommerceSlide,
+    ImprensaSlide,
+    PostSingle,
   },
 };
 </script>
