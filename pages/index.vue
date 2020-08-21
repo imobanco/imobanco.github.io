@@ -5,6 +5,7 @@
     <persona-section />
     <services-section />
     <facilidades-item />
+    <chat-comercial />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import HeaderSlide from "~/components/main/HeaderSlide.vue";
 import PersonaSection from "~/components/index/persona/PersonaSection.vue";
 import FacilidadesItem from "~/components/index/facilidadesimobanco/FacilidadesItem.vue";
 import ServicesSection from "~/components/index/services/ServicesSection.vue";
+import ChatComercial from "~/components/index/chatcomercial/ChatComercial.vue";
 
 export default {
   components: {
@@ -22,6 +24,7 @@ export default {
     PersonaSection,
     FacilidadesItem,
     ServicesSection,
+    ChatComercial,
   },
 };
 </script>

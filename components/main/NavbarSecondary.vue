@@ -14,33 +14,55 @@
         class="bg-white form-radius-total p-1"
       ></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
-        <b-navbar-nav class="ml-auto text-center">
-          <router-link
-            to="/"
-            class="text-titulo-sidebar text-decoration-none text-white navbarbox"
-            >Home</router-link
-          >
-          <router-link
+        <b-row class="justify-content-center">
+          <b-col cols="12" md="6">
+            <b-navbar-nav class="ml-auto text-center">
+              <router-link
+                to="/"
+                class="text-titulo-sidebar text-decoration-none text-white navbarbox"
+                >Home</router-link
+              >
+
+              <router-link
+                to="/Boletos"
+                class="text-titulo-sidebar text-decoration-none text-white navbarbox"
+                >Boletos</router-link
+              >
+              <router-link
+                to="/Ecommerce"
+                class="text-titulo-sidebar text-decoration-none text-white navbarbox"
+                >Ecommerce</router-link
+              >
+              <router-link
+                to="/cobrancas"
+                class="text-titulo-sidebar text-decoration-none text-white navbarbox"
+                >Cobranças</router-link
+              >
+              <router-link
+                to="/imprensa"
+                class="text-titulo-sidebar text-decoration-none text-white navbarbox"
+                >Imprensa</router-link
+              >
+              <!-- <router-link
             to="/pagador"
             class="text-titulo-sidebar text-decoration-none text-white navbarbox"
             >Pagador</router-link
-          >
-          <router-link
-            to="/Boletos"
-            class="text-titulo-sidebar text-decoration-none text-white navbarbox"
-            >Boletos</router-link
-          >
-          <router-link
-            to="/Ecommerce"
-            class="text-titulo-sidebar text-decoration-none text-white navbarbox"
-            >Ecommerce</router-link
-          >
-          <router-link
-            to="/cobrancas"
-            class="text-titulo-sidebar text-decoration-none text-white navbarbox"
-            >Cobranças</router-link
-          >
-        </b-navbar-nav>
+          > -->
+              <router-link
+                to="/contato"
+                class="text-titulo-sidebar text-decoration-none text-white navbarbox"
+                >Contato</router-link
+              >
+              <a
+                href="http://app.imobanco.com.br/login"
+                target="_blank"
+                class="btn bg-bluepink text-titulo-sidebar text-decoration-none text-white navbarbox form-radius-total"
+              >
+                Login
+              </a>
+            </b-navbar-nav>
+          </b-col>
+        </b-row>
       </b-collapse>
     </div>
   </b-navbar>

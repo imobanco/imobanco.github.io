@@ -54,7 +54,7 @@
           qualidade de vida melhor”. <br /><br />
           Para contatar o Imobanco e ter acesso ao sistema de loja virtual
           gratuita, o empreendedor pode acessar o site
-          <a href="http://www.imobanco.com.br">Imobanco</a>
+          <a href="http://app.imobanco.com.br/register" target="_blank">Imobanco</a>
           <br /><br />
           <span class="text-subtitle"> Saiba mais sobre o Imobanco </span> O
           Imobanco é uma fintech, uma empresa que une serviços financeiros e
@@ -70,19 +70,12 @@
         </p>
       </b-col>
 
-      <footer-imprensa />
+     
     </b-row>
   </b-container>
 </template>
 
 <script>
-import FooterImprensa from "@/components/imprensa/FooterImprensa.vue";
-export default {
-  name: "FooterItem",
-  components: {
-    FooterImprensa,
-  },
-};
-</script>
+
 
 <style lang="scss" scoped></style>

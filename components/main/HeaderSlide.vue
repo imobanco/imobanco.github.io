@@ -13,7 +13,7 @@
     >
       <!-- indicators -->
       <b-carousel-slide
-        img-src="~assets/image/banner-01.jpg"
+        img-src="~static/image/banner-03-ecommerce.jpg"
         class="image-mobile"
       >
         <!-- <caption-tag class="text-titulo animated bounceInUp delay-1s mt-0 pb-0 mb-0">Boletos</caption-tag>
@@ -91,9 +91,17 @@
 
                 <hr class="linestyle-sidebar mt-1 mb-1" />
                 <router-link
-                  to="/contact"
+                  to="/contato"
                   class="text-white text-content p-3 text-decoration-none effect"
                   >Contato</router-link
+                >
+                <hr class="linestyle-sidebar mt-1 mb-1" />
+                <a
+                  href="http://app.imobanco.com.br"
+                  target="_blank"
+                  class="text-white text-content p-3 text-decoration-none effect"
+                >
+                  Login</a
                 >
               </ul>
             </div>

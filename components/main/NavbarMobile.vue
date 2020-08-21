@@ -49,21 +49,23 @@
                         class="text-white text-decoration-none p-2"
                         >Cobranças</router-link
                       >
+
                       <router-link
-                        to="/cobrancas"
-                        class="text-white text-decoration-none p-2"
-                        >Planos</router-link
-                      >
-                      <router-link
-                        to="/cobrancas"
+                        to="/imprensa"
                         class="text-white text-decoration-none p-2"
                         >Imprensa</router-link
                       >
                       <router-link
-                        to="/contact"
+                        to="/pagador"
+                        class="text-white text-decoration-none p-2"
+                        >Pagador</router-link
+                      >
+                      <router-link
+                        to="/contato"
                         class="text-white text-decoration-none p-2"
                         >Contato</router-link
                       >
+
                       <a
                         href="#"
                         class="btn bg-bluepink text-white form-radius-total p-2"

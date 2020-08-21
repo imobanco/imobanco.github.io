@@ -13,7 +13,12 @@
           <p class="text-content text-white">
             Gratuito até 15 de setembro. *consulte as taxas transacionais.
           </p>
-          <a href="#" class="btn btn-warning form-radius-total">Contrate já!</a>
+          <a
+            href="http://app.imobanco.com.br/register"
+            target="_blank"
+            class="btn btn-warning form-radius-total"
+            >Contrate já!</a
+          >
         </b-col>
         <b-col cols="12" md="5" lg="6" class="pt-5">
           <img src="image/ecommerce-top.png" alt class="img-fluid" />

@@ -1,7 +1,7 @@
 <template>
   <b-col cols="12" md="12" lg="12" class=" form-radius-total  mt-2 mb-2">
-    <b-row>
-      <b-col cols="12" lg="2" md="1" class="bg-primary text-center">
+    <b-row class="p-2">
+      <b-col cols="12" lg="2" md="2" class="bg-primary text-center">
         <h1 class="text-white mt-2 mb-0">11</h1>
         <p class="text-content text-info">AGOSTO 2020</p>
       </b-col>
@@ -10,7 +10,8 @@
           to="/imprensa/realease"
           class="text-primary text-content p-3 btn text-decoration-none effect text-left"
           ><h3>
-            Comunicado sobre a descontinuação definitiva de medicamentos
+            Imobanco oferece lojas virtuais sem custos para empreendedores
+            potiguares
           </h3></router-link
         >
       </b-col>
