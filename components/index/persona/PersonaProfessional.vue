@@ -7,11 +7,12 @@
         cols="12"
         md="4"
         lg="4"
-        class="text-left"
+        class="text-center"
       >
-        <h5 class="text-secondary">{{ topic.title}}</h5>
+        <b-img :src="topic.image" class="img-fluid text-center" style="width: 100px" />
+        <h5 class="text-white">{{ topic.title}}</h5>
         <hr class="lineimobanco" />
-        <p class="text-justify">{{ topic.text }}</p>
+        <p class="text-justify text-graylight v-scrollanimation">{{ topic.text }}</p>
       </b-col>
     </b-row>
   </b-container>
@@ -24,19 +25,22 @@ export default {
     return {
       topics_professional: [
         {
+          image: "image/icon-imoveis.png",
           title: "Locadores e corretores de imóveis",
           text:
-            "Feito para descomplicar seus recebimentos. Concentre tudo em um único ambiente. Cobre e receba seu aluguel com a gente! Caso seja Corretor de Imóveis, além disso partilhe a arrecadação de forma pré-programada, simples e praticamente.",
+            "Feito para descomplicar seus recebimentos. Concentre tudo em um único ambiente. Cobre e receba seu aluguel com a gente!",
         },
         {
+          image: "image/icon-profissionais.png",
           title: "Profissionais liberais",
           text:
-            "Concentre todos os seus esforços em fechar novos negócios, e deixe que o Imobanco cuida para que você só se preocupe em receber. Emita seus recebimentos com boletos ou assinaturas recorrentes no cartão de crédito e tenha a tranquilidade de poder contar com nosso backoffice para promover a cobrança dos valores inadimplidos.",
+            "Concentre todos os seus esforços em fechar novos negócios, e deixe que o Imobanco cuida para que você só se preocupe em receber. ",
         },
         {
+          image: "image/icon-microempresas.png",
           title: "Micro e pequenos comerciantes",
           text:
-            "Colocamos o seu negócio online no máximo em 7 dias, 100% integrado com nossa gestão inteligente de recebimentos. Venda para todo o Brasil! É fácil, é simples, É IMOBANCO!.",
+            "Colocamos o seu negócio online no máximo em 7 dias, 100% integrado com nossa gestão inteligente de recebimentos. Venda para todo o Brasil!",
         },
       ],
     };

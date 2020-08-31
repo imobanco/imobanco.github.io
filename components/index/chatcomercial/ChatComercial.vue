@@ -14,12 +14,12 @@
 
           <a
             href="https://t.me/imobancobot"
-            class="btn form-radius-total btn-outline-info"
+            class="btn form-radius btn-outline-info"
             ><i class="fab fa-telegram-plane"></i> Telegram</a
           >
           <a
             href="https://api.whatsapp.com/send?phone=555511946592701&text=Fale%20conosco%20pelo%20nosso%20canal%20de%20atendimento%20Imobanco"
-            class="btn form-radius-total btn-outline-info"
+            class="btn form-radius btn-outline-info"
             ><i class="fab fa-whatsapp"></i> Whatsapp</a
           >
         </b-col>

@@ -70,7 +70,7 @@ export default {
     return {
       topics_utilidade: [
         // { title: "Blog", link: "#" },
-        { title: "Faq", link: "/contato" },
+        { title: "Contato", link: "/contato" },
         { title: "Imprensa", link: "/imprensa" },
         // { title: "Ouvidoria", link: "#" },
         { title: "Desenvolvedores", link: "https://imopay.com.br/" },

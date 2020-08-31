@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-5 pb-5 bg-primary">
+  <section class="pt-5 pb-5 bg-blackdark">
     <b-container>
       <b-row>
         <b-col cols="12" md="12" lg="12" class="text-center mt-5">
@@ -13,8 +13,7 @@
             bancários com muita praticidade, rapidez e baixo custo.
           </p>
           <p class="text-content text-white">
-            • Conta digital gratuita. Abra sua conta de forma rápida e simples.
-            Cadastre-se e já e emita seus boletos.
+            • Conta digital gratuita. Abra sua conta de forma rápida e simples. Cadastre-se e já emita seus boletos.
           </p>
           <p class="text-content text-white">
             • Recurso exclusivo Imobanco: - MÚLTIPLAS EMPRESAS - Com seu

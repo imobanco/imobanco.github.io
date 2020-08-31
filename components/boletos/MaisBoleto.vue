@@ -20,10 +20,7 @@
             • Visualize quando o seu cliente abre os e-mails e faturas enviadas.
           </p>
           <p class="text-content text-primary text-justify">
-            • Pague apenas quando as cobranças que forem recebidas Seja mais um
-            empreendedor de sucesso que tem com a estrutura de recebimento
-            Imobanco, capacidade de gerar economia, resultados objetivos e mais
-            dinheiro na mão.
+            • Pague apenas quando as cobranças forem recebidas. Seja mais um empreendedor de sucesso, que tem com a estrutura de recebimento Imobanco, capacidade de gerar economia, resultados objetivos e mais dinheiro na mão.
           </p>
           <p class="text-content text-primary text-justify">
             Seja mais um empreendedor de sucesso que tem com a estrutura de

@@ -37,7 +37,7 @@ html {
 
 .slideecommerce {
   height: 500px;
-  background-image: url("~assets/image/bgecommerce.jpg");
+  /* background-image: url("~assets/image/bgecommerce.jpg"); */
   background: rgb(4, 95, 170);
   background-size: 100% auto cover;
   background-position: center top;

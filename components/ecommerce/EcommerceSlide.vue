@@ -3,7 +3,7 @@
     <b-container>
       <b-row>
         <b-col cols="12" md="7" lg="6" class="pt-5">
-          <h1 class="mt-5 mb-0 text-title text-warning">
+          <h1 class="mt-5 mb-0 text-title text-success">
             Crie sua loja na internet para vender ainda mais.
           </h1>
           <p class="text-content text-white pb-0 mb-0">
@@ -16,7 +16,7 @@
           <a
             href="http://app.imobanco.com.br/register"
             target="_blank"
-            class="btn btn-warning form-radius-total"
+            class="btn bg-white form-radius-total"
             >Contrate já!</a
           >
         </b-col>

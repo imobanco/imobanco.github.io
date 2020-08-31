@@ -1,13 +1,13 @@
 <template>
-  <section class="bg-bluepink pt-5 pb-5">
+  <section class="bg-success pt-5 pb-5">
     <b-container>
       <b-row>
         <b-col cols="12" md="7" lg="8" class="pt-5">
           <h1 class="mt-5 mb-0 text-title text-white">
-            Garante já a sua presença no mundo online
+            Garanta já a sua presença no mundo online
           </h1>
           <p class="text-content text-white pb-0 mb-0">
-            tenha sucesso e venda para qualquer lugar!
+           Tenha sucesso e venda para qualquer lugar!
           </p>
           <p class="text-content text-white pb-0 mb-0">
             Preço: Setup e custo para treinamento
@@ -19,7 +19,7 @@
           <a
             href="http://app.imobanco.com.br/register"
             target="_blank"
-            class="btn btn-warning form-radius-total"
+            class="btn bg-white form-radius"
             >Contrate já!</a
           >
         </b-col>

@@ -33,7 +33,7 @@
             <router-link
               v-if="topic.link"
               :to="topic.link"
-              class="btn bg-white form-radius-total"
+              class="btn bg-white form-radius"
               >Acessar</router-link
             >
           </b-card-text>

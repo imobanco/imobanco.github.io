@@ -3,7 +3,7 @@
     <b-container>
       <b-row>
         <b-col cols="12" md="12" lg="12" class="text-left pb-3">
-          <h2 class="text-white pb-2">Conheça outras facilidades Imobanco para você.</h2>
+          <h2 class="text-white pb-2">Soluções Imobanco</h2>
         </b-col>
         <b-col cols="12" md="12" lg="12" class="text-left pb-3 d-none d-sm-none d-md-block">
           <services-item />

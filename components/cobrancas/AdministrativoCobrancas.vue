@@ -3,20 +3,20 @@
     <b-container>
       <b-row>
         <b-col cols="12" md="12" lg="12" class="pb-3">
-          <H3 class="text-title text-primary text-center">
-            Importante frisar que esses são os prazos que compõem as regras da
+          <h2 class="text-title text-primary text-center">
             RÉGUA DE COBRANÇA IMOBANCO.
-          </H3>
-          <h5 class="text-title text-content text-center text-secondary">
+          </h2>
+          <p class="text-title text-content text-center text-primary">
             Cada usuário de nossos sistema determinará a quantidade de dias em
             cada etapa.
-          </h5>
+          </p>
         </b-col>
       </b-row>
       <b-row class="pt-3">
-        <b-col cols="12" md="4" lg="4" class="">
+        <b-col cols="12" md="12" lg="12" class="">
           <h3 class="text-primary text-title">Cobrança Administrativa</h3>
-
+        </b-col>
+        <b-col cols="12" md="3" lg="3">
           <h5 class="text-primary">Equipe humanizada:</h5>
           <p class="text-content text-justify">
             Equipe de mediação administrativa, focada em acordos.
@@ -41,6 +41,14 @@
           </p>
         </b-col>
 
+        <b-col cols="12" md="3" lg="3">
+         <h5 class="text-primary">Notificações de vencimento:</h5>
+          <p class="text-content text-justify">
+            Cobranças e notificações via e-mail, WhatsApp e SMS. Sim! Nós também
+            enviamos as notificações da mesma forma como a grande maioria de
+            nossos concorrentes.
+          </p>
+        </b-col>
         <b-col cols="12" md="4" lg="4" class="">
           <h3 class="text-primary text-title">Cobrança Extrajudicial</h3>
 

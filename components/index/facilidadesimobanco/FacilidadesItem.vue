@@ -1,9 +1,9 @@
 <template>
-  <section class="bg-white pt-5 pb-5">
+  <section class="bg-blackdark pt-5 pb-5">
     <b-container>
       <b-row>
         <b-col cols="12" md="12" lg="12" class="text-left pb-3">
-          <h2 class="text-imobanco">Conheça outras facilidades Imobanco para você.</h2>
+          <h2 class="text-success">Conheça outras facilidades Imobanco para você.</h2>
         </b-col>
       </b-row>
       <b-row>
@@ -16,14 +16,14 @@
           v-for="(topic, index) in topics_utilidade"
           key="index"
         >
-          <span class="bg-imobanco text-white p-2 form-radius-total">
+          <span class="border-icon text-success p-2">
             <i :class="topic.icon"></i>
           </span>
-          <h5 class="text-imobanco mt-2">
+          <h5 class="text-white mt-2">
             <!-- <i :class="topic.icon"></i> -->
             {{ topic.title }}
           </h5>
-          <p class="mt-0 mb-0 text-justify">{{ topic.content }}</p>
+          <p class="mt-0 mb-0 text-justify text-graylight">{{ topic.content }}</p>
         </b-col>
       </b-row>
     </b-container>
@@ -82,4 +82,11 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.border-icon{
+  width: 50px;
+  height: 50px;
+  border: 1px solid #00c1de;
+  border-radius: 10px;
+}
+</style>
