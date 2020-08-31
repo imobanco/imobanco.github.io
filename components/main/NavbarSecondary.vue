@@ -56,7 +56,7 @@
               <a
                 href="http://app.imobanco.com.br/login"
                 target="_blank"
-                class="btn bg-bluepink text-titulo-sidebar text-decoration-none text-white navbarbox form-radius-total"
+                class="btn bg-bluepink text-titulo-sidebar text-decoration-none text-white navbarbox form-radius"
               >
                 Login
               </a>

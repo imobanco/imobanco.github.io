@@ -2,7 +2,7 @@
   <b-col cols="12" md="12" lg="12" class=" form-radius-total  mt-2 mb-2">
     <b-row class="p-2">
       <b-col cols="12" lg="2" md="2" class="bg-primary text-center">
-        <h1 class="text-white mt-2 mb-0">11</h1>
+        <h1 class="text-white mt-2 mb-0 title-font">11</h1>
         <p class="text-content text-info">AGOSTO 2020</p>
       </b-col>
       <b-col cols="12" lg="10" md="8" class="">

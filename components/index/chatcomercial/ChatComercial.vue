@@ -3,7 +3,7 @@
     <b-container>
       <b-row>
         <b-col cols="12" md="6" lg="6">
-          <h3 class="text-title text-imobanco">Atendimento</h3>
+          <h3 class="text-title text-imobanco title-font">Atendimento</h3>
           <p class="text-justify">
             Converse conosco através do Chat, Whatsapp ou Telegram. Essas são
             formas rápidas e seguras para solucionar suas dúvidas sobre todos os

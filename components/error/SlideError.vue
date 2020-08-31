@@ -3,7 +3,9 @@
     <b-container>
       <b-row>
         <b-col cols="12" md="12" lg="12" class="text-center mt-lg-5 mt-md-3">
-          <h1 class="text-title text-white mt-5">Página não encontrada</h1>
+          <h1 class="text-title text-white mt-5 title-font">
+            Página não encontrada
+          </h1>
         </b-col>
       </b-row>
     </b-container>

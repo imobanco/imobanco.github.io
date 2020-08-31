@@ -2,7 +2,7 @@
   <b-container>
     <b-row class="justify-content-center pt-5 pb-5">
       <b-col cols="12" md="12" lg="12" class="text-left">
-        <h1 class="text-imobanco  text-title mt-3">
+        <h1 class="text-imobanco  text-title mt-3 title-font">
           Imobanco oferece lojas virtuais sem custos para empreendedores
           potiguares
         </h1>

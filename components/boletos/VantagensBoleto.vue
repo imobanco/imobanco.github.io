@@ -3,7 +3,7 @@
     <b-container>
       <b-row>
         <b-col cols="12" md="12" lg="12" class="text-center mt-5">
-          <h1 class="text-title text-success">
+          <h1 class="text-title text-success title-font">
             Quer saber as vantagens de nosso serviço?
           </h1>
         </b-col>
@@ -13,7 +13,8 @@
             bancários com muita praticidade, rapidez e baixo custo.
           </p>
           <p class="text-content text-white">
-            • Conta digital gratuita. Abra sua conta de forma rápida e simples. Cadastre-se e já emita seus boletos.
+            • Conta digital gratuita. Abra sua conta de forma rápida e simples.
+            Cadastre-se e já emita seus boletos.
           </p>
           <p class="text-content text-white">
             • Recurso exclusivo Imobanco: - MÚLTIPLAS EMPRESAS - Com seu

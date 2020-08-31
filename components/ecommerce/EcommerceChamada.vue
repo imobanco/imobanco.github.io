@@ -3,16 +3,16 @@
     <b-container>
       <b-row>
         <b-col cols="12" md="7" lg="8" class="pt-5">
-          <h1 class="mt-5 mb-0 text-title text-white">
+          <h1 class="mt-5 mb-0 text-title text-white title-font">
             Garanta já a sua presença no mundo online
           </h1>
           <p class="text-content text-white pb-0 mb-0">
-           Tenha sucesso e venda para qualquer lugar!
+            Tenha sucesso e venda para qualquer lugar!
           </p>
           <p class="text-content text-white pb-0 mb-0">
             Preço: Setup e custo para treinamento
           </p>
-          <h1 class="mb-0 text-title text-white">R$ 0,00</h1>
+          <h1 class="mb-0 text-title text-white title-font">R$ 0,00</h1>
           <p class="text-content text-white">
             Gratuito até 15 de setembro. *consulte as taxas transacionais.
           </p>

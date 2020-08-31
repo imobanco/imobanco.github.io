@@ -3,7 +3,7 @@
     <b-container>
       <b-row>
         <b-col cols="12" md="12" lg="12" class="text-center mt-lg-5 mt-md-3">
-          <h1 class="text-title text-white mt-5">
+          <h1 class="title-font text-title text-white mt-5">
             Cobrança e recuperação de crédito
           </h1>
           <p class="text-white text-content">
@@ -12,7 +12,7 @@
           <a
             href="http://app.imobanco.com.br/register"
             target="_black"
-            class="btn bg-white form-radius-total"
+            class="btn bg-white form-radius"
             >Cadastre-se</a
           >
         </b-col>
@@ -25,7 +25,7 @@
 
 <style>
 .slidemobilecobrancas {
-  height: 400px;
+  height: 500px;
   background-image: url("~static/image/banner-cobrancas.jpg") !important;
   background-color: #9c9c9c;
   background-size: 100% auto cover;

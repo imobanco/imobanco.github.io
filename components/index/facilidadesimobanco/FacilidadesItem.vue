@@ -3,7 +3,9 @@
     <b-container>
       <b-row>
         <b-col cols="12" md="12" lg="12" class="text-left pb-3">
-          <h2 class="text-success">Conheça outras facilidades Imobanco para você.</h2>
+          <h2 class="text-success title-font">
+            Conheça outras facilidades Imobanco para você.
+          </h2>
         </b-col>
       </b-row>
       <b-row>
@@ -23,7 +25,9 @@
             <!-- <i :class="topic.icon"></i> -->
             {{ topic.title }}
           </h5>
-          <p class="mt-0 mb-0 text-justify text-graylight">{{ topic.content }}</p>
+          <p class="mt-0 mb-0 text-justify text-graylight">
+            {{ topic.content }}
+          </p>
         </b-col>
       </b-row>
     </b-container>
@@ -83,7 +87,7 @@ export default {
 </script>
 
 <style>
-.border-icon{
+.border-icon {
   width: 50px;
   height: 50px;
   border: 1px solid #00c1de;

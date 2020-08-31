@@ -1,41 +1,14 @@
 <template>
   <section class="slidemobile mt-0">
-    <b-carousel
-      id="carousel-1"
-      v-model="slide"
-      :interval="4000"
-      controls
-      background="#ababab"
-      img-width="1024"
-      img-height="480"
-      @sliding-start="onSlideStart"
-      @sliding-end="onSlideEnd"
-    >
-      <!-- indicators -->
-      <b-carousel-slide
-        img-src="~static/image/banner-03-ecommerce.jpg"
-        class="image-mobile"
-      >
-        <!-- <caption-tag class="text-titulo animated bounceInUp delay-1s mt-0 pb-0 mb-0">Boletos</caption-tag>
-        <text-tag
-          class="text-titulo carousel-text animated bounceInUp delay-1s pb-0 mb-0"
-        >Emita, Registre e gerencie seus boletos.</text-tag>-->
-
-        <!-- <router-link to="/boletos" class="m-0 btn btn-outline-light btn-radius animated bounceInDown" role="button">Acesse <i class="fas fa-angle-right"></i></router-link> -->
-      </b-carousel-slide>
-
-      <b-carousel-slide img-src="~assets/image/banner-02.jpg">
-        <!-- <p class="text-titulo animated bounceInUp delay-1s">Fluindo mais uma</p> -->
-        <router-link
-          to="/boletos"
-          class="m-0 btn btn-outline-light btn-radius animated bounceInDown"
-          role="button"
-        >
-          Acesse
-          <i class="fas fa-angle-right"></i>
-        </router-link>
-      </b-carousel-slide>
-    </b-carousel>
+    <b-container class="pt-5">
+      <b-row class="justify-content-center">
+        <b-col cols="12" md="8" lg="8" class="text-center mg-100">
+          <h1 class="text-white text-propaganda">
+            A melhor solução do mercado brasileiro
+          </h1>
+        </b-col>
+      </b-row>
+    </b-container>
     <nav-top />
     <b-container class="navzindex">
       <b-row>
@@ -45,61 +18,61 @@
               <ul>
                 <router-link
                   to="/"
-                  class="navbar-brand text-center pl-2 pt-2 pb-3"
+                  class="navbar-brand text-center pl-3 pt-2 pb-3"
                 >
                   <img
-                    src="~assets/image/logoimobanco.png"
+                    src="~static/image/imobanco-azul.png"
                     alt
-                    class="text-center"
+                    class="text-center img-fluid"
                   />
                 </router-link>
                 <router-link
                   to="/"
-                  class="text-white text-content p-3 text-decoration-none effect"
+                  class="text-primary text-content p-3 text-decoration-none effect"
                   >Home</router-link
                 >
-                <hr class="linestyle-sidebar mt-1 mb-1" />
+                <hr />
                 <router-link
                   to="/boletos"
-                  class="text-white text-content p-3 text-decoration-none effect"
+                  class="text-primary text-content p-3 text-decoration-none effect"
                   >Boleto</router-link
                 >
-                <hr class="linestyle-sidebar mt-1 mb-1" />
+                <hr />
                 <router-link
                   to="/ecommerce"
-                  class="text-white text-content p-3 text-decoration-none effect"
+                  class="text-primary text-content p-3 text-decoration-none effect"
                   >E-Commerce</router-link
                 >
-                <hr class="linestyle-sidebar mt-1 mb-1" />
+                <hr />
                 <router-link
                   to="/cobrancas"
-                  class="text-white text-content p-3 text-decoration-none effect"
+                  class="text-primary text-content p-3 text-decoration-none effect"
                   >Cobranças</router-link
                 >
-                <!-- <hr class="linestyle-sidebar mt-1 mb-1" /> -->
+                <!-- <hr  /> -->
                 <!-- <router-link
                   to="#"
-                  class="text-white text-content p-3 text-decoration-none effect"
+                  class="text-primary text-content p-3 text-decoration-none effect"
                   >Planos</router-link
                 >-->
-                <hr class="linestyle-sidebar mt-1 mb-1" />
+                <hr />
                 <router-link
                   to="/imprensa"
-                  class="text-white text-content p-3 text-decoration-none effect"
+                  class="text-primary text-content p-3 text-decoration-none effect"
                   >Imprensa</router-link
                 >
 
-                <hr class="linestyle-sidebar mt-1 mb-1" />
+                <hr />
                 <router-link
                   to="/contato"
-                  class="text-white text-content p-3 text-decoration-none effect"
+                  class="text-primary text-content p-3 text-decoration-none effect"
                   >Contato</router-link
                 >
-                <hr class="linestyle-sidebar mt-1 mb-1" />
+                <hr />
                 <a
                   href="http://app.imobanco.com.br"
                   target="_blank"
-                  class="text-white text-content p-3 text-decoration-none effect"
+                  class="text-primary text-content p-3 text-decoration-none effect"
                 >
                   Login</a
                 >
@@ -124,14 +97,7 @@ export default {
       sliding: null,
     };
   },
-  methods: {
-    onSlideStart(slide) {
-      this.sliding = true;
-    },
-    onSlideEnd(slide) {
-      this.sliding = false;
-    },
-  },
+  methods: {},
 };
 </script>
 
@@ -146,6 +112,8 @@ export default {
   /* top: 10%; */
 }
 .slidemobile {
+  background-image: url("~static/image/bg-home.jpg") !important;
+  height: 800px;
   background-size: 100% auto cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -159,8 +127,12 @@ export default {
 
 .navbg {
   width: 196px;
-  background-color: rgba(10, 23, 55, 0.5);
-  border-radius: 20px 20px 20px 2px;
+  background-color: #ffffff;
+  /* background-color: rgba(10, 23, 55, 0.5); */
+  border-radius: 10px 10px 10px 10px;
   margin-left: 65px;
+}
+.mg-100 {
+  margin-top: 200px;
 }
 </style>

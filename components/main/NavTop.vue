@@ -16,7 +16,7 @@
             class="text-titulo-sidebar text-decoration-none text-white navbarbox"
             >Pagador</nuxt-link
           > -->
-        <a href="http://app.imobanco.com.br/register" target="_blank" class="btn bg-bluepink text-white form-radius-total p-2">Seja Imobanco</a>
+        <a href="http://app.imobanco.com.br/register" target="_blank" class="btn bg-blackdark text-white form-radius p-2">Seja Imobanco</a>
       </b-col>
     </b-row>
   </b-container>
