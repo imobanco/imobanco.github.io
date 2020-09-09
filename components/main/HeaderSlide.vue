@@ -2,11 +2,9 @@
   <section class="slidemobile mt-0">
     <b-container class="pt-5">
       <b-row class="justify-content-center">
-        <b-col cols="12" md="8" lg="8" class="text-center mg-100">
-          <h1 class="text-white text-propaganda">
-            A melhor solução do mercado brasileiro
-          </h1>
-        </b-col>
+        <!-- <b-col cols="12" md="8" lg="8" class="text-center mg-100">
+          <h1 class="text-white text-propaganda">A melhor solução do mercado brasileiro</h1>
+        </b-col>-->
       </b-row>
     </b-container>
     <nav-top />
@@ -16,39 +14,28 @@
           <template>
             <div class="d-lg-block d-sm-none d-none navbg pt-2 pb-2">
               <ul>
-                <router-link
-                  to="/"
-                  class="navbar-brand text-center pl-3 pt-2 pb-3"
-                >
-                  <img
-                    src="~static/image/imobanco-azul.png"
-                    alt
-                    class="text-center img-fluid"
-                  />
+                <router-link to="/" class="navbar-brand text-center pl-3 pt-2 pb-3">
+                  <img src="~static/image/imobanco-azul.png" alt class="text-center img-fluid" />
                 </router-link>
                 <router-link
                   to="/"
                   class="text-primary text-content p-3 text-decoration-none effect"
-                  >Home</router-link
-                >
+                >Home</router-link>
                 <hr />
                 <router-link
                   to="/boletos"
                   class="text-primary text-content p-3 text-decoration-none effect"
-                  >Boleto</router-link
-                >
+                >Boleto</router-link>
                 <hr />
                 <router-link
                   to="/ecommerce"
                   class="text-primary text-content p-3 text-decoration-none effect"
-                  >E-Commerce</router-link
-                >
+                >E-Commerce</router-link>
                 <hr />
                 <router-link
                   to="/cobrancas"
                   class="text-primary text-content p-3 text-decoration-none effect"
-                  >Cobranças</router-link
-                >
+                >Cobranças</router-link>
                 <!-- <hr  /> -->
                 <!-- <router-link
                   to="#"
@@ -59,23 +46,19 @@
                 <router-link
                   to="/imprensa"
                   class="text-primary text-content p-3 text-decoration-none effect"
-                  >Imprensa</router-link
-                >
+                >Imprensa</router-link>
 
                 <hr />
                 <router-link
                   to="/contato"
                   class="text-primary text-content p-3 text-decoration-none effect"
-                  >Contato</router-link
-                >
+                >Contato</router-link>
                 <hr />
                 <a
                   href="http://app.imobanco.com.br"
                   target="_blank"
                   class="text-primary text-content p-3 text-decoration-none effect"
-                >
-                  Login</a
-                >
+                >Login</a>
               </ul>
             </div>
           </template>
@@ -89,15 +72,15 @@
 import NavTop from "@/components/main/NavTop.vue";
 export default {
   components: {
-    NavTop,
+    NavTop
   },
   data() {
     return {
       slide: 0,
-      sliding: null,
+      sliding: null
     };
   },
-  methods: {},
+  methods: {}
 };
 </script>
 
@@ -112,7 +95,7 @@ export default {
   /* top: 10%; */
 }
 .slidemobile {
-  background-image: url("~static/image/bg-home.jpg") !important;
+  background-image: url("~static/image/bg-imo.jpg") !important;
   height: 800px;
   background-size: 100% auto cover;
   background-position: center center;
