@@ -2,8 +2,8 @@
 .cache
 .DS_Store
 src/.temp
-node_modules
-dist
+node_modules/
+dist/
 .env
 .env.*
 .nuxt/
