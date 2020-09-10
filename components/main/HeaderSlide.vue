@@ -72,15 +72,15 @@
 import NavTop from "@/components/main/NavTop.vue";
 export default {
   components: {
-    NavTop,
+    NavTop
   },
   data() {
     return {
       slide: 0,
-      sliding: null,
+      sliding: null
     };
   },
-  methods: {},
+  methods: {}
 };
 </script>
 
@@ -97,8 +97,8 @@ export default {
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 767.98px) {
   .slidemobile {
-    background-image: url("~static/image/bg-teste-mobile.png") !important;
-    height: 700px;
+    background-image: url("~static/image/receba-phone.png") !important;
+    height: 600px;
     background-size: 100% auto;
     background-position: center center;
     background-repeat: no-repeat;
@@ -107,7 +107,7 @@ export default {
 /* Extra small devices (portrait phones, less than 767px) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   .slidemobile {
-    background-image: url("~static/image/slide-tablet.png") !important;
+    background-image: url("~static/image/receba-tablet.png") !important;
     height: 700px;
     background-size: 100% auto center;
     background-position: center center;
@@ -116,7 +116,7 @@ export default {
 }
 @media (min-width: 992px) {
   .slidemobile {
-    background-image: url("~static/image/bg-teste.png") !important;
+    background-image: url("~static/image/receba-desk.png") !important;
     height: 800px;
     background-size: 100% auto cover;
     background-position: center center;

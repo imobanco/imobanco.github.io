@@ -26,25 +26,25 @@ export default {
       topics_professional: [
         {
           image: "image/icon-imoveis.png",
-          title: "Locadores e corretores de imóveis",
+          title: "Corretores de imóveis",
           text:
-            "Feito para descomplicar seus recebimentos. Concentre tudo em um único ambiente. Cobre e receba seu aluguel com a gente!",
+            "Feito para descomplicar seus recebimentos. Concentre tudo em um único ambiente. Controle, cobre, receba e, sendo imobiliária, repasse o aluguel com a gente!"
         },
         {
           image: "image/icon-profissionais.png",
-          title: "Profissionais liberais",
+          title: "Prestadores de serviços",
           text:
-            "Concentre todos os seus esforços em fechar novos negócios, e deixe que o Imobanco cuida para que você só se preocupe em receber. ",
+            "Concentre todos os seus esforços em fechar novos negócios, e deixe que o Imobanco cuida de todos os detalhes para que você só se preocupe crescer e aumentar seu faturamento."
         },
         {
           image: "image/icon-microempresas.png",
-          title: "Micro e pequenos comerciantes",
+          title: "Comerciantes",
           text:
-            "Colocamos o seu negócio online no máximo em 7 dias, 100% integrado com nossa gestão inteligente de recebimentos. Venda para todo o Brasil!",
-        },
-      ],
+            "Colocamos o seu negócio online, 100% integrado com nossa gestão inteligente de recebimentos. Venda para todo o Brasil com a tecnologia imobanco!"
+        }
+      ]
     };
-  },
+  }
 };
 </script>
 
