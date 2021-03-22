@@ -12,18 +12,6 @@
         </b-col>
         <b-col lg="1"></b-col>
 
-        <!-- Tópicos IMOBANCO -->
-        <b-col cols="6" md="4" lg="2" class="text-left mt-5">
-          <h5 class="text-white">Utilidade</h5>
-          <p
-            v-for="(topic, index) in topics_utilidade"
-            key="index"
-            class="mt-0 mb-0"
-          >
-            <a :href="topic.link" class="text-white">{{ topic.title }}</a>
-          </p>
-        </b-col>
-
         <!-- Tópico SOLUÇÕES -->
         <b-col cols="6" md="4" lg="2" class="text-left mt-5">
           <h5 class="text-white">Soluções</h5>
@@ -33,6 +21,18 @@
               class="text-white text-decoration-none"
               >{{ topic.title }}</router-link
             >
+          </p>
+        </b-col>
+
+        <!-- Tópicos IMOBANCO -->
+        <b-col cols="6" md="4" lg="2" class="text-left mt-5">
+          <h5 class="text-white">Utilidade</h5>
+          <p
+            v-for="(topic, index) in topics_utilidade"
+            key="index"
+            class="mt-0 mb-0"
+          >
+            <a :href="topic.link" class="text-white">{{ topic.title }}</a>
           </p>
         </b-col>
 
@@ -86,6 +86,9 @@ export default {
 
 <style lang="scss" scoped>
   section{
-    background-color: #2e2c2c;
+    background-color: #363636;
+    h5{
+      text-decoration: underline;
+    }
   }
 </style>
