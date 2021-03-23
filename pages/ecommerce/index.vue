@@ -6,7 +6,7 @@
     <ecommerce-vendermais />
     <ecommerce-loja />
     <ecommerce-vantagens />
-    <ecommerce-chamada />
+    <ecommerce-chamada cor_titulo="#003e69" cor_subtitulo="#363636" cor_botao="#002c5f" cor_texto_botao="white"/>
   </div>
 </template>
 
@@ -29,6 +29,7 @@ export default {
     EcommerceVantagens,
     EcommerceChamada,
   },
+  
 };
 </script>
 

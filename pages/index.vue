@@ -9,7 +9,7 @@
     <Header/>
     <MainSection/>
     <Parceiro/>
-    <CtaLoja/>
+    <ecommerce-chamada cor_titulo="#363636" cor_subtitulo="#363636" cor_botao="white" cor_texto_botao="#363636"/>
     <Noticias/>
     
   </div>
@@ -25,7 +25,7 @@ import ChatComercial from "~/components/index/chatcomercial/ChatComercial.vue";*
 import MainSection from "../components/inicio/MainSection";
 import Header from "../components/inicio/Header";
 import Parceiro from "../components/inicio/Parceiro";
-import CtaLoja from "../components/inicio/CtaLoja";
+import EcommerceChamada from "@/components/ecommerce/EcommerceChamada.vue";
 import Noticias from "../components/inicio/Noticias";
 
 export default {
@@ -33,7 +33,7 @@ export default {
     MainSection,
     Header,
     Parceiro,
-    CtaLoja,
+    EcommerceChamada,
     Noticias,
 
     /*NavbarMobile,
