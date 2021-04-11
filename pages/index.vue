@@ -1,31 +1,31 @@
 <template>
   <div>
-    <ContaDigitalSection />
-    <FoqueSection />
-    <ParceiroSection />
-    <ecommerce-chamada />
-    <TecnologiaSection />   
-    <NoticiasSection titulo="Notícias" />
+    <navbar-mobile />
+    <header-slide />
+    <persona-section />
+    <services-section />
+    <facilidades-item />
+    <chat-comercial />
   </div>
 </template>
 
 <script>
-import ContaDigitalSection from "../components/inicio/ContaDigitalSection";
-import FoqueSection from "../components/inicio/FoqueSection";
-import ParceiroSection from "../components/inicio/ParceiroSection";
-import TecnologiaSection from "../components/inicio/TecnologiaSection";
-import NoticiasSection from "../components/inicio/NoticiasSection";
-import EcommerceChamada from "@/components/ecommerce/EcommerceChamada.vue";
+import NavbarMobile from "@/components/main/NavbarMobile.vue";
+import HeaderSlide from "~/components/main/HeaderSlide.vue";
+import PersonaSection from "~/components/index/persona/PersonaSection.vue";
+import FacilidadesItem from "~/components/index/facilidadesimobanco/FacilidadesItem.vue";
+import ServicesSection from "~/components/index/services/ServicesSection.vue";
+import ChatComercial from "~/components/index/chatcomercial/ChatComercial.vue";
 
 export default {
   components: {
-    ContaDigitalSection,
-    FoqueSection,
-    ParceiroSection,
-    TecnologiaSection,
-    NoticiasSection,
-    EcommerceChamada,
-  }
+    NavbarMobile,
+    HeaderSlide,
+    PersonaSection,
+    FacilidadesItem,
+    ServicesSection,
+    ChatComercial,
+  },
 };
 </script>
 <style></style>
