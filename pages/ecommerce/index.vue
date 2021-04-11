@@ -1,12 +1,14 @@
 <template>
   <div class="container-fluid">
-    <navbar-secondary />
     <ecommerce-slide />
     <ecommerce-recursos />
     <ecommerce-vendermais />
     <ecommerce-loja />
-    <ecommerce-vantagens />
     <ecommerce-chamada />
+    <ecommerce-transacoes/>
+    <ecommerce-vantagens />
+    
+    
   </div>
 </template>
 
@@ -16,6 +18,7 @@ import EcommerceSlide from "@/components/ecommerce/EcommerceSlide.vue";
 import EcommerceRecursos from "@/components/ecommerce/EcommerceRecursos.vue";
 import EcommerceVendermais from "@/components/ecommerce/EcommerceVendermais.vue";
 import EcommerceLoja from "@/components/ecommerce/EcommerceLoja.vue";
+import EcommerceTransacoes from "@/components/ecommerce/EcommerceTransacoes.vue";
 import EcommerceVantagens from "@/components/ecommerce/EcommerceVantagens.vue";
 import EcommerceChamada from "@/components/ecommerce/EcommerceChamada.vue";
 
@@ -26,10 +29,11 @@ export default {
     EcommerceRecursos,
     EcommerceVendermais,
     EcommerceLoja,
+    EcommerceTransacoes,
     EcommerceVantagens,
     EcommerceChamada,
   },
 };
 </script>
 
-<style></style>
+<style lang="scss" scoped></style>

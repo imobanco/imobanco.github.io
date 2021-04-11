@@ -1,15 +1,18 @@
 <template>
   <div>
+    <nav-top />
     <nuxt />
     <footer-index />
   </div>
 </template>
  
 <script>
+import NavTop from "@/components/main/NavTop.vue";
 import FooterIndex from "@/components/main/FooterIndex.vue";
 
 export default {
   components: {
+    NavTop,
     FooterIndex,
   },
 };

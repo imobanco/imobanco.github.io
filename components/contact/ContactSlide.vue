@@ -1,19 +1,24 @@
 <template>
-  <section class="slidemobilecontato pt-5 pb-5">
+  <section class="pt-5 pb-5">
     <b-container>
-      <b-row>
-        <b-col cols="12" md="12" lg="12" class="text-center mt-lg-5 mt-md-3">
-          <h1 class="text-title text-white mt-5 title-font">Contato</h1>
-          <p class="text-white text-content">
+      <b-row class="mt-lg-5 mt-md-3">
+        <b-col cols="12" md="6" lg="6">
+          <h1
+            class="text-left text-imobanco text-title mt-5 title-font"
+            style="font-weigth:bold"
+          >Contato</h1>
+          <p class="text-left text-content">
             Opções para você resolver sua vida financeira quando e onde
             precisar.
           </p>
+        </b-col>
+        <b-col cols="12" md="6" lg="6">
+          <img src="../../static/image/cobrancaslide.png" alt class="img-fluid" />
         </b-col>
       </b-row>
     </b-container>
   </section>
 </template>
-
 <script></script>
 
 <style>

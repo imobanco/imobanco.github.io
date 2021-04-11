@@ -1,25 +1,27 @@
 <template>
   <div class="container-fluid">
-    <navbar-secondary />
     <imprensa-slide />
-    <post-item />
+    <ReleaseSection />
+    <noticias-section titulo="Notícias"/>
     <footer-imprensa />
   </div>
 </template>
 
 <script>
-import PostItem from "@/components/imprensa/PostItem.vue";
-import NavbarSecondary from "@/components/main/NavbarSecondary.vue";
+import ReleaseSection from "@/components/imprensa/ReleaseSection.vue";
 import ImprensaSlide from "@/components/imprensa/ImprensaSlide.vue";
+import NoticiasSection from "@/components/inicio/NoticiasSection.vue";
 import FooterImprensa from "@/components/imprensa/FooterImprensa.vue";
+
 
 export default {
   components: {
-    PostItem,
-    NavbarSecondary,
+    ReleaseSection,
     ImprensaSlide,
-    FooterImprensa,
-  },
+    NoticiasSection,
+    FooterImprensa
+    
+  }
 };
 </script>
 

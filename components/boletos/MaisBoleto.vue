@@ -1,35 +1,36 @@
 <template>
-  <section class="pt-5 pb-5 bg-success">
+  <section class="pb-5">
     <b-container>
-      <b-row class="justify-content-center">
-        <b-col cols="12" md="8" lg="8" class="text-center">
-          <h1 class="text-title text-primary title-font">+ Vantagens</h1>
-          <hr />
+      <b-row>
+        <b-col cols="12" md="6" lg="8" class="text-left mt-5">
+          <h2 class="text-imobanco text-title title-font">Multíplas formas de</h2>
+          <span class="text-success title-font">Pagamento.</span>
+          <br />
+          <span class="text-content text-imobanco">simplifique suas cobranças recorrentes.</span>
+          <b-row>
+            <b-col cols="12" md="12" lg="12" class="text-left mt-4 pt-2">
+              <b-row>
+                <b-col cols="12" md="12" lg="6" class="text-left">
+                  <img src="../../static/image/window-restoremultiplas.png" alt class="img-fluid" />
+                  <img src="../../static/image/vectormultiplas-1.png" alt class="img-fluid" />
+                  <img src="../../static/image/calendar-altcalendar.png" alt class="img-fluid" />
+                  <img src="../../static/image/calendar-altcalendar.png" alt class="img-fluid" />
+                  <img src="../../static/image/calendar-altcalendar.png" alt class="img-fluid" />
+                  <img src="../../static/image/vectormultiplas.png" alt class="img-fluid" />
+                </b-col>
+                
+                <b-col cols="12" md="12" lg="8" class="text-left mt-3">
+                  <span class="text-content text-imobanco">
+                    Concentre suas cobranças recorrentes em único carnê. Solução perfeita
+                    para cobrança sem váriações.
+                  </span>
+                </b-col>
+              </b-row>
+            </b-col>
+          </b-row>
         </b-col>
-        <b-col cols="12" md="8" lg="8" class="text-left ">
-          <p class="text-content text-primary text-justify">
-            • Emita seus boletos com o Imobanco.
-          </p>
-          <p class="text-content text-primary text-justify">
-            • Nós os enviamos gratuitamente para você.
-          </p>
-          <p class="text-content text-primary text-justify">
-            • Cuidamos também dos lembretes de vencimento de forma automática.
-          </p>
-          <p class="text-content text-primary text-justify">
-            • Visualize quando o seu cliente abre os e-mails e faturas enviadas.
-          </p>
-          <p class="text-content text-primary text-justify">
-            • Pague apenas quando as cobranças forem recebidas. Seja mais um
-            empreendedor de sucesso, que tem com a estrutura de recebimento
-            Imobanco, capacidade de gerar economia, resultados objetivos e mais
-            dinheiro na mão.
-          </p>
-          <p class="text-content text-primary text-justify">
-            Seja mais um empreendedor de sucesso que tem com a estrutura de
-            recebimento Imobanco, capacidade de gerar economia, resultados
-            objetivos e mais dinheiro na mão.
-          </p>
+        <b-col cols="12" md="6" lg="4">
+          <img src="../../static/image/icon/g1149.png" alt class="img-fluid" />
         </b-col>
       </b-row>
     </b-container>
@@ -38,7 +39,7 @@
 
 <script>
 export default {
-  name: "MaisBoleto",
+  name: "MaisBoleto"
 };
 </script>
 
