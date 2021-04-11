@@ -20,6 +20,10 @@
 <style lang="scss" scoped>
 section {
   padding-top: 50px;
+  background-image: url('../../static/image/background-slide.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   .mark {
     background-color: #38b4ca;
     padding-top: 0px;

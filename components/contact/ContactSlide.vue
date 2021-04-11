@@ -13,7 +13,7 @@
           </p>
         </b-col>
         <b-col cols="12" md="6" lg="6">
-          <img src="../../static/image/cobrancaslide.png" alt class="img-fluid" />
+          <img src="../../static/image/contact-concept-landing-page 1.png" alt class="img-fluid" />
         </b-col>
       </b-row>
     </b-container>
@@ -21,13 +21,11 @@
 </template>
 <script></script>
 
-<style>
-.slidemobilecontato {
-  height: 500px;
-  background-image: url("~static/image/banner-contato.jpg") !important;
-  background-color: #9c9c9c;
-  background-size: 100% auto cover;
-  background-position: center;
+<style lang="scss" scoped>
+section {
+  background-image: url("../../static/image/background-slide.png");
+  background-position: top;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 </style>

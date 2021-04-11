@@ -6,7 +6,7 @@
           <h1 class="text-title text-imobanco text-left mt-5 title-font">Blog</h1>
         </b-col>
         <b-col cols="12" md="12" lg="7">
-          <img src="../../static/image/cobrancaslide.png" alt="" class="img-fluid">
+          <img src="../../static/image/g9236 1.png" alt class="img-fluid" />
         </b-col>
       </b-row>
     </b-container>
@@ -15,4 +15,11 @@
 
 <script></script>
 
-<style></style>
+<style lang="scss" scoped>
+section {
+  background-image: url("../../static/image/background-slide.png");
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+</style>

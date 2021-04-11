@@ -1,10 +1,12 @@
 <template>
-  <section class=" mt-4 pt-4">
-    <b-container >
-      <b-row >
+  <section class="mt-4 pt-4">
+    <b-container>
+      <b-row>
         <b-col cols="12" md="6" lg="7" class="mt-4 pt-4">
           <h2 class="text-primary text-title title-font mt-2">
-            Com o <mark>Imobanco</mark> fica mais fácil <br> ganhar dinheiro
+            Com o
+            <mark>Imobanco</mark> fica mais fácil
+            <br />ganhar dinheiro
           </h2>
           <h4 class="text-primary text-title">
             Bancos:
@@ -18,13 +20,16 @@
             Imobanco *a partir de:
             <span class="text-tachado text-success text-title">R$ 1,50</span>
           </h4>
-          <span
-            class="text-success text-content"
-          >*Pague por boleto, somente quando seu cliente pagar. Imobanco  <br> é a melhor solução para o seu bolso!</span>
+          <span class="text-success text-content">
+            *Pague por boleto, somente quando seu cliente pagar. Imobanco
+            <br />é a melhor solução para o seu bolso!
+          </span>
           <br />
-          <a href="https://app.imobanco.com.br/register" target="_blank"><b-button class="bg-primary text-light">Abra sua conta</b-button> </a>
+          <a href="https://app.imobanco.com.br/register" target="_blank">
+            <b-button class="bg-primary text-light">Abra sua conta</b-button>
+          </a>
         </b-col>
-  
+
         <b-col cols="12" md="6" lg="5" class="pt-4 mt-2">
           <img src="../../static/image/icon/g22048.png" alt class="img-fluid mt-4" />
         </b-col>
@@ -39,4 +44,11 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+section {
+  background-image: url("../../static/image/background-slide.png");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+</style>

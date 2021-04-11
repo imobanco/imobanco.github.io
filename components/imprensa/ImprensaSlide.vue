@@ -7,7 +7,7 @@
           <p class="text-content">Comunicados, Realease e notícias.</p>
         </b-col>
         <b-col cols="12" md="6" lg="6" class="text-centet">
-          <img src="../../static/image/g4570imprensa.png" alt class="img-fluid" />
+          <img src="../../static/image/g7012 1.png" alt class="img-fluid" />
         </b-col>
       </b-row>
     </b-container>
@@ -16,13 +16,11 @@
 
 <script></script>
 
-<style>
-.slideimprensa {
-  height: 500px;
-  background-image: url("~static/image/bg-imprensa.jpg") !important;
-  background-color: #4032ec;
-  background-size: 100% auto cover;
-  background-position: center top;
+<style lang="scss" scoped>
+section {
+  background-image: url("../../static/image/background-slide.png");
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 </style>
