@@ -1,10 +1,8 @@
 <template>
   <div class="container-fluid">
     <div>
-      <navbar-secondary />
-      <header-boleto />
-      <frase-boleto />
-      <multibanco-boleto />
+     
+      <boleto-slide />
       <vantagens-boleto />
       <mais-boleto />
     </div>
@@ -12,23 +10,28 @@
 </template>
 
 <script>
-import NavbarSecondary from "@/components/main/NavbarSecondary.vue";
-import HeaderBoleto from "@/components/boletos/HeaderBoleto.vue";
-import FraseBoleto from "@/components/boletos/FraseBoleto.vue";
-import MultibancoBoleto from "@/components/boletos/MultibancoBoleto.vue";
+
+import BoletoSlide from "@/components/boletos/BoletoSlide.vue";
 import VantagensBoleto from "@/components/boletos/VantagensBoleto.vue";
 import MaisBoleto from "@/components/boletos/MaisBoleto.vue";
 
 export default {
   components: {
-    NavbarSecondary,
-    HeaderBoleto,
-    FraseBoleto,
-    MultibancoBoleto,
+    BoletoSlide,
     VantagensBoleto,
     MaisBoleto,
   },
 };
 </script>
 
-<style></style>
+<style lang="scss">
+  .text-tachado{
+    text-decoration: line-through;
+  }
+  mark{
+    color:white;
+    background-color: #38C1DF;
+    border-radius: 6px;
+    padding:2px;
+  }
+</style>

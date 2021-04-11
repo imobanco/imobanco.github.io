@@ -1,34 +1,33 @@
 <template>
-  <section class="bg-bluedark pt-3">
+  <section class="pt-3">
     <b-container>
-      <b-row>
-        <b-col cols="12" md="12" lg="3" class="text-left">
+      <b-row class="mt-4">
+        <b-col cols="12" md="12" lg="5" class="text-left">
           <router-link to="/" class="navbar-brand">
-            <img src="~assets/image/logoimobanco.png" alt />
+            <img src="~static/image/logoimobanco.png" alt class="img-fluid"/>
           </router-link>
-          <h5 class="text-white">Conta com a gente</h5>
           <p class="text-white text-content mt-2">
-            Quaisquer esclarecimentos e dúvidas, entre em contato conosco e
-            <span class="text-success">#vemvocêtambém</span> ser Imobanco.
+            O banco digital Imobanco é uma instituição inovadora que oferece gestão financeira inteligente de negócios com serviços de conta digital, recebimentos, pagamentos, transferências, cobranças e e-commerce. A plataforma agrega sistemas modernos e intuitivos para facilitar a vida do empreendedor que terá, em um único lugar, todas as ferramentas para gerenciar qualquer tipo de negócio.
           </p>
         </b-col>
+        <b-col lg="1"></b-col>
 
         <!-- Tópicos IMOBANCO -->
-        <b-col cols="6" md="4" lg="3" class="text-left mt-3">
-          <h5 class="text-white">Utilidade</h5>
+        <b-col cols="6" md="4" lg="2" class="text-left mt-5">
+          <h5 class="text-white text-title">Utilidade</h5>
           <p
             v-for="(topic, index) in topics_utilidade"
             key="index"
-            class="mt-0 mb-0"
+            class="mt-0 mb-0 text-content"
           >
             <a :href="topic.link" class="text-white">{{ topic.title }}</a>
           </p>
         </b-col>
 
         <!-- Tópico SOLUÇÕES -->
-        <b-col cols="6" md="4" lg="3" class="text-left mt-3">
-          <h5 class="text-white">Soluções</h5>
-          <p v-for="(topic, index) in topics_solution" class="mt-0 mb-0">
+        <b-col cols="6" md="4" lg="2" class="text-left mt-5">
+          <h5 class="text-white text-title">Soluções</h5>
+          <p v-for="(topic, index) in topics_solution" class="mt-0 mb-0 text-content">
             <router-link
               :to="topic.link"
               class="text-white text-decoration-none"
@@ -38,20 +37,14 @@
         </b-col>
 
         <!-- Lista de REDES SOCIAIS -->
-        <b-col cols="12" md="4" lg="3" class="text-left mt-3">
-          <h5 class="text-white">Ajuda</h5>
-          <p v-for="(topic, index) in topics_ajuda" class="mt-0 mb-0">
+        <b-col cols="6" md="4" lg="2" class="text-left mt-5">
+          <h5 class="text-white text-title">Ajuda</h5>
+          <p v-for="(topic, index) in topics_ajuda" class="mt-0 mb-0 text-content">
             <router-link
               :to="topic.link"
               class="text-white text-decoration-none"
               >{{ topic.title }}</router-link
             >
-          </p>
-        </b-col>
-        <b-col cols="12" md="12" lg="12" class="text-center">
-          <hr />
-          <p class="text-white text-content mt-3">
-            Imobanco 2020 © - Todos os direitos reservados.
           </p>
         </b-col>
       </b-row>
@@ -77,7 +70,7 @@ export default {
       ],
       topics_solution: [
         { title: "Boleto", link: "/boletos" },
-        { title: "Cobrança", link: "/cobrancas" },
+        // { title: "Cobrança", link: "/cobrancas" },
         { title: "E-Commerce", link: "/ecommerce" },
       ],
       topics_ajuda: [
@@ -91,4 +84,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+  section{
+    background-color: #2e2c2c;
+  }
+</style>

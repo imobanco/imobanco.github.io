@@ -1,26 +1,17 @@
 <template>
-  <section class="slideecommerce pt-4 pb-4">
+  <section class="pt-4 pb-4 ">
     <b-container>
       <b-row>
-        <b-col cols="12" md="7" lg="6" class="pt-5">
-          <h1 class="mt-5 mb-0 text-title text-success title-font">
-            Crie sua loja na internet para vender ainda mais.
+        <b-col cols="12" md="7" lg="7" class="pt-5">
+          <h1 class="mt-5 mb-0 text-title text-primary title-font">
+            Crie sua própria loja e venda muito mais!
           </h1>
-          <p class="text-content text-white pb-0 mb-0">
-            Preço: Setup e custo para treinamento
-          </p>
-          <h1 class="mb-0 text-title text-white title-font">R$ 0,00</h1>
-          <p class="text-content text-white">
-            Gratuito até 15 de setembro. *consulte as taxas transacionais.
-          </p>
-          <a
-            href="http://app.imobanco.com.br/register"
-            target="_blank"
-            class="btn bg-white form-radius"
-            >Contrate já!</a
-          >
+          <h6 class="text-title text-primary pb-0 mb-0 pt-1">Setup e custo para treinamento gratuito*</h6>
+          <h1 class="mb-0 text-title text-success title-font">R$ 0,00</h1>
+          <h6 class="text-title text-primary">*Consulte as taxas transacionais.</h6>
+          <a href="https://app.imobanco.com.br/register" target="_blank"><b-button class="bg-primary text-light">Abra sua conta</b-button> </a>
         </b-col>
-        <b-col cols="12" md="5" lg="6" class="pt-5">
+        <b-col cols="12" md="5" lg="5" class="pt-5">
           <img src="image/ecommerce-top.png" alt class="img-fluid" />
         </b-col>
       </b-row>
@@ -28,15 +19,8 @@
   </section>
 </template>
 
-<script></script>
+<script>
+</script>
 
 <style>
-.slideecommerce {
-  height: auto;
-  background-image: url("~static/image/novo-ecommerce.jpg") !important;
-  background-color: #4032ec;
-  background-size: 100% auto cover;
-  background-position: center top;
-  background-repeat: no-repeat;
-}
 </style>

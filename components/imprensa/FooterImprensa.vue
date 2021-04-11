@@ -1,22 +1,19 @@
 <template>
-  <section class="bg-white pt-2 pb-2 assessoria">
+  <section class="bg-white pt-2 pb-5 assessoria">
     <b-container>
       <b-row>
-        <b-col cols="12" md="12" lg="12" class="text-center mt-4">
-          <h3 class="text-title text-primary">Assessoria de Imprensa</h3>
+        <b-col cols="12" md=12 lg="12" class="mt-4">
+          <h3 class="text-title text-imobanco title-font">Assessoria de Imprensa</h3>
         </b-col>
-        <b-col cols="12" md="12" lg="4" class="text-center mt-2">
+        <b-col cols="6" md="4" lg="2" class="mt-2">
           <img
             src="~static/image/logo_ska-400.png"
             alt="ska"
-            style="width:80px; height:80px;"
+            style="width:100%; height:100%;"
           />
         </b-col>
-        <b-col cols="12" md="6" lg="4" class="text-center pt-4 text-primary">
-          <h7 class="m-0">contato@skacomunicacao.com.br</h7>
-        </b-col>
-        <b-col cols="12" md="6" lg="4" class="text-center pt-4 text-primary">
-          <h7>www.skacomunicacao.com.br</h7>
+        <b-col cols="12" md="4" lg="4" class="pt-5">
+          <p class="text-content">contato@skacomunicacao.com.br<br>www.skacomunicacao.com.br</p>
         </b-col>
       </b-row>
     </b-container>
@@ -25,8 +22,5 @@
 <style>
 .text-vertical-line {
   line-height: 50px !important;
-}
-.assessoria {
-  border-top: 1px solid #c2c2c2;
 }
 </style>

@@ -1,51 +1,70 @@
 <template>
-  <section class="pt-5 pb-5 bg-blackdark">
+  <section class="pb-5">
     <b-container>
       <b-row>
-        <b-col cols="12" md="12" lg="12" class="text-center mt-5">
-          <h1 class="text-title text-success title-font">
-            Quer saber as vantagens de nosso serviço?
-          </h1>
-        </b-col>
-        <b-col cols="12" md="6" lg="6" class="text-left mt-5">
-          <p class="text-content text-white">
-            • Fazendo uso da estrutura Imobanco, você poderá emitir boletos
-            bancários com muita praticidade, rapidez e baixo custo.
-          </p>
-          <p class="text-content text-white">
-            • Conta digital gratuita. Abra sua conta de forma rápida e simples.
-            Cadastre-se e já emita seus boletos.
-          </p>
-          <p class="text-content text-white">
-            • Recurso exclusivo Imobanco: - MÚLTIPLAS EMPRESAS - Com seu
-            contrato ativado, poderá incluir quantas empresas desejar dentro do
-            sistema Imobanco.
-          </p>
-          <p class="text-content text-white">
-            • Recurso exclusivo Imobanco: - SCORE IMOBANCO - Cadastre seus
-            clientes e usufrua de uma avaliação de crédito interno. No Imobanco
-            todos os pagadores são avaliados com pontuação de 0 a 100 pela
-            Pontualidade (pagamentos em dia) e Efetividade (pagamentos feitos).
-          </p>
-          <p class="text-content text-white">
-            • Recurso exclusivo Imobanco: - SPLIT AUTOMÁTICO - Cadastre seu
-            boleto individual ou contrato de parcelas a receber, juntamente com
-            o plano de divisão de valor, se for necessário. Com a liquidação do
-            boleto, nosso sistema já transfere os valores planejados
-            imediatamente. Nós cuidamos de todo o trabalho de tesouraria para
-            você e seu(s) negócio(s).
-          </p>
-          <p class="text-content text-white">
-            • Sem limites de valor para emitir boletos bancários
-          </p>
-          <p class="text-content text-white">
-            • Recurso exclusivo Imobanco: - COBRANÇA INTEGRADA - Poupe tempo com
-            cobranças. Se o boleto não foi pago, nós cobramos por você.
-          </p>
-        </b-col>
-        <b-col cols="12" md="6" lg="6" class="text-left mt-5">
+        <b-col cols="12" md="6" lg="4" class="text-center mt-5">
           <img src="image/boletos.png" alt class="img-fluid" />
         </b-col>
+        <b-col cols="12" md="12" lg="8" class="mt-5">
+          <h2 class="text-imobanco text-title title-font">Um Boleto</h2>
+          <span class="subtitulo text-success title-font">Inúmeras vantagens.</span>
+          <b-row>
+            <b-col cols="12" md="6" lg="6" class="text-left">
+              <b-row>
+                <b-col cols="2" md="3" lg="2" class="text-left mt-5">
+                  <img src="../../static/image/icon/g224.png" alt class="img-fluid" />
+                </b-col>
+                <b-col cols="10" md="9" lg="10" class="text-left mt-5">
+                  <h6>Você no controle</h6>
+                  <p class="text-content">
+                    Enviamos um aviso por SMS antes e durante a data de
+                    pagamento
+                  </p>
+                </b-col>
+              </b-row>
+            </b-col>
+            <b-col cols="12" md="6" lg="6" class="text-left">
+              <b-row>
+                <b-col cols="2" md="3" lg="2" class="text-left mt-5">
+                  <img src="../../static/image/icon/g236.png" alt class="img-fluid" />
+                </b-col>
+                <b-col cols="10" md="9" lg="10" class="text-left mt-5">
+                  <h6>Split de Pagamento</h6>
+                  <p class="text-content">Todo o sistema de boletos Imobanco é multibanco e automatizado</p>
+                </b-col>
+              </b-row>
+            </b-col>
+          </b-row>
+          <b-row>
+            <b-col cols="12" md="6" lg="6" class="text-left">
+              <b-row>
+                <b-col cols="2" md="3" lg="2" class="text-left mt-2">
+                  <img src="../../static/image/icon/g244.png" alt class="img-fluid" />
+                </b-col>
+                <b-col cols="10" md="9" lg="10" class="text-left mt-2">
+                  <h6>Economize tempo</h6>
+                  <p
+                    class="text-content"
+                  >Tempo é dinheiro! Economize deixando sua gestão de cobrança conosco</p>
+                </b-col>
+              </b-row>
+            </b-col>
+            <b-col cols="12" md="6" lg="6" class="text-left">
+              <b-row>
+                <b-col cols="2" md="3" lg="2" class="text-left mt-2">
+                  <img src="../../static/image/icon/g258.png" alt class="img-fluid" />
+                </b-col>
+                <b-col cols="10" md="9" lg="10" class="text-left mt-2">
+                  <h6>Pague quando receber</h6>
+                  <p
+                    class="text-content"
+                  >Emita 1 ou 1 milhão, você só paga por boleto quando o seu cliente pagar</p>
+                </b-col>
+              </b-row>
+            </b-col>
+          </b-row>
+        </b-col>
+        
       </b-row>
     </b-container>
   </section>
@@ -53,7 +72,7 @@
 
 <script>
 export default {
-  name: "VantagensBoleto",
+  name: "VantagensBoleto"
 };
 </script>
 
