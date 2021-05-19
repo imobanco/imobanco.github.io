@@ -23,7 +23,7 @@ export default {
   props: ["post_id", "post_title", "post_image", "post_date", "post_content"],
   data() {
     return {
-      link: "/single/?post_id="
+      link: "/single/?post_id=",
     };
   }
 };

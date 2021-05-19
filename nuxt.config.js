@@ -5,9 +5,9 @@ export default {
    */
   routes: [
     {
-      name: 'release-single',
-      path: '/release-single/:id',
-      component: 'pages/release-single/index.vue'
+      name: 'categoria',
+      path: '/categoria/:categoria',
+      component: 'pages/categoria/index.vue'
     }
   ],
   head: {
