@@ -1,14 +1,14 @@
+dev:
+	npm run dev
+
 build:
-	docker-compose build
+	# cria o código de produção
+	npm run build
 
-up:
-	docker-compose up -d
+start:
+	# roda os arquivos buildados
+	npm run start
 
-down:
-	docker-compose down
-
-logs:
-	docker-compose logs -f
-
-bash:
-	docker-compose run node bash
+generate:
+	# cria código de produção e roda estaticamente os arquivos
+	npm run generate
