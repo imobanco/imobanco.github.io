@@ -44,10 +44,6 @@
                     class="text-titulo-sidebar text-decoration-none text-white navbarbox"
                     >Imprensa</router-link
                   >
-                   <router-link
-                to="/pagador"
-                class="text-titulo-sidebar text-decoration-none text-white navbarbox"
-                >Pagador</router-link
                   >
                   <router-link
                     to="/contato"
