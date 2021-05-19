@@ -75,3 +75,209 @@
 .nav-pills-custom .nav-link.active::before {
   opacity: 1;
 }
+
+// Color system
+/*
+Cores do Template Dashboard Imobanco
+*/
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$grays: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$grays: map-merge(
+  (
+    "100": $gray-100,
+    "200": $gray-200,
+    "300": $gray-300,
+    "400": $gray-400,
+    "500": $gray-500,
+    "600": $gray-600,
+    "700": $gray-700,
+    "800": $gray-800,
+    "900": $gray-900
+  ),
+  $grays
+);
+
+$primary: #002c5f !default;
+$secondary: #363636 !default;
+$info: #003e69 !default;
+$success: #00c1de !default;
+$danger: #ff304f !default;
+$warning: #ffd615 !default;
+$light: #ffffff !default;
+$gray-light: #f4f4f4 !default;
+$gray-medio: #e5e5e5 !default;
+$gray: #b0b0b0 !default;
+$dark: #171717 !default;  
+
+$blue:    #007bff !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+  (
+    "blue":       $blue,
+    "indigo":     $indigo,
+    "purple":     $purple,
+    "pink":       $pink,
+    "red":        $red,
+    "orange":     $orange,
+    "yellow":     $yellow,
+    "green":      $green,
+    "teal":       $teal,
+    "cyan":       $cyan,
+    "white":      $white,
+    "gray":       $gray-600,
+    "gray-dark":  $gray-800
+  ),
+  $colors
+);
+
+$primary:       $primary !default;
+$secondary:     $secondary !default;
+$info:          $info !default;
+$success:       $success !default;
+$danger:        $danger !default;
+$warning:       $warning !default;
+$light:         $light !default;
+$dark:          $dark !default;
+
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+  (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+    "light":      $light,
+    "dark":       $dark,
+  ),
+  $theme-colors
+);
+/*
+Component Button
+*/
+// Background colors
+$bg-color-primary: #000051;
+$bg-color-secondary: #212121;
+$bg-color-info: #002f6c;
+$bg-color-success: #00acc1;
+$bg-color-danger: #d50000;
+$bg-color-warning: #ffb300;
+$bg-color-light: #eeeeee;
+$bg-color-dark: #000a12;
+
+.btn-success{
+  padding: 5px 10px;
+  border: 1px solid $success !important;
+  border-radius: 5px;
+  color: $light;
+  background-color: $success;
+  cursor: pointer;
+  margin: 5px;
+}
+.btn{
+  padding: 5px 10px;
+  border: 1px solid $primary;
+  border-radius: 5px;
+  color: $light;
+  background-color: $primary;
+  cursor: pointer;
+  margin: 5px;
+
+  &:hover{
+    background-color: $bg-color-primary;
+    color: $light;
+    text-decoration: none;
+  }
+  
+  &-primary{
+    background-color: $primary;
+  }
+  &-secondary{
+    background-color: $secondary;
+    border: 1px solid $secondary;
+
+    &:hover{
+      background-color: $bg-color-secondary;
+    }  
+  }
+  &-success{
+    background-color: $success;
+    border: 1px solid $success;
+
+    &:hover{
+      background-color: $bg-color-success;
+    }  
+  }
+  &-info{
+    background-color: $info;
+    border: 1px solid $info;
+
+    &:hover{
+      background-color: $bg-color-info;
+    }  
+  }
+  &-danger{
+    background-color: $danger;
+    border: 1px solid $danger;
+
+    &:hover{
+      background-color: $bg-color-danger;
+    }  
+  }
+  &-warning{
+    background-color: $warning;
+    border: 1px solid $warning;
+    color: $dark;
+
+    &:hover{
+      background-color: $bg-color-warning;
+      color: $dark;
+    }  
+  }
+  &-light{
+    background-color: $light;
+    border: 1px solid $light;
+    color: $dark;
+
+    &:hover{
+      
+      color: $dark;
+    }  
+  }
+  &-dark{
+    background-color: $dark;
+    border: 1px solid $dark;
+    color: $light;
+
+    &:hover{
+      background-color: $bg-color-dark;
+      color: $dark;
+    }  
+  }
+}

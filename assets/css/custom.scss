@@ -1,5 +1,5 @@
 // Customização do CSS SCSS 7-1 Importação de conteúdo.
-
+@import "custom/base/variables";
 @import "custom/navbar-left.scss";
 @import "custom/button-theme.scss";
 @import "custom/newsletter.scss";
@@ -9,7 +9,7 @@
 @import "custom/base/color";
 @import "custom/base/icon";
 @import "custom/base/fonts";
-@import "custom/base/variables";
+
 
 // Components : possui um único arquivo scss para cada componente individual
 
